@@ -1,6 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
+import Education from "./pages/Education";
+import HealthAndNutrition from "./pages/HealthAndNutrition";
+import SustainableLivelihoods from "./pages/SustainableLivelihoods";
+import ClimateAction from "./pages/ClimateAction";
+import CommunityDevelopment from "./pages/CommunityDevelopment";
+import StoriesOfChange from "./pages/StoriesOfChange";
+import OurStory from "./pages/OurStory";
 
 // Placeholder component for empty routes
 const Placeholder = ({ title }) => (
@@ -20,8 +27,14 @@ function App() {
         <Route index element={<Home />} />
         
         {/* Placeholder Routes */}
+        <Route path="impact-themes/education" element={<Education />} />
+        <Route path="impact-themes/health-and-nutrition" element={<HealthAndNutrition />} />
+        <Route path="impact-themes/sustainable-livelihoods" element={<SustainableLivelihoods />} />
+        <Route path="impact-themes/climate-action" element={<ClimateAction />} />
+        <Route path="impact-themes/community-development" element={<CommunityDevelopment />} />
         <Route path="impact-themes/*" element={<Placeholder title="Impact Themes" />} />
-        <Route path="stories-of-change" element={<Placeholder title="Stories of Change" />} />
+        <Route path="stories-of-change" element={<StoriesOfChange />} />
+        <Route path="about-us/our-story" element={<OurStory />} />
         <Route path="about-us/*" element={<Placeholder title="About Us" />} />
         <Route path="newsroom/*" element={<Placeholder title="Newsroom" />} />
         <Route path="knowledge-centre/*" element={<Placeholder title="Knowledge Centre" />} />
