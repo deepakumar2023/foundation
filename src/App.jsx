@@ -8,6 +8,8 @@ import ClimateAction from "./pages/ClimateAction";
 import CommunityDevelopment from "./pages/CommunityDevelopment";
 import StoriesOfChange from "./pages/StoriesOfChange";
 import OurStory from "./pages/OurStory";
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 
 // Placeholder component for empty routes
 const Placeholder = ({ title }) => (
@@ -34,12 +36,12 @@ function App() {
         <Route path="impact-themes/community-development" element={<CommunityDevelopment />} />
         <Route path="impact-themes/*" element={<Placeholder title="Impact Themes" />} />
         <Route path="stories-of-change" element={<StoriesOfChange />} />
+        <Route path="about-us" element={<AboutUs />} />
         <Route path="about-us/our-story" element={<OurStory />} />
-        <Route path="about-us/*" element={<Placeholder title="About Us" />} />
         <Route path="newsroom/*" element={<Placeholder title="Newsroom" />} />
         <Route path="knowledge-centre/*" element={<Placeholder title="Knowledge Centre" />} />
         <Route path="careers/*" element={<Placeholder title="Careers" />} />
-        <Route path="contact-us" element={<Placeholder title="Contact Us" />} />
+        <Route path="contact-us" element={<ContactUs />} />
         
         {/* 404 Route */}
         
