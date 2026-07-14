@@ -6,7 +6,7 @@ const ActiveProgrammes = () => {
       title: "Community Infrastructure\nBuilding The Foundations of Growth",
       description: (
         <>
-          <p className="mb-4">The Adani Foundation focuses on creating sustainable and resilient infrastructure that caters to the diverse needs of rural communities. This includes the construction and upgradation of village roads, ensuring all-weather connectivity that is crucial for access to markets, healthcare, and education.</p>
+          <p className="mb-4">The  deepak   Foundation focuses on creating sustainable and resilient infrastructure that caters to the diverse needs of rural communities. This includes the construction and upgradation of village roads, ensuring all-weather connectivity that is crucial for access to markets, healthcare, and education.</p>
           <p>We also invest heavily in community facilities such as panchayat ghar (village council halls), anganwadis (childcare centers), and community halls. These structures serve as focal points for social interaction, governance, and community celebrations, significantly enhancing the quality of village life.</p>
         </>
       ),
@@ -54,11 +54,11 @@ const ActiveProgrammes = () => {
     <div className="w-full py-16 bg-white px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-light text-center text-gray-800 mb-16">Active Programmes</h2>
-        
+
         <div className="space-y-20">
           {programmes.map((prog, index) => (
             <div key={index} className={`flex flex-col md:flex-row gap-8 lg:gap-16 items-center ${prog.imageLeft ? '' : 'md:flex-row-reverse'}`}>
-              
+
               {/* Image Side */}
               <div className="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-lg">
                 <img src={prog.image} alt={prog.title.split('\n')[0]} className="w-full h-auto object-cover aspect-[4/3] md:aspect-video" />

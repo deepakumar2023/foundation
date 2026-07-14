@@ -5,7 +5,7 @@ const ImpactStories = () => {
     {
       id: 1,
       title: "From Training to Self-Reliance: A Weaver's Success Story",
-      author: "By Adani Foundation",
+      author: "By  deepak   Foundation",
       image: "https://picsum.photos/400/300?random=70"
     },
     {
@@ -32,11 +32,11 @@ const ImpactStories = () => {
     <div className="w-full py-16 bg-[#f7fbf4] px-4 md:px-8 lg:px-16 relative">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-light text-center text-gray-800 mb-12">Impact Stories</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stories.map((story) => (
             <div key={story.id} className="bg-[#f0f6ea] rounded-2xl p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-              
+
               <div className="mb-6">
                 <span className="text-xs text-[#a51a70] font-medium tracking-wider uppercase mb-3 inline-block">SUSTAINABLE LIVELIHOODS</span>
                 <h3 className="text-sm font-medium text-gray-800 leading-snug mb-3 line-clamp-3">

@@ -15,7 +15,7 @@ const HeroSection = () => {
       </div>
 
       <div className="max-w-6xl mx-auto flex flex-col items-center py-8">
-        
+
         {/* Single Testimonial (Center) */}
         <div className="flex flex-col md:flex-row items-center max-w-2xl">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-6 z-10 border-4 border-white">
@@ -23,7 +23,7 @@ const HeroSection = () => {
           </div>
           <div className="bg-white/80 backdrop-blur-sm p-6 md:pl-16 rounded-2xl shadow-sm text-sm relative z-0">
             <p className="text-gray-700 leading-relaxed">
-              <span className="font-bold text-gray-900">Ishwari Patel</span> - "I have farmed this land my whole life. Water has always been a constant struggle. By augmenting the water bodies, my income is 40% higher than last year. This land is finally capable of..." 
+              <span className="font-bold text-gray-900">Ishwari Patel</span> - "I have farmed this land my whole life. Water has always been a constant struggle. By augmenting the water bodies, my income is 40% higher than last year. This land is finally capable of..."
             </p>
           </div>
         </div>
@@ -31,8 +31,8 @@ const HeroSection = () => {
       </div>
 
       <div className="max-w-4xl mx-auto text-center mt-12 text-sm text-gray-600 leading-relaxed px-4 pb-8 space-y-4">
-        <p>In the face of extreme weather events and erratic climatic conditions, protecting our environment and building long-term community resilience is crucial. The Adani Foundation's community interventions are closely aligned with national objectives of augmenting water resources and promoting biodiversity, while mitigating carbon footprints.</p>
-        <p>The Adani Group is committed to a lower carbon footprint:</p>
+        <p>In the face of extreme weather events and erratic climatic conditions, protecting our environment and building long-term community resilience is crucial. The  deepak   Foundation's community interventions are closely aligned with national objectives of augmenting water resources and promoting biodiversity, while mitigating carbon footprints.</p>
+        <p>The  deepak   Group is committed to a lower carbon footprint:</p>
         <p className="font-medium text-gray-800">Water Positivity: We are moving towards making all our power plants water-positive, thereby reducing dependency on freshwater sources.</p>
         <p className="font-medium text-gray-800">Biodiversity Enhancement: Preserving biodiversity, maintaining green covers and striving towards 'no net loss' of biological diversity across all operational areas.</p>
         <p>These initiatives not only ensure that local environments remain healthy, but they also insulate communities from climate shocks, ensuring their livelihoods are protected against erratic weather.</p>

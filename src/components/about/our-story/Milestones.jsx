@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 
 const Milestones = () => {
   const years = [2025, 2024, 2023, 2022, 2021];
-  
+
   const milestonesData = {
     2025: {
       image: "https://picsum.photos/600/400?random=330",
       bullets: [
-        "The Adani Group partnered with ISKCON to conduct 'Mahaprasad Seva' during the 2025 Maha Kumbh Mela in Prayagraj - where it distributed free meals to devotees, facilitated battery-operated green golf cart services and distributed nearly 1 crore copies of Aarti Sangrah.",
-        "The Adani Family announced 'Mangal Seva', an initiative to support 500 newlywed specially abled women every year with financial assistance of INR Rs 10 lakh each.",
-        "Our Chairperson Dr Priti Adani conferred the title Doctor of Science (D.Sc.) Honoris Causa by Datta Meghe Institute of Higher Education & Research (Deemed to be University), Wardha, Maharashtra."
+        "The  deepak   Group partnered with ISKCON to conduct 'Mahaprasad Seva' during the 2025 Maha Kumbh Mela in Prayagraj - where it distributed free meals to devotees, facilitated battery-operated green golf cart services and distributed nearly 1 crore copies of Aarti Sangrah.",
+        "The  deepak   Family announced 'Mangal Seva', an initiative to support 500 newlywed specially abled women every year with financial assistance of INR Rs 10 lakh each.",
+        "Our Chairperson Dr Priti  deepak   conferred the title Doctor of Science (D.Sc.) Honoris Causa by Datta Meghe Institute of Higher Education & Research (Deemed to be University), Wardha, Maharashtra."
       ]
     },
     2024: {
@@ -70,11 +70,11 @@ const Milestones = () => {
         </h2>
 
         <div className="flex flex-col md:flex-row gap-8 lg:gap-16 items-start">
-          
+
           {/* Left: Timeline Controller */}
           <div className="w-full md:w-1/4 flex flex-row md:flex-col items-center justify-between md:justify-start gap-4">
-            
-            <button 
+
+            <button
               onClick={handlePrev}
               disabled={activeYear === years[0]}
               className={`w-8 h-8 rounded-full border border-gray-400 flex items-center justify-center transition-colors ${activeYear === years[0] ? 'opacity-30 cursor-not-allowed' : 'hover:border-[#a51a70] hover:text-[#a51a70]'}`}
@@ -84,8 +84,8 @@ const Milestones = () => {
 
             <div className="flex flex-row md:flex-col gap-6 md:gap-8 my-0 md:my-6 items-center">
               {years.map((year) => (
-                <div 
-                  key={year} 
+                <div
+                  key={year}
                   onClick={() => setActiveYear(year)}
                   className="flex items-center gap-4 cursor-pointer group"
                 >
@@ -104,7 +104,7 @@ const Milestones = () => {
               ))}
             </div>
 
-            <button 
+            <button
               onClick={handleNext}
               disabled={activeYear === years[years.length - 1]}
               className={`w-8 h-8 rounded-full bg-[#a51a70] text-white flex items-center justify-center transition-colors ${activeYear === years[years.length - 1] ? 'opacity-50 cursor-not-allowed' : 'hover:bg-[#861259]'}`}
@@ -116,28 +116,28 @@ const Milestones = () => {
 
           {/* Center: Image */}
           <div className="w-full md:w-2/4">
-             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[3/2] md:aspect-[4/3] w-full relative">
-                <img 
-                  key={activeYear} // Force re-render for animation if wanted
-                  src={milestonesData[activeYear].image} 
-                  alt={`Milestone ${activeYear}`} 
-                  className="w-full h-full object-cover animate-fade-in"
-                />
-             </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg aspect-[3/2] md:aspect-[4/3] w-full relative">
+              <img
+                key={activeYear} // Force re-render for animation if wanted
+                src={milestonesData[activeYear].image}
+                alt={`Milestone ${activeYear}`}
+                className="w-full h-full object-cover animate-fade-in"
+              />
+            </div>
           </div>
 
           {/* Right: Bullet Points */}
           <div className="w-full md:w-1/4 pt-4 md:pt-0">
-             <ul className="space-y-6">
-               {milestonesData[activeYear].bullets.map((bullet, idx) => (
-                 <li key={idx} className="flex gap-3 text-sm text-gray-600 leading-relaxed">
-                   <span className="text-[#a51a70] mt-1 shrink-0">
-                     <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle></svg>
-                   </span>
-                   {bullet}
-                 </li>
-               ))}
-             </ul>
+            <ul className="space-y-6">
+              {milestonesData[activeYear].bullets.map((bullet, idx) => (
+                <li key={idx} className="flex gap-3 text-sm text-gray-600 leading-relaxed">
+                  <span className="text-[#a51a70] mt-1 shrink-0">
+                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle></svg>
+                  </span>
+                  {bullet}
+                </li>
+              ))}
+            </ul>
           </div>
 
         </div>

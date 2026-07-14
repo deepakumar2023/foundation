@@ -17,7 +17,7 @@ const ContactUs = () => {
             Whether you have a question about our initiatives, want to partner with us, or just want to learn more about our work, our team is ready to answer all your questions.
           </p>
         </div>
-        
+
         {/* Decorative elements */}
         <div className="absolute top-10 left-10 w-32 h-32 bg-[#e0f0f0] rounded-full blur-3xl opacity-60"></div>
         <div className="absolute bottom-10 right-10 w-48 h-48 bg-[#d0e8e8] rounded-full blur-3xl opacity-60"></div>
@@ -26,7 +26,7 @@ const ContactUs = () => {
       {/* Contact Content Section */}
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-          
+
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
             <h2 className="text-2xl md:text-3xl font-light text-gray-800 mb-8">Send Us a Message</h2>
@@ -41,12 +41,12 @@ const ContactUs = () => {
                   <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="Doe" />
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
                 <input type="email" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="john@example.com" />
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Subject</label>
                 <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="How can we help?" />
@@ -65,7 +65,7 @@ const ContactUs = () => {
 
           {/* Contact Details & Map */}
           <div className="flex flex-col space-y-12">
-            
+
             <div>
               <h2 className="text-2xl md:text-3xl font-light text-gray-800 mb-6">Our Contact Details</h2>
               <div className="space-y-6 text-gray-600">
@@ -75,7 +75,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Head Office</h4>
-                    <p className="leading-relaxed">Adani Corporate House,<br/>Shantigram, S G Highway,<br/>Ahmedabad - 382421,<br/>Gujarat, India</p>
+                    <p className="leading-relaxed"> deepak   Corporate House,<br />Shantigram, S G Highway,<br />Ahmedabad - 382421,<br />Gujarat, India</p>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Email Us</h4>
-                    <p>info@adanifoundation.com</p>
+                    <p>info@ deepak  foundation.com</p>
                   </div>
                 </div>
 
@@ -112,7 +112,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>

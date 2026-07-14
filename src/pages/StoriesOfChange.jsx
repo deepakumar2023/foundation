@@ -4,7 +4,7 @@ import StoryCard from '../components/stories/StoryCard';
 
 // Comprehensive mock dataset
 const allStories = [
-  { id: 1, tag: 'EDUCATION', title: 'Adani Vidya Mandir: A Model Institution For Quality Education', author: 'By Adani Foundation', image: 'https://picsum.photos/400/300?random=200' },
+  { id: 1, tag: 'EDUCATION', title: ' deepak   Vidya Mandir: A Model Institution For Quality Education', author: 'By  deepak   Foundation', image: 'https://picsum.photos/400/300?random=200' },
   { id: 2, tag: 'HEALTH & NUTRITION', title: 'Sangini Volunteers Guiding Mothers Towards Better Nutrition', author: 'By Health Team', image: 'https://picsum.photos/400/300?random=201' },
   { id: 3, tag: 'SUSTAINABLE LIVELIHOODS', title: 'Empowering Women Farmers Through System of Rice Intensification', author: 'By Agri Team', image: 'https://picsum.photos/400/300?random=202' },
   { id: 4, tag: 'CLIMATE ACTION', title: 'Mangrove Restoration Drive Rejuvenates Coastal Ecosystems', author: 'By Coastal Action', image: 'https://picsum.photos/400/300?random=203' },
@@ -58,7 +58,7 @@ const StoriesOfChange = () => {
 
   return (
     <div className="w-full bg-[#fcf9fc] min-h-screen pb-20">
-      
+
       {/* Header */}
       <div className="w-full bg-[#f8f0f8] pt-20 pb-12 px-4 md:px-8 text-center border-b border-gray-200">
         <div className="text-sm text-gray-500 mb-6">
@@ -70,10 +70,10 @@ const StoriesOfChange = () => {
       </div>
 
       {/* Sticky Filter Bar */}
-      <FilterBar 
-        categories={categories} 
-        activeCategory={activeCategory} 
-        onCategoryChange={setActiveCategory} 
+      <FilterBar
+        categories={categories}
+        activeCategory={activeCategory}
+        onCategoryChange={setActiveCategory}
       />
 
       {/* Grid */}
@@ -81,7 +81,7 @@ const StoriesOfChange = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {filteredStories.length > 0 ? (
             filteredStories.map(story => (
-              <StoryCard 
+              <StoryCard
                 key={story.id}
                 tag={story.tag}
                 title={story.title}
@@ -96,7 +96,7 @@ const StoriesOfChange = () => {
           )}
         </div>
       </div>
-      
+
     </div>
   );
 };
