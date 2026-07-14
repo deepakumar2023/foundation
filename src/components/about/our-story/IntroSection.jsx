@@ -22,10 +22,12 @@ const IntroSection = () => {
           <div className="text-center relative">
             <div className="absolute top-[-20%] right-[10%] w-32 h-32 bg-[#faebf6] rounded-full -z-10 blur-xl opacity-60"></div>
             <h1 className="text-2xl md:text-3xl font-light text-gray-800 mb-4 tracking-wide">
-              Building Futures,<br />Empowering Lives
+              Story of Change
             </h1>
             <p className="text-sm text-gray-600 leading-relaxed max-w-lg mx-auto">
-              Deepak gupta Foundation, the social welfare and development arm of the deepak gupta Group, is committed to transforming lives and strengthening communities across India. Guided by the organization's "Seva Hi Sadhana Hai" (Service is Meditation) philosophy, we are rooted in compassion, responsibility, and collective progress. Since inception, the Foundation has worked to create sustainable development models in education, health and nutrition, sustainable livelihoods, climate action, and community development. Through collaborative initiatives, we aim to foster inclusive growth by focusing on enduring long-term commitments and building resilient communities.
+              The Deepak Gupta Foundation was born out of a simple observation: Delhi does not lack good intentions — it lacks structured, accountable delivery. What began as grassroots food distribution and animal welfare work in Delhi has grown into a structured programme spanning environmental restoration, community development, and now a flagship urban afforestation initiative designed to institutional standards.
+              <br /><br />
+              That realisation shaped every subsequent decision: to formally incorporate as a Section 8 company; to pursue 12A and 80G registration; to register formally for CSR eligibility with the Ministry of Corporate Affairs; and to list activities transparently on the NGO Darpan platform.
             </p>
           </div>
 
@@ -33,10 +35,10 @@ const IntroSection = () => {
           <div className="text-center relative">
             <div className="absolute top-[-20%] left-[10%] w-40 h-40 bg-[#faebf6] rounded-full -z-10 blur-xl opacity-60"></div>
             <h2 className="text-2xl md:text-3xl font-light text-gray-800 mb-4 tracking-wide">
-              Purpose Fuelling<br />Positive Transformation
+              From Grassroots Beginnings to Structured Delivery
             </h2>
             <p className="text-sm text-gray-600 leading-relaxed max-w-lg mx-auto">
-              Our purpose is to ensure every individual regardless of background, has the tools and resources to lead a better life. We aim to foster inclusive growth by focusing on five enduring long-term commitments and building resilient communities.
+              Our earliest documented activities recorded in our NGO Darpan profile include food distribution reaching more than 1,500 people, feeding of stray animals, small-scale tree plantation, and distribution of paper bags to reduce single-use plastic harm. What has changed is the level of structure surrounding them.
             </p>
           </div>
 

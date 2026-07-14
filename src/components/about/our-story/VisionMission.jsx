@@ -10,7 +10,7 @@ const VisionMission = () => {
           <div className="absolute top-[20%] left-[-20%] w-32 h-32 bg-[#faebf6] rounded-full -z-10 blur-xl opacity-70"></div>
           <h2 className="text-xl font-medium text-gray-800 mb-4 tracking-wide">Vision</h2>
           <p className="text-sm text-gray-600 leading-relaxed">
-            To accomplish a passionate commitment to social obligations towards communities, fostering sustainable and integrated development, thus improving quality of life.
+            To transform Delhi's urban landscape into a cleaner, greener, and more resilient ecosystem for present and future generations — and to build a model of community-driven social impact that can be replicated across Indian cities.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const VisionMission = () => {
           <div className="absolute top-[-20%] right-[-10%] w-40 h-40 bg-[#faebf6] rounded-full -z-10 blur-xl opacity-70"></div>
           <h2 className="text-xl font-medium text-gray-800 mb-4 tracking-wide">Mission</h2>
           <p className="text-sm text-gray-600 leading-relaxed">
-            To play the role of a facilitator for the benefit of the people without distinction of caste or community, sector, religion, class or creed, in the fields of education, community health, and promotion of social and economic welfare and upliftment of the people in general.
+            To undertake targeted, scientifically planned interventions in education, health, nutrition, livelihood, climate, and community development — fostering civic participation and ensuring sustainability through community ownership and institutional partnership.
           </p>
         </div>
 

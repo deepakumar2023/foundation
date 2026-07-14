@@ -112,7 +112,7 @@ const Navbar = () => {
               >
                 <Link
                   to={link.path}
-                  className={`flex items-center px-3 py-2 text-[13px] lg:text-[14px] font-bold tracking-wide transition-colors rounded-md ${
+                  className={`flex items-center px-2 lg:px-3 py-2 text-[12px] lg:text-[14px] font-bold tracking-wide transition-colors rounded-md whitespace-nowrap ${
                     activeDropdown === index
                       ? "bg-[#8a2176] text-white"
                       : "text-gray-800 hover:text-[#8a2176]"

@@ -57,7 +57,7 @@ const Updates = () => {
                 <div className="flex justify-between items-start mb-4">
                   <div className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden mr-3">
-                      <img src="https://www. foundation.org/-/media/Project/Foundation/Header/Logo.svg" alt="Logo" className="w-full h-full object-cover p-1 bg-white" />
+                      <img src="https://ui-avatars.com/api/?name=Deepak+Gupta&background=008272&color=fff" alt="Logo" className="w-full h-full object-cover p-1 bg-white" />
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 text-sm">{update.author}</h4>

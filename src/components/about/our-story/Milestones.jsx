@@ -1,52 +1,42 @@
 import React, { useState } from 'react';
 
 const Milestones = () => {
-  const years = [2025, 2024, 2023, 2022, 2021];
+  const years = ['19 April 2022', '9 February 2023', '2023 – 2025', '2 June 2026', '2026 onward'];
 
   const milestonesData = {
-    2025: {
+    '19 April 2022': {
       image: "https://picsum.photos/600/400?random=330",
       bullets: [
-        "The Deepak Gupta Group partnered with ISKCON to conduct 'Mahaprasad Seva' during the 2025 Maha Kumbh Mela in Prayagraj - where it distributed free meals to devotees, facilitated battery-operated green golf cart services and distributed nearly 1 crore copies of Aarti Sangrah.",
-        "The Deepak Gupta Family announced 'Mangal Seva', an initiative to support 500 newlywed specially abled women every year with financial assistance of INR Rs 10 lakh each.",
-        "Our Chairperson Dr Priti deepak gupta conferred the title Doctor of Science (D.Sc.) Honoris Causa by Datta Meghe Institute of Higher Education & Research (Deemed to be University), Wardha, Maharashtra."
+        "Deepak Gupta Foundation incorporated as a Section 8 company under the Companies Act, 2013"
       ]
     },
-    2024: {
+    '9 February 2023': {
       image: "https://picsum.photos/600/400?random=331",
       bullets: [
-        "Expanded Project Udaan to cover 100 new schools across coastal regions.",
-        "Achieved a milestone of planting 2 million trees under the Green Initiative.",
-        "Launched a new digital literacy campaign in rural Gujarat."
+        "Foundation formally listed on the NGO Darpan portal of NITI Aayog (Unique ID: DL/2023/0337627)"
       ]
     },
-    2023: {
+    '2023 – 2025': {
       image: "https://picsum.photos/600/400?random=332",
       bullets: [
-        "Received the National CSR Award for Excellence in Community Development.",
-        "Established 50 new RO water plants in parched districts of Rajasthan.",
-        "Partnered with leading NGOs to enhance women empowerment programs."
+        "Grassroots programme delivery across food distribution, stray animal welfare, and small-scale plantation"
       ]
     },
-    2022: {
+    '2 June 2026': {
       image: "https://picsum.photos/600/400?random=333",
       bullets: [
-        "Initiated massive COVID-19 relief operations, setting up temporary hospitals.",
-        "Distributed over 1 million dry ration kits during the pandemic.",
-        "Supported rural healthcare infrastructure with critical medical equipment."
+        "Foundation receives 12A/80G tax exemption registration from the Income Tax Department"
       ]
     },
-    2021: {
+    '2026 onward': {
       image: "https://picsum.photos/600/400?random=334",
       bullets: [
-        "Began the SuPoshan initiative to tackle malnutrition among children.",
-        "Built 20 new community halls in remote villages.",
-        "Started the skill development center network across 5 states."
+        "Launch of the flagship Tree Plantation Initiative, targeting 12,000 trees across North West and East Delhi"
       ]
     }
   };
 
-  const [activeYear, setActiveYear] = useState(2025);
+  const [activeYear, setActiveYear] = useState('19 April 2022');
 
   const handleNext = () => {
     const currentIndex = years.indexOf(activeYear);
@@ -92,7 +82,7 @@ const Milestones = () => {
                   {activeYear === year ? (
                     <>
                       <div className="w-3 h-3 rounded-full bg-[#a51a70] shrink-0"></div>
-                      <span className="text-2xl font-light text-[#a51a70]">{year}</span>
+                      <span className="text-xl font-light text-[#a51a70]">{year}</span>
                     </>
                   ) : (
                     <>

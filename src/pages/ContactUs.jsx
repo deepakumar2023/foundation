@@ -76,8 +76,8 @@ const ContactUs = () => {
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900 mb-1">Head Office</h4>
-                    <p className="leading-relaxed">Deepak Gupta Corporate House,<br />Sector 62,<br />Noida - 201309,<br />Uttar Pradesh, India</p>
+                    <h4 className="font-medium text-gray-900 mb-1">Registered Office</h4>
+                    <p className="leading-relaxed">RZ-2084, G/F, R/S Gali No. 26,<br />Tughlakbad Extension,<br />South Delhi, Delhi - 110019, India</p>
                   </div>
                 </div>
 
@@ -87,7 +87,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Email Us</h4>
-                    <p>info@  deepak   gupta foundation.com</p>
+                    <p>deepakgupta4up@gmail.com</p>
                   </div>
                 </div>
 
@@ -97,10 +97,20 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Call Us</h4>
-                    <p>+91 79 2656 5555</p>
+                    <p>+91 70651 81291</p>
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+              <h3 className="font-medium text-gray-900 mb-4">Registration Details</h3>
+              <ul className="space-y-3 text-sm text-gray-600">
+                <li className="flex flex-col"><span className="font-medium text-gray-800">CIN</span> U85300DL2022NPL396819</li>
+                <li className="flex flex-col"><span className="font-medium text-gray-800">NGO Darpan ID</span> DL/2023/0337627</li>
+                <li className="flex flex-col"><span className="font-medium text-gray-800">80G Registration</span> AAJCD2202P26DL02 (AY 2026-27 to 2030-31)</li>
+                <li className="flex flex-col"><span className="font-medium text-gray-800">CSR Registration</span> CSR00112282</li>
+              </ul>
             </div>
 
             {/* Map Placeholder */}
@@ -115,6 +125,56 @@ const ContactUs = () => {
             </div>
           </div>
 
+        </div>
+      </div>
+
+      {/* Partnership Process Section */}
+      <div className="bg-gray-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-light text-gray-800 mb-4">Our Partnership Process</h2>
+            <div className="w-24 h-1 bg-[#008272] mx-auto rounded-full"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 lg:gap-8">
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow relative">
+              <div className="w-12 h-12 bg-[#e6f2f1] text-[#008272] rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+              <h3 className="font-medium text-gray-900 mb-2">Initial Enquiry</h3>
+              <p className="text-sm text-gray-600">You write to us outlining your interest: CSR partnership, volunteering, media, or general enquiry.</p>
+              {/* Connector line for desktop */}
+              <div className="hidden md:block absolute top-12 left-[60%] w-full h-[2px] bg-gray-200 -z-10"></div>
+            </div>
+            
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow relative">
+              <div className="w-12 h-12 bg-[#e6f2f1] text-[#008272] rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+              <h3 className="font-medium text-gray-900 mb-2">Documentation Exchange</h3>
+              <p className="text-sm text-gray-600">For institutional partners, we share our 12A/80G certificate, CSR registration letter, and NGO Darpan profile.</p>
+              {/* Connector line for desktop */}
+              <div className="hidden md:block absolute top-12 left-[60%] w-full h-[2px] bg-gray-200 -z-10"></div>
+            </div>
+            
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow relative">
+              <div className="w-12 h-12 bg-[#e6f2f1] text-[#008272] rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+              <h3 className="font-medium text-gray-900 mb-2">Scoping Discussion</h3>
+              <p className="text-sm text-gray-600">We discuss programme fit, budget, timelines, and reporting expectations.</p>
+              {/* Connector line for desktop */}
+              <div className="hidden md:block absolute top-12 left-[60%] w-full h-[2px] bg-gray-200 -z-10"></div>
+            </div>
+            
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow relative">
+              <div className="w-12 h-12 bg-[#e6f2f1] text-[#008272] rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
+              <h3 className="font-medium text-gray-900 mb-2">Formal Proposal & Agreement</h3>
+              <p className="text-sm text-gray-600">A detailed project proposal, budget breakdown, and reporting schedule is shared and agreed.</p>
+              {/* Connector line for desktop */}
+              <div className="hidden md:block absolute top-12 left-[60%] w-full h-[2px] bg-gray-200 -z-10"></div>
+            </div>
+            
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 bg-[#e6f2f1] text-[#008272] rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">5</div>
+              <h3 className="font-medium text-gray-900 mb-2">Implementation & Reporting</h3>
+              <p className="text-sm text-gray-600">Programme delivery begins, with monthly field reports, quarterly progress reports, and a final impact report.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

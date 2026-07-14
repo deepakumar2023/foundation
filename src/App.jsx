@@ -12,6 +12,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
+import OurCulture from "./pages/OurCulture";
 
 // Placeholder component for empty routes
 const Placeholder = ({ title }) => (
@@ -42,6 +43,7 @@ function App() {
         <Route path="about-us/our-story" element={<OurStory />} />
         <Route path="newsroom/*" element={<Placeholder title="Newsroom" />} />
         <Route path="knowledge-centre/*" element={<Placeholder title="Knowledge Centre" />} />
+        <Route path="careers/our-culture" element={<OurCulture />} />
         <Route path="careers/*" element={<Placeholder title="Careers" />} />
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
