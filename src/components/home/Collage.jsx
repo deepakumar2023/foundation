@@ -31,10 +31,10 @@ const Collage = () => {
           </div>
 
           {/* Right Text with Line */}
-          <div className="absolute right-[8%] top-[15%] z-10 flex items-center">
-            <div className="absolute -left-8 -top-8 w-32 h-32 rounded-full bg-[#fbf5f9] -z-10"></div>
-            <div className="w-12 h-[1px] bg-[#8a2176] mr-4"></div>
-            <p className="text-[22px] text-[#8a2176] leading-snug font-medium">
+          <div className="absolute right-[4%] top-[15%] z-10 flex items-center">
+            <div className="absolute top-1/2 -left-16 -translate-y-1/2 w-[240px] h-[240px] rounded-full bg-[#fbf5f9] -z-10"></div>
+            {/* <div className="w-14 h-[1px] bg-[#8a2176] mr-4 relative z-10"></div> */}
+            <p className="text-[20px] text-[#8a2176] leading-snug font-medium relative z-10">
               Farmers<br />who understand<br />their soil
             </p>
           </div>

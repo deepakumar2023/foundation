@@ -12,10 +12,9 @@ const Footer = () => {
               Deepak Gupta <span className="font-light">Foundation</span>
             </h2>
             <p className="text-gray-400 text-sm mb-4">
-              Deepak Gupta Foundation Corporate House,<br />
-              Sector 62,<br />
-              Noida - 201309,<br />
-              Uttar Pradesh, India.
+              RZ-2084, G/F, R/S Gali No. 26,<br />
+              Tughlakbad Extension,<br />
+              South Delhi, Delhi - 110019, India.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="text-gray-400 hover:text-[var(--color-primary)] transition-colors">

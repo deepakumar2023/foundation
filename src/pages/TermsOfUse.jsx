@@ -50,10 +50,9 @@ const TermsOfUse = () => {
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">6. Contact Information</h2>
           <p className="mb-4">
             If you have any questions regarding these Terms of Use, please contact us at:<br/>
-            <strong>Deepak Gupta Foundation Corporate House</strong><br/>
-            Sector 62,<br/>
-            Noida - 201309,<br/>
-            Uttar Pradesh, India
+            <strong>RZ-2084, G/F, R/S Gali No. 26,</strong><br/>
+            Tughlakbad Extension,<br/>
+            South Delhi, Delhi - 110019, India
           </p>
         </div>
       </div>
