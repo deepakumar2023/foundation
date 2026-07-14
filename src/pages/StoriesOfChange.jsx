@@ -4,7 +4,7 @@ import StoryCard from '../components/stories/StoryCard';
 
 // Comprehensive mock dataset
 const allStories = [
-  { id: 1, tag: 'EDUCATION', title: ' deepak   Vidya Mandir: A Model Institution For Quality Education', author: 'By  deepak   Foundation', image: 'https://picsum.photos/400/300?random=200' },
+  { id: 1, tag: 'EDUCATION', title: '  deepak   gupta  Vidya Mandir: A Model Institution For Quality Education', author: 'By  Deepak  gupta Foundation', image: 'https://picsum.photos/400/300?random=200' },
   { id: 2, tag: 'HEALTH & NUTRITION', title: 'Sangini Volunteers Guiding Mothers Towards Better Nutrition', author: 'By Health Team', image: 'https://picsum.photos/400/300?random=201' },
   { id: 3, tag: 'SUSTAINABLE LIVELIHOODS', title: 'Empowering Women Farmers Through System of Rice Intensification', author: 'By Agri Team', image: 'https://picsum.photos/400/300?random=202' },
   { id: 4, tag: 'CLIMATE ACTION', title: 'Mangrove Restoration Drive Rejuvenates Coastal Ecosystems', author: 'By Coastal Action', image: 'https://picsum.photos/400/300?random=203' },

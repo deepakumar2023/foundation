@@ -58,7 +58,7 @@ const HeroSection = () => {
       </div>
 
       <div className="max-w-4xl mx-auto text-center mt-12 text-sm text-gray-600 leading-relaxed px-4 pb-8">
-        deepak   Foundation is working to deeply impact the growing educational inequalities by bringing access to quality education to children across India. Free primary education is provided to the underprivileged through creating physical infrastructure. We also focus on capacity building of teachers and implement innovative learning tools, thereby nurturing an environment where students can blossom. Today,  deepak   Vidya Mandirs are educating thousands of students for free, while many thousands more are receiving quality education through our smart classroom interventions across 200+ government schools in the country.
+        deepak gupta  Foundation is working to deeply impact the growing educational inequalities by bringing access to quality education to children across India. Free primary education is provided to the underprivileged through creating physical infrastructure. We also focus on capacity building of teachers and implement innovative learning tools, thereby nurturing an environment where students can blossom. Today,   deepak   gupta  Vidya Mandirs are educating thousands of students for free, while many thousands more are receiving quality education through our smart classroom interventions across 200+ government schools in the country.
       </div>
     </div>
   );

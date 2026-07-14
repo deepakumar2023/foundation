@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const StatsSection = () => {
   const [activeTab, setActiveTab] = useState('SuPoshan');
 
-  const tabs = ['SuPoshan', ' deepak   Hospitals', 'Blood Banks', 'Mobile Dispensaries', 'Others'];
+  const tabs = ['SuPoshan', '  deepak   gupta  Hospitals', 'Blood Banks', 'Mobile Dispensaries', 'Others'];
 
   return (
     <div className="w-full py-16 bg-white px-4 md:px-8 lg:px-16">
@@ -17,8 +17,8 @@ const StatsSection = () => {
               key={tab}
               onClick={() => setActiveTab(tab)}
               className={`px-6 py-2 rounded-md text-sm font-medium transition-colors ${activeTab === tab
-                  ? 'bg-[#a51a70] text-white'
-                  : 'bg-white border border-gray-200 text-gray-700 hover:bg-gray-50'
+                ? 'bg-[#a51a70] text-white'
+                : 'bg-white border border-gray-200 text-gray-700 hover:bg-gray-50'
                 }`}
             >
               {tab}

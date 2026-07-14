@@ -97,7 +97,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 z-50 relative">
             <h1 className="text-2xl font-bold text-[var(--color-primary)]">
-            <span className="font-light">Foundation</span>
+              Deepak Gupta <span className="font-light">Foundation</span>
             </h1>
           </Link>
 

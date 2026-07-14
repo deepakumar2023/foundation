@@ -55,7 +55,7 @@ const HeroSection = () => {
       </div>
 
       <div className="max-w-4xl mx-auto text-center mt-12 text-sm text-gray-600 leading-relaxed px-4 pb-8 space-y-4">
-        <p>The  deepak   Foundation focuses on building robust rural infrastructure that serves as the backbone for community progress. From constructing roads that connect remote villages to markets, to building community halls that foster social cohesion, our interventions aim to elevate the standard of living.</p>
+        <p>The Deepak gupta Foundation focuses on building robust rural infrastructure that serves as the backbone for community progress. From constructing roads that connect remote villages to markets, to building community halls that foster social cohesion, our interventions aim to elevate the standard of living.</p>
         <p>We believe that development is holistic. By providing access to safe drinking water, improving sanitation facilities, and upgrading local schools, we address the fundamental needs of communities, empowering them to pursue better educational and economic opportunities.</p>
         <p>Our approach involves active participation from local governance bodies and the community members themselves, ensuring that the infrastructure created is not only relevant but also maintained sustainably over the long term.</p>
       </div>

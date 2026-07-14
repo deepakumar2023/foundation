@@ -3,10 +3,10 @@ import React from 'react';
 const ActiveProgrammes = () => {
   const programmes = [
     {
-      title: " deepak   Skill Development Centre (ASDC)\nBuilding Skills, Shaping Futures",
+      title: "  deepak   gupta  Skill Development Centre (ASDC)\nBuilding Skills, Shaping Futures",
       description: (
         <>
-          <p className="mb-4">ASDC, functioning under the  deepak   Foundation, plays a pivotal role in empowering the youth by providing them with industry-relevant skills. Partnering with the National Skill Development Corporation (NSDC), ASDC offers training in diverse sectors like welding, crane operation, logistics, and retail.</p>
+          <p className="mb-4">ASDC, functioning under the  Deepak  gupta Foundation, plays a pivotal role in empowering the youth by providing them with industry-relevant skills. Partnering with the National Skill Development Corporation (NSDC), ASDC offers training in diverse sectors like welding, crane operation, logistics, and retail.</p>
           <p>The goal is to bridge the gap between demand and supply of skilled manpower, ensuring the youth are not just employable but equipped for entrepreneurship. The centres utilize cutting-edge technology, including simulators, to provide hands-on experience, significantly boosting placement rates.</p>
         </>
       ),

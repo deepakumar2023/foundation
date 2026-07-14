@@ -4,7 +4,7 @@ const ImpactStories = () => {
   const stories = [
     {
       id: 1,
-      title: " deepak   Water Conservation Program Revives Local Ponds",
+      title: "Deepak gupta Water Conservation Program Revives Local Ponds",
       author: "By Water Team",
       image: "https://picsum.photos/400/300?random=100"
     },

@@ -4,23 +4,25 @@ const ContactUs = () => {
   return (
     <div className="w-full overflow-hidden font-sans">
       {/* Banner Section */}
-      <div className="bg-[#f2f8f8] w-full pt-20 pb-24 px-4 md:px-8 lg:px-16 relative">
-        <div className="text-sm text-gray-500 mb-8 max-w-7xl mx-auto">
-          <span>Home</span> &gt; <span className="text-[#008272]">Contact Us</span>
+      {/* Banner Section */}
+      <div 
+        className="w-full pt-24 pb-28 px-4 md:px-8 lg:px-16 relative bg-cover bg-center"
+        style={{ backgroundImage: "url('https://picsum.photos/1920/600?random=150')" }}
+      >
+        <div className="absolute inset-0 bg-black/60"></div>
+        
+        <div className="text-sm text-gray-300 mb-12 max-w-7xl mx-auto relative z-10">
+          <span className="hover:text-white cursor-pointer transition-colors">Home</span> &gt; <span className="text-white font-medium">Contact Us</span>
         </div>
 
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <h1 className="text-4xl md:text-6xl font-light text-gray-800 mb-6 tracking-wide">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide drop-shadow-md">
             We’d Love to Hear From You
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto font-light">
+          <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto drop-shadow-md">
             Whether you have a question about our initiatives, want to partner with us, or just want to learn more about our work, our team is ready to answer all your questions.
           </p>
         </div>
-
-        {/* Decorative elements */}
-        <div className="absolute top-10 left-10 w-32 h-32 bg-[#e0f0f0] rounded-full blur-3xl opacity-60"></div>
-        <div className="absolute bottom-10 right-10 w-48 h-48 bg-[#d0e8e8] rounded-full blur-3xl opacity-60"></div>
       </div>
 
       {/* Contact Content Section */}
@@ -75,7 +77,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Head Office</h4>
-                    <p className="leading-relaxed"> deepak   Corporate House,<br />Shantigram, S G Highway,<br />Ahmedabad - 382421,<br />Gujarat, India</p>
+                    <p className="leading-relaxed">Deepak Gupta Corporate House,<br />Sector 62,<br />Noida - 201309,<br />Uttar Pradesh, India</p>
                   </div>
                 </div>
 
@@ -85,7 +87,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-900 mb-1">Email Us</h4>
-                    <p>info@ deepak  foundation.com</p>
+                    <p>info@  deepak   gupta foundation.com</p>
                   </div>
                 </div>
 

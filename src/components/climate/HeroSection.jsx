@@ -31,8 +31,8 @@ const HeroSection = () => {
       </div>
 
       <div className="max-w-4xl mx-auto text-center mt-12 text-sm text-gray-600 leading-relaxed px-4 pb-8 space-y-4">
-        <p>In the face of extreme weather events and erratic climatic conditions, protecting our environment and building long-term community resilience is crucial. The  deepak   Foundation's community interventions are closely aligned with national objectives of augmenting water resources and promoting biodiversity, while mitigating carbon footprints.</p>
-        <p>The  deepak   Group is committed to a lower carbon footprint:</p>
+        <p>In the face of extreme weather events and erratic climatic conditions, protecting our environment and building long-term community resilience is crucial. The Deepak gupta Foundation's community interventions are closely aligned with national objectives of augmenting water resources and promoting biodiversity, while mitigating carbon footprints.</p>
+        <p>The Deepak gupta Group is committed to a lower carbon footprint:</p>
         <p className="font-medium text-gray-800">Water Positivity: We are moving towards making all our power plants water-positive, thereby reducing dependency on freshwater sources.</p>
         <p className="font-medium text-gray-800">Biodiversity Enhancement: Preserving biodiversity, maintaining green covers and striving towards 'no net loss' of biological diversity across all operational areas.</p>
         <p>These initiatives not only ensure that local environments remain healthy, but they also insulate communities from climate shocks, ensuring their livelihoods are protected against erratic weather.</p>

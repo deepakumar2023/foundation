@@ -19,7 +19,7 @@ const ChairpersonMessage = () => {
           </h2>
 
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            Our work sits on a foundation laid nearly 30 years ago, when a handful of us first set out to address the socio-economic inequalities around us. Looking back, it is easy to feel a sense of achievement for such is the expanse of work the  deepak   Foundation has completed. But I believe we cannot afford to rest on laurels of any kind. For a rapidly growing nation like India, there is much more that needs to be done and much more that...
+            Our work sits on a foundation laid nearly 30 years ago, when a handful of us first set out to address the socio-economic inequalities around us. Looking back, it is easy to feel a sense of achievement for such is the expanse of work the deepak gupta Foundation has completed. But I believe we cannot afford to rest on laurels of any kind. For a rapidly growing nation like India, there is much more that needs to be done and much more that...
           </p>
 
           <button className="flex items-center gap-2 text-sm text-gray-700 font-medium hover:text-[#a51a70] transition-colors mb-12 group">
@@ -32,14 +32,14 @@ const ChairpersonMessage = () => {
           </button>
 
           <div>
-            <h4 className="text-lg font-medium text-gray-800">Dr. Priti G.  deepak  </h4>
-            <p className="text-sm text-gray-500">Chairperson,  deepak   Foundation</p>
+            <h4 className="text-lg font-medium text-gray-800">Dr. Priti G. </h4>
+            <p className="text-sm text-gray-500">Chairperson, deepak gupta Foundation</p>
           </div>
         </div>
 
         {/* Right Side: Image */}
         <div className="w-full lg:w-1/2 rounded-3xl overflow-hidden shadow-xl aspect-square lg:aspect-[4/5]">
-          <img src="https://picsum.photos/600/800?random=320" alt="Dr. Priti G.  deepak  " className="w-full h-full object-cover" />
+          <img src="https://dgpfindia.org/wp-content/uploads/2024/01/Priti-Adani-2.jpg" alt="Dr. Priti G." className="w-full h-full object-cover" />
         </div>
 
       </div>

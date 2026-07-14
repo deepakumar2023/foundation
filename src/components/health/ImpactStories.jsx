@@ -5,7 +5,7 @@ const ImpactStories = () => {
     {
       id: 1,
       title: "Sujalam Sufalam Yojana Brings Potable Water And Health...",
-      author: "By  deepak   Foundation",
+      author: "By  Deepak  gupta Foundation",
       image: "https://picsum.photos/400/300?random=34"
     },
     {
@@ -22,7 +22,7 @@ const ImpactStories = () => {
     },
     {
       id: 4,
-      title: " deepak   Hospitals Continue Their Commitment To Community...",
+      title: "  deepak   gupta  Hospitals Continue Their Commitment To Community...",
       author: "By GAIMS Media",
       image: "https://picsum.photos/400/300?random=37"
     }

@@ -3,21 +3,21 @@ import React from 'react';
 const ActiveProgrammes = () => {
   const programmes = [
     {
-      title: " deepak   Vidya Mandir\nA Place To Learn. A Space To Grow.",
+      title: "Deepak gupta Vidya Mandir\nA Place To Learn. A Space To Grow.",
       description: (
         <>
-          <p className="mb-4"> deepak   Vidya Mandirs are state-of-the-art schools run completely free of cost for children from low-income families. These CBSE-affiliated schools give a robust foundation to meritorious students by opening doors to opportunities.</p>
-          <p> deepak   Vidya Mandir is the first cost-free school in India to get NABET accreditation by the Quality Council of India. Currently, four campuses of  deepak   Vidya Mandirs are operational in Ahmedabad, Bhadreshwar, Surguja and Krishnapatnam, providing free education to children. The school has been continuously yielding 100% board exam results, year-on-year.</p>
+          <p className="mb-4">Deepak gupta Vidya Mandirs are state-of-the-art schools run completely free of cost for children from low-income families. These CBSE-affiliated schools give a robust foundation to meritorious students by opening doors to opportunities.</p>
+          <p>Deepak gupta Vidya Mandir is the first cost-free school in India to get NABET accreditation by the Quality Council of India. Currently, four campuses of   deepak   gupta  Vidya Mandirs are operational in Ahmedabad, Bhadreshwar, Surguja and Krishnapatnam, providing free education to children. The school has been continuously yielding 100% board exam results, year-on-year.</p>
         </>
       ),
       image: "https://picsum.photos/800/500?random=10",
       imageLeft: true
     },
     {
-      title: " deepak   Public School\nNurturing Little Minds By Choice",
+      title: "Deepak gupta Public School\nNurturing Little Minds By Choice",
       description: (
         <>
-          <p className="mb-4"> deepak   Public School in Mundra was instituted to impart holistic education to students from nearby communities. Through the adoption of the ‘Makerspace’ approach, students have been able to ideate and create real life, 3D prototypes. The school creates a learning environment that gives equal importance to the mind, body and soul while keeping learning simple and fun.</p>
+          <p className="mb-4">Deepak gupta Public School in Mundra was instituted to impart holistic education to students from nearby communities. Through the adoption of the ‘Makerspace’ approach, students have been able to ideate and create real life, 3D prototypes. The school creates a learning environment that gives equal importance to the mind, body and soul while keeping learning simple and fun.</p>
           <p>As per the Education World India School Rankings, it is ranked as the #1 Co-ed Day School in Kutch and #8 in Gujarat. Given the school’s persistent push for academic excellence and innovation in teaching methods, it has also been certified as the only school in Saurashtra and Kutch region to have received NABET accreditation from the Quality Council of India.</p>
         </>
       ),
@@ -37,7 +37,7 @@ const ActiveProgrammes = () => {
     },
     {
       title: "Udaan\nGiving Young Dreams A New Horizon",
-      description: "Project Udaan is an inspirational tour to the  deepak   Group's ports, power plants and more. It aims to encourage the youth to dream big. The exposure helps students understand the scale of operations and the numerous career opportunities available to them. This visual learning has left a lasting impact on young minds, leading to an increase in enrollment and a reduction in dropout rates. It is currently being implemented across 18 states in India.",
+      description: "Project Udaan is an inspirational tour to the Deepak gupta Group's ports, power plants and more. It aims to encourage the youth to dream big. The exposure helps students understand the scale of operations and the numerous career opportunities available to them. This visual learning has left a lasting impact on young minds, leading to an increase in enrollment and a reduction in dropout rates. It is currently being implemented across 18 states in India.",
       image: "https://picsum.photos/800/500?random=13",
       imageLeft: false
     }

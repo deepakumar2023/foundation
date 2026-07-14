@@ -6,7 +6,7 @@ const ActiveProgrammes = () => {
       title: "Community Infrastructure\nBuilding The Foundations of Growth",
       description: (
         <>
-          <p className="mb-4">The  deepak   Foundation focuses on creating sustainable and resilient infrastructure that caters to the diverse needs of rural communities. This includes the construction and upgradation of village roads, ensuring all-weather connectivity that is crucial for access to markets, healthcare, and education.</p>
+          <p className="mb-4">The Deepak gupta Foundation focuses on creating sustainable and resilient infrastructure that caters to the diverse needs of rural communities. This includes the construction and upgradation of village roads, ensuring all-weather connectivity that is crucial for access to markets, healthcare, and education.</p>
           <p>We also invest heavily in community facilities such as panchayat ghar (village council halls), anganwadis (childcare centers), and community halls. These structures serve as focal points for social interaction, governance, and community celebrations, significantly enhancing the quality of village life.</p>
         </>
       ),

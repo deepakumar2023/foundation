@@ -25,7 +25,7 @@ const IntroSection = () => {
               Building Futures,<br />Empowering Lives
             </h1>
             <p className="text-sm text-gray-600 leading-relaxed max-w-lg mx-auto">
-              deepak   Foundation, the social welfare and development arm of the  deepak   Group, is committed to transforming lives and strengthening communities across India. Guided by the organization's "Seva Hi Sadhana Hai" (Service is Meditation) philosophy, we are rooted in compassion, responsibility, and collective progress. Since inception, the Foundation has worked to create sustainable development models in education, health and nutrition, sustainable livelihoods, climate action, and community development. Through collaborative initiatives, we aim to foster inclusive growth by focusing on enduring long-term commitments and building resilient communities.
+              Deepak gupta Foundation, the social welfare and development arm of the deepak gupta Group, is committed to transforming lives and strengthening communities across India. Guided by the organization's "Seva Hi Sadhana Hai" (Service is Meditation) philosophy, we are rooted in compassion, responsibility, and collective progress. Since inception, the Foundation has worked to create sustainable development models in education, health and nutrition, sustainable livelihoods, climate action, and community development. Through collaborative initiatives, we aim to foster inclusive growth by focusing on enduring long-term commitments and building resilient communities.
             </p>
           </div>
 

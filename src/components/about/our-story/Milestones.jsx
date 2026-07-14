@@ -7,9 +7,9 @@ const Milestones = () => {
     2025: {
       image: "https://picsum.photos/600/400?random=330",
       bullets: [
-        "The  deepak   Group partnered with ISKCON to conduct 'Mahaprasad Seva' during the 2025 Maha Kumbh Mela in Prayagraj - where it distributed free meals to devotees, facilitated battery-operated green golf cart services and distributed nearly 1 crore copies of Aarti Sangrah.",
-        "The  deepak   Family announced 'Mangal Seva', an initiative to support 500 newlywed specially abled women every year with financial assistance of INR Rs 10 lakh each.",
-        "Our Chairperson Dr Priti  deepak   conferred the title Doctor of Science (D.Sc.) Honoris Causa by Datta Meghe Institute of Higher Education & Research (Deemed to be University), Wardha, Maharashtra."
+        "The Deepak Gupta Group partnered with ISKCON to conduct 'Mahaprasad Seva' during the 2025 Maha Kumbh Mela in Prayagraj - where it distributed free meals to devotees, facilitated battery-operated green golf cart services and distributed nearly 1 crore copies of Aarti Sangrah.",
+        "The Deepak Gupta Family announced 'Mangal Seva', an initiative to support 500 newlywed specially abled women every year with financial assistance of INR Rs 10 lakh each.",
+        "Our Chairperson Dr Priti deepak gupta conferred the title Doctor of Science (D.Sc.) Honoris Causa by Datta Meghe Institute of Higher Education & Research (Deemed to be University), Wardha, Maharashtra."
       ]
     },
     2024: {

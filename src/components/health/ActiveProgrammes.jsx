@@ -14,11 +14,11 @@ const ActiveProgrammes = () => {
       imageLeft: true
     },
     {
-      title: " deepak   Hospitals: The Promise Of Quality Health",
+      title: " Deepak gupta Hospitals: The Promise Of Quality Health",
       description: (
         <>
-          <p className="mb-4">Through its comprehensive health care strategy, bringing affordable and accessible medical care to the underprivileged,  deepak   Foundation is making a difference. The Gujarat  deepak   Institute of Medical Sciences (GAIMS) is a unique public-private partnership. Equipped with a 750-bed multi-speciality hospital in Bhuj, it caters to thousands of patients annually.</p>
-          <p>The  deepak   hospital in Mundra is a 100-bed multi-speciality facility serving over 50,000 patients annually. In Godda, Jharkhand, the  deepak   Foundation runs a hospital focusing on maternal and child health. Through these initiatives, the foundation touches millions of lives across communities.</p>
+          <p className="mb-4">Through its comprehensive health care strategy, bringing affordable and accessible medical care to the underprivileged, Deepak  gupta Foundation is making a difference. The Gujarat   deepak   gupta  Institute of Medical Sciences (GAIMS) is a unique public-private partnership. Equipped with a 750-bed multi-speciality hospital in Bhuj, it caters to thousands of patients annually.</p>
+          <p>The  deepak gupta  hospital in Mundra is a 100-bed multi-speciality facility serving over 50,000 patients annually. In Godda, Jharkhand, the   Deepak  gupta Foundation runs a hospital focusing on maternal and child health. Through these initiatives, the foundation touches millions of lives across communities.</p>
         </>
       ),
       image: "https://picsum.photos/800/500?random=16",
@@ -28,7 +28,7 @@ const ActiveProgrammes = () => {
       title: "Mobile Clinics\nCare Reaching To The Doorstep",
       description: (
         <>
-          <p className="mb-4">The lack of primary healthcare access in remote villages is a major concern. To bridge this gap,  deepak   Foundation introduced Mobile Health Care Units (MHCUs). These mobile clinics act as first points of contact for villagers, providing essential diagnoses and medicines for free.</p>
+          <p className="mb-4">The lack of primary healthcare access in remote villages is a major concern. To bridge this gap,   Deepak  gupta Foundation introduced Mobile Health Care Units (MHCUs). These mobile clinics act as first points of contact for villagers, providing essential diagnoses and medicines for free.</p>
           <p>Equipped with basic diagnostic tools and staffed by a doctor and a pharmacist, they cater to thousands of patients annually. These units have proven to be lifesavers and have reduced the medical out-of-pocket expenses for the rural populace significantly.</p>
         </>
       ),
@@ -43,7 +43,7 @@ const ActiveProgrammes = () => {
     },
     {
       title: "Blood Banks & Support\nA Drop Of Life",
-      description: "The  deepak   Foundation operates and supports several blood banks and voluntary blood donation camps across its locations. Ensuring a steady supply of safe blood is crucial for emergency care and surgeries. With state-of-the-art facilities and dedicated personnel, we encourage the community to donate regularly, making a life-saving impact on society.",
+      description: "The deepak gupta Foundation operates and supports several blood banks and voluntary blood donation camps across its locations. Ensuring a steady supply of safe blood is crucial for emergency care and surgeries. With state-of-the-art facilities and dedicated personnel, we encourage the community to donate regularly, making a life-saving impact on society.",
       image: "https://picsum.photos/800/500?random=19",
       imageLeft: true
     }

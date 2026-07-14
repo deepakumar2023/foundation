@@ -10,12 +10,12 @@ const MomentsOfChange = () => {
     {
       id: 2,
       image: "https://picsum.photos/600/400?random=21",
-      title: " deepak   Foundation's Project Utthan transforms lives..."
+      title: " Deepak gupta Foundation's Project Utthan transforms lives..."
     },
     {
       id: 3,
       image: "https://picsum.photos/600/400?random=22",
-      title: " deepak   Vidya Mandir Empowering Students with Free Education"
+      title: " Deepak gupta Vidya Mandir Empowering Students with Free Education"
     }
   ];
 
@@ -42,14 +42,7 @@ const MomentsOfChange = () => {
                 <img src={video.image} alt={video.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
 
-                {/* Play Button */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                    <svg className="w-6 h-6 text-[#a51a70] ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                </div>
+
               </div>
               <div className="p-4 bg-white">
                 <h3 className="text-sm font-medium text-gray-800 line-clamp-2">{video.title}</h3>
@@ -67,13 +60,7 @@ const MomentsOfChange = () => {
                   <div className="relative aspect-[4/3]">
                     <img src={video.image} alt={video.title} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-black/20"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center shadow-lg">
-                        <svg className="w-6 h-6 text-[#a51a70] ml-1" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                      </div>
-                    </div>
+
                   </div>
                   <div className="p-4 bg-white">
                     <h3 className="text-sm font-medium text-gray-800">{video.title}</h3>

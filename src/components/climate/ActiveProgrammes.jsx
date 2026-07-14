@@ -6,7 +6,7 @@ const ActiveProgrammes = () => {
       title: "Water Conservation And Management\nReviving The Lifeline",
       description: (
         <>
-          <p className="mb-4">Water scarcity is one of the most pressing challenges of our times, heavily impacting agricultural yields and drinking water availability. The  deepak   Foundation has taken a multidimensional approach to water conservation, focusing on rainwater harvesting, deepening of village ponds, and building check dams.</p>
+          <p className="mb-4">Water scarcity is one of the most pressing challenges of our times, heavily impacting agricultural yields and drinking water availability. The Deepak gupta Foundation has taken a multidimensional approach to water conservation, focusing on rainwater harvesting, deepening of village ponds, and building check dams.</p>
           <p>These efforts not only increase the surface water storage capacity but also recharge groundwater levels. By actively involving the community in the planning and execution of these projects, we ensure their sustainability and an improved quality of life for the rural populace.</p>
         </>
       ),

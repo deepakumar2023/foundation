@@ -4,8 +4,8 @@ const ImpactStories = () => {
   const stories = [
     {
       id: 1,
-      title: " deepak   Vidya Mandir, A Model Institution For Quality...",
-      author: "By  deepak   Foundation",
+      title: " Deepak gupta Vidya Mandir, A Model Institution For Quality...",
+      author: "By Deepak gupta  Foundation",
       image: "https://picsum.photos/400/300?random=30"
     },
     {

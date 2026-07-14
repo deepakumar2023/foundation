@@ -5,7 +5,7 @@ const ImpactStories = () => {
     {
       id: 1,
       title: "From Training to Self-Reliance: A Weaver's Success Story",
-      author: "By  deepak   Foundation",
+      author: "By  Deepak  gupta Foundation",
       image: "https://picsum.photos/400/300?random=70"
     },
     {

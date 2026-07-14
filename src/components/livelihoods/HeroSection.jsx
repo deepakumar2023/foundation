@@ -47,7 +47,7 @@ const HeroSection = () => {
           </div>
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-gray-700 leading-relaxed">
-              <span className="font-bold text-gray-900">Kishan Kumar</span> - "After completing my electrician course at  deepak   Skill Development Centre, I immediately got a job in a nearby factory. I can finally support my parents and send my sister to school."
+              <span className="font-bold text-gray-900">Kishan Kumar</span> - "After completing my electrician course at   deepak   gupta  Skill Development Centre, I immediately got a job in a nearby factory. I can finally support my parents and send my sister to school."
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ const HeroSection = () => {
 
       <div className="max-w-4xl mx-auto text-center mt-12 text-sm text-gray-600 leading-relaxed px-4 pb-8 space-y-4">
         <p>Sustainable livelihoods are fundamental to breaking the cycle of poverty and ensuring long-term community development. It's not just about providing temporary relief, but equipping individuals with the skills, resources, and knowledge to build a secure future.</p>
-        <p>The  deepak   Foundation focuses on creating diverse livelihood opportunities through skill development, agricultural interventions, and promoting self-help groups. We believe in harnessing local potential and empowering marginalized sections, especially women and youth.</p>
+        <p>The  Deepak  gupta Foundation focuses on creating diverse livelihood opportunities through skill development, agricultural interventions, and promoting self-help groups. We believe in harnessing local potential and empowering marginalized sections, especially women and youth.</p>
         <p>Our initiatives aim to build resilient communities capable of navigating economic challenges. By fostering entrepreneurship, improving agricultural yields, and enhancing employability, we are working towards a self-reliant and thriving rural economy.</p>
       </div>
     </div>
