@@ -13,6 +13,12 @@ import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import OurCulture from "./pages/OurCulture";
+import Leadership from "./components/about/Leadership";
+import PressReleases from "./components/newsroom/PressReleases";
+import MediaCoverage from "./components/newsroom/MediaCoverage";
+import LifeAtDGF from "./components/careers/LifeAtDGF";
+import InteractNewsletter from "./components/knowledge-centre/InteractNewsletter";
+import AnnualReports from "./components/knowledge-centre/AnnualReports";
 
 // Placeholder component for empty routes
 const Placeholder = ({ title }) => (
@@ -41,9 +47,15 @@ function App() {
         <Route path="stories-of-change" element={<StoriesOfChange />} />
         <Route path="about-us" element={<AboutUs />} />
         <Route path="about-us/our-story" element={<OurStory />} />
+        <Route path="about-us/leadership" element={<Leadership />} />
+        <Route path="newsroom/press-releases" element={<PressReleases />} />
+        <Route path="newsroom/media-coverage" element={<MediaCoverage />} />
         <Route path="newsroom/*" element={<Placeholder title="Newsroom" />} />
+        <Route path="knowledge-centre/interact-newsletter" element={<InteractNewsletter />} />
+        <Route path="knowledge-centre/annual-reports" element={<AnnualReports />} />
         <Route path="knowledge-centre/*" element={<Placeholder title="Knowledge Centre" />} />
         <Route path="careers/our-culture" element={<OurCulture />} />
+        <Route path="careers/life-at-dgf" element={<LifeAtDGF />} />
         <Route path="careers/*" element={<Placeholder title="Careers" />} />
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />

@@ -80,7 +80,7 @@ const Navbar = () => {
       path: "/careers",
       dropdown: [
         { label: "Our Culture", icon: <HiOutlineBriefcase className="text-2xl" /> },
-        { label: "Life at AF", icon: <HiOutlineFaceSmile className="text-2xl" /> },
+        { label: "Life at DGF", icon: <HiOutlineFaceSmile className="text-2xl" /> },
       ],
     },
     { name: "CONTACT US", path: "/contact-us" },
