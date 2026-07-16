@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Education from "./pages/Education";
@@ -32,7 +33,9 @@ const Placeholder = ({ title }) => (
 
 function App() {
   return (
-    <Routes>
+    <>
+      <ScrollToTop />
+      <Routes>
       <Route path="/" element={<Layout />}>
         {/* Main Routes */}
         <Route index element={<Home />} />
@@ -66,6 +69,7 @@ function App() {
         <Route path="*" element={<Placeholder title="404 - Page Not Found" />} />
       </Route>
     </Routes>
+    </>
   );
 }
 

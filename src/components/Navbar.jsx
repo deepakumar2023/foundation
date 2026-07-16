@@ -96,8 +96,9 @@ const Navbar = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 z-50 relative">
-            <h1 className="text-2xl font-bold text-[var(--color-primary)]">
-              Deepak Gupta <span className="font-light">Foundation</span>
+            <h1 className="text-[22px] font-black tracking-tight leading-none">
+              <span className="text-black uppercase">Deepak Gupta</span>
+              <span className="block text-[13px] font-semibold tracking-[0.25em] text-gray-500 uppercase mt-0.5">Foundation</span>
             </h1>
           </Link>
 

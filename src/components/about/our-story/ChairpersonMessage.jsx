@@ -28,7 +28,7 @@ const ChairpersonMessage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
               <div className="w-24 h-24 rounded-full overflow-hidden mb-6 bg-gray-200">
-                <img src="https://ui-avatars.com/api/?name=Deepak+Gupta&background=008272&color=fff&size=150" alt="Deepak Gupta" className="w-full h-full object-cover" />
+                <img src="/deepakgupta.jpeg" alt="Deepak Gupta" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-1">Deepak Gupta</h3>
               <p className="text-[#a51a70] font-medium mb-4">Founder</p>
@@ -36,7 +36,7 @@ const ChairpersonMessage = () => {
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
               <div className="w-24 h-24 rounded-full overflow-hidden mb-6 bg-gray-200">
-                <img src="https://ui-avatars.com/api/?name=Anand+Gupta&background=008272&color=fff&size=150" alt="Anand Gupta" className="w-full h-full object-cover" />
+                <img src="/anandgupta.jpeg" alt="Anand Gupta" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-1">Anand Gupta</h3>
               <p className="text-[#a51a70] font-medium mb-4">Treasurer</p>

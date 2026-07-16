@@ -4,7 +4,7 @@ const ImpactStories = () => {
   const stories = [
     {
       id: 1,
-      title: "Sujalam Sufalam Yojana Brings Potable Water And Health...",
+      title: "CLIMATE ACTION Yojana Brings Potable Water And Health...",
       author: "By  Deepak  gupta Foundation",
       image: "https://picsum.photos/400/300?random=34"
     },

@@ -1,6 +1,7 @@
 
 
 import { FiChevronRight, FiDownload, FiUser } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Leadership = () => {
   return (
@@ -32,7 +33,7 @@ const Leadership = () => {
                 <img
                   alt="Deepak Gupta"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuArA7t34DryH4Iq2yD64plF5DzeIpPYZFDJSg4GESPyKrMpvId61lBLwGbYeehXTVMjYfcVsLT0fq0OtMYyip5oBX_6bX15H8tkvOrUbJIRkarQN9gj86R0FyPvFq3HaZYenQCz95_KIUL7Qiv1lTMBS9klWl7qfi0ucTeenRZn0cGiblqmFOO_mSC_2nfPlr2QVG8XfJ6xYE6fbggAOz9O4H6Fw0PhC-lredvEh-b-7QowHLMrfH4MBCxXJIWykDfxlu7cizy15fST"
+                  src="/deepakgupta.jpeg "
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 flex justify-between items-end">
@@ -49,14 +50,14 @@ const Leadership = () => {
               {/* Featured Trustee 2 */}
               <div className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
                 <img
-                  alt="Dr. Anjali Gupta"
+                  alt="Anand Gupta"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA661m0t5Fm6HCQRBa-6fQkZNe0SV3KDSjAjYJLXwu6nyBn7sXeYe-om4Fuw2JL3XJ6ekPEQnTbpmGS0I9PKu6av4PTCcB-iYnxdaopx7tOK9WdFuLnxkmONT3d9scMsHo1d9wJC-VAaVBcmxNbttw2Uv5bsonr31f8tWyzWDOJScFeNO1PfmS_Rgw0Ea6178lhDymLlIRkqw4FREvvpPO1nrRrXUqhbEjGhNOiMVa3f4uVznpEtsIimnhAlMnbnZ-7QWUu6Zr25Q1f"
+                  src="/anandgupta.jpeg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 flex justify-between items-end">
                   <div>
-                    <h4 className="text-white font-bold text-xl md:text-2xl">Dr. Anjali Gupta</h4>
+                    <h4 className="text-white font-bold text-xl md:text-2xl">Anand gupta</h4>
                     <p className="text-white/80 text-sm md:text-base">Director</p>
                   </div>
                   <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-white/40">
@@ -174,13 +175,13 @@ const Leadership = () => {
             Want to learn more about our work?
           </h4>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-6">
-            <button className="w-full sm:w-auto bg-purple-700 text-white px-8 py-4 rounded-xl font-semibold hover:bg-purple-800 transition-all flex items-center justify-center gap-2 shadow-md hover:shadow-lg">
+            <Link to="/contact-us" className="w-full sm:w-auto bg-purple-700 text-white px-8 py-4 rounded-xl font-semibold hover:bg-purple-800 transition-all flex items-center justify-center gap-2 shadow-md hover:shadow-lg">
               View Impact Reports
               <FiDownload />
-            </button>
-            <button className="w-full sm:w-auto border-2 border-purple-700 text-purple-700 bg-white px-8 py-4 rounded-xl font-semibold hover:bg-purple-50 transition-all shadow-sm hover:shadow-md">
+            </Link>
+            <Link to="/contact-us" className="w-full sm:w-auto border-2 border-purple-700 text-purple-700 bg-white px-8 py-4 rounded-xl font-semibold hover:bg-purple-50 transition-all shadow-sm hover:shadow-md">
               Annual Transparency
-            </button>
+            </Link>
           </div>
         </div>
       </section>

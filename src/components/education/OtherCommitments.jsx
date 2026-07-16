@@ -14,7 +14,7 @@ const OtherCommitments = () => {
     },
     {
       id: 3,
-      title: "SUJALAM SUFALAM",
+      title: "CLIMATE ACTION",
       image: "https://picsum.photos/400/400?random=42"
     },
     {

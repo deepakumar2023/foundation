@@ -7,9 +7,8 @@ const InteractNewsletter = () => {
       <section className="relative h-[614px] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center" 
-          style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuClLfqkp5AWbBpGxOoES8Klp71WClmKGvzu9MYG0Brkiz0hroIUbM4EsCB1haCiIL92mLOi-pjFLlAXY9W-yjBUfOOWtn9paH0R6nIOdXhU9J2xNemEG3IqgzFeatd90xNgjOIqcD-oCzp3d9LnWkCXfsPrur8t4vMZryKxPOJTKIyua0g3Evbsb-IzdncqblF3QN3gCekAMJLFvVebvwUc4la4E_dvBj3qyx7JUNkGH_62iS34fhn8khoKFqjnnMWR0BlM14KQIPUN')" }}
+          style={{ backgroundImage: "url('/interact-newsletter.jpeg')" }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-[#00204f]/40 to-[#00204f]/80 backdrop-blur-[2px]"></div>
         <div className="relative z-10 text-center px-[24px] max-w-4xl mx-auto flex flex-col items-center">
           <h1 className="text-[40px] md:text-[60px] font-bold text-white mb-[16px] leading-tight">
             Interact Newsletter
