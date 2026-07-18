@@ -1,26 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const OtherCommitments = () => {
   const commitments = [
     {
       id: 1,
       title: "EDUCATION",
-      image: "https://picsum.photos/400/400?random=110"
+      path: "/impact-themes/education",
+      image: "https://picsum.photos/400/400?random=10"
     },
     {
       id: 2,
-      title: "HEALTH & NUTRITION",
-      image: "https://picsum.photos/400/400?random=111"
+      title: "COMMUNITY DEVELOPMENT",
+      path: "/impact-themes/community-development",
+      image: "https://picsum.photos/400/400?random=11"
     },
     {
       id: 3,
-      title: "SUSTAINABLE LIVELIHOODS",
-      image: "https://picsum.photos/400/400?random=112"
+      title: "CLIMATE ACTION",
+      path: "/impact-themes/climate-action",
+      image: "https://picsum.photos/400/400?random=12"
     },
     {
       id: 4,
-      title: "COMMUNITY INFRASTRUCTURE",
-      image: "https://picsum.photos/400/400?random=113"
+      title: "SUSTAINABLE LIVELIHOODS",
+      path: "/impact-themes/sustainable-livelihoods",
+      image: "https://picsum.photos/400/400?random=13"
     }
   ];
 
@@ -31,7 +36,7 @@ const OtherCommitments = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {commitments.map((commitment) => (
-            <div key={commitment.id} className="flex flex-col items-center group cursor-pointer">
+            <Link to={commitment.path} key={commitment.id} className="flex flex-col items-center group cursor-pointer block">
               
               <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden mb-6 relative shadow-md">
                 <img 
@@ -46,14 +51,14 @@ const OtherCommitments = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-2 text-text-muted group-hover:text-[#a51a70] transition-colors">
+              <div className="flex items-center gap-2 text-text-muted group-hover:text-primary transition-colors">
                 <span className="text-sm font-medium">Explore</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                 </svg>
               </div>
 
-            </div>
+            </Link>
           ))}
         </div>
       </div>

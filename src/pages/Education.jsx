@@ -4,7 +4,7 @@ import StatsSection from '../components/education/StatsSection';
 import ActiveProgrammes from '../components/education/ActiveProgrammes';
 import MomentsOfChange from '../components/education/MomentsOfChange';
 import ImpactStories from '../components/education/ImpactStories';
-import OtherCommitments from '../components/education/OtherCommitments';
+import OtherCommitments from '../components/OtherCommitments';
 
 const Education = () => {
   return (

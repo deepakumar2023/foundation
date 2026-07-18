@@ -4,7 +4,8 @@ import StatsSection from '../components/livelihoods/StatsSection';
 import ActiveProgrammes from '../components/livelihoods/ActiveProgrammes';
 import MomentsOfChange from '../components/livelihoods/MomentsOfChange';
 import ImpactStories from '../components/livelihoods/ImpactStories';
-import OtherCommitments from '../components/livelihoods/OtherCommitments';
+import OtherCommitments from '../components/OtherCommitments';
+
 
 const SustainableLivelihoods = () => {
   return (

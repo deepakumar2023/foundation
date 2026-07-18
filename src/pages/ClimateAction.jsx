@@ -4,7 +4,8 @@ import StatsSection from '../components/climate/StatsSection';
 import ActiveProgrammes from '../components/climate/ActiveProgrammes';
 import MomentsOfChange from '../components/climate/MomentsOfChange';
 import ImpactStories from '../components/climate/ImpactStories';
-import OtherCommitments from '../components/climate/OtherCommitments';
+import OtherCommitments from '../components/OtherCommitments';
+
 
 const ClimateAction = () => {
   return (

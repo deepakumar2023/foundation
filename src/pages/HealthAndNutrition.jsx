@@ -4,7 +4,8 @@ import StatsSection from '../components/health/StatsSection';
 import ActiveProgrammes from '../components/health/ActiveProgrammes';
 import MomentsOfChange from '../components/health/MomentsOfChange';
 import ImpactStories from '../components/health/ImpactStories';
-import OtherCommitments from '../components/health/OtherCommitments';
+import OtherCommitments from '../components/OtherCommitments';
+
 
 const HealthAndNutrition = () => {
   return (
@@ -14,7 +15,7 @@ const HealthAndNutrition = () => {
       <ActiveProgrammes />
       <MomentsOfChange />
       <ImpactStories />
-      <OtherCommitments />
+       <OtherCommitments />
     </div>
   );
 };

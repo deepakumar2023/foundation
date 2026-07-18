@@ -4,7 +4,8 @@ import StatsSection from '../components/community/StatsSection';
 import ActiveProgrammes from '../components/community/ActiveProgrammes';
 import MomentsOfChange from '../components/community/MomentsOfChange';
 import ImpactStories from '../components/community/ImpactStories';
-import OtherCommitments from '../components/community/OtherCommitments';
+import OtherCommitments from '../components/OtherCommitments';
+
 
 const CommunityDevelopment = () => {
   return (

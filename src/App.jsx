@@ -10,6 +10,8 @@ import HealthAndNutrition from "./pages/HealthAndNutrition";
 import SustainableLivelihoods from "./pages/SustainableLivelihoods";
 import ClimateAction from "./pages/ClimateAction";
 import CommunityDevelopment from "./pages/CommunityDevelopment";
+import ImpactThemes from "./pages/ImpactThemes";
+import Careers from "./pages/Careers";
 import StoriesOfChange from "./pages/StoriesOfChange";
 import OurStory from "./pages/OurStory";
 import AboutUs from "./pages/AboutUs";
@@ -29,7 +31,7 @@ import Publications from "./components/knowledge-centre/Publications";
 
 // Placeholder component for empty routes
 const Placeholder = ({ title }) => (
-  <div className="flex items-center justify-center min-h-[60vh] bg-gray-50 pt-20">
+  <div className="flex items-center justify-center min-h-[60vh] bg-surface pt-20">
     <div className="text-center">
       <h1 className="text-4xl font-bold text-text-main mb-4">{title}</h1>
       <p className="text-text-muted">This page is under construction.</p>
@@ -54,13 +56,17 @@ function App() {
         {/* Main Routes */}
         <Route index element={<Home />} />
         
-        {/* Placeholder Routes */}
+        {/* Impact Themes Routes */}
+        <Route path="impact-themes" element={<ImpactThemes />} />
         <Route path="impact-themes/education" element={<Education />} />
         <Route path="impact-themes/health-and-nutrition" element={<HealthAndNutrition />} />
         <Route path="impact-themes/sustainable-livelihoods" element={<SustainableLivelihoods />} />
         <Route path="impact-themes/climate-action" element={<ClimateAction />} />
         <Route path="impact-themes/community-development" element={<CommunityDevelopment />} />
         <Route path="impact-themes/*" element={<Placeholder title="Impact Themes" />} />
+        
+        {/* Careers Routes */}
+        <Route path="careers" element={<Careers />} />
         <Route path="stories-of-change" element={<StoriesOfChange />} />
         <Route path="about-us" element={<AboutUs />} />
         <Route path="about-us/our-story" element={<OurStory />} />
