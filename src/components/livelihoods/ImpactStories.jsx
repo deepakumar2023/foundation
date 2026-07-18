@@ -1,4 +1,10 @@
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 const ImpactStories = () => {
   const stories = [
@@ -27,15 +33,35 @@ const ImpactStories = () => {
       image: "https://picsum.photos/400/300?random=73"
     }
   ];
-
   return (
     <div className="w-full py-16 bg-[#f7fbf4] px-4 md:px-8 lg:px-16 relative">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-light text-center text-text-main mb-12">Impact Stories</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={24}
+          slidesPerView={1}
+          breakpoints={{
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 4 }
+          }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          navigation={{
+            nextEl: '.swiper-button-next-custom',
+            prevEl: '.swiper-button-prev-custom'
+          }}
+          pagination={{
+            el: '.swiper-pagination-custom',
+            clickable: true,
+            bulletClass: 'w-2 h-2 rounded-full bg-gray-300 cursor-pointer inline-block',
+            bulletActiveClass: '!bg-primary'
+          }}
+          className="pb-2"
+        >
           {stories.map((story) => (
-            <div key={story.id} className="bg-[#f0f6ea] rounded-2xl p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+            <SwiperSlide key={story.id}>
+            <div className="bg-[#f0f6ea] rounded-2xl p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
 
               <div className="mb-6">
                 <span className="text-xs text-[#a51a70] font-medium tracking-wider uppercase mb-3 inline-block">SUSTAINABLE LIVELIHOODS</span>
@@ -55,20 +81,17 @@ const ImpactStories = () => {
               </div>
 
             </div>
-          ))}
-        </div>
+            </SwiperSlide>
+          )) }
+        </Swiper>
 
         {/* Carousel controls */}
-        <div className="flex justify-center items-center gap-4 mt-10">
-          <button className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-text-muted hover:text-[#a51a70] hover:border-[#a51a70] transition-colors">
+        <div className="flex justify-center items-center gap-4 mt-10 relative z-10">
+          <button className="swiper-button-prev-custom w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-text-muted hover:text-[#a51a70] hover:border-[#a51a70] transition-colors cursor-pointer">
             &larr;
           </button>
-          <div className="flex gap-2">
-            <div className="w-2 h-2 rounded-full bg-[#a51a70]"></div>
-            <div className="w-2 h-2 rounded-full bg-gray-300"></div>
-            <div className="w-2 h-2 rounded-full bg-gray-300"></div>
-          </div>
-          <button className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-text-muted hover:text-[#a51a70] hover:border-[#a51a70] transition-colors bg-[#a51a70] text-white">
+          <div className="swiper-pagination-custom flex gap-2 items-center justify-center"></div>
+          <button className="swiper-button-next-custom w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-text-muted hover:text-[#a51a70] hover:border-[#a51a70] transition-colors cursor-pointer">
             &rarr;
           </button>
         </div>

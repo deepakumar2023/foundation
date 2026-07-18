@@ -12,6 +12,11 @@ import ClimateAction from "./pages/ClimateAction";
 import CommunityDevelopment from "./pages/CommunityDevelopment";
 import ImpactThemes from "./pages/ImpactThemes";
 import Careers from "./pages/Careers";
+// import ServiceEducation from "./pages/ServiceEducation";
+
+
+
+import KnowledgeCentre from "./pages/KnowledgeCentre";
 import StoriesOfChange from "./pages/StoriesOfChange";
 import OurStory from "./pages/OurStory";
 import AboutUs from "./pages/AboutUs";
@@ -28,6 +33,10 @@ import LifeAtDGF from "./components/careers/LifeAtDGF";
 import InteractNewsletter from "./components/knowledge-centre/InteractNewsletter";
 import AnnualReports from "./components/knowledge-centre/AnnualReports";
 import Publications from "./components/knowledge-centre/Publications";
+import ExploreEducation from "./explore/ExploreEducation";
+import Explorecommnitydevlopment from "./explore/Explorecommnitydevlopment";
+import ExploreClimateChanges from "./explore/ExploreClimateChanges";
+import ExploreSustanble from "./explore/ExploreSustanble";
 
 // Placeholder component for empty routes
 const Placeholder = ({ title }) => (
@@ -76,6 +85,7 @@ function App() {
         <Route path="newsroom/press-releases" element={<PressReleases />} />
         <Route path="newsroom/media-coverage" element={<MediaCoverage />} />
         <Route path="newsroom/*" element={<Placeholder title="Newsroom" />} />
+        <Route path="knowledge-centre" element={<KnowledgeCentre />} />
         <Route path="knowledge-centre/interact-newsletter" element={<InteractNewsletter />} />
         <Route path="knowledge-centre/annual-reports" element={<AnnualReports />} />
         <Route path="knowledge-centre/publications" element={<Publications />} />
@@ -86,7 +96,16 @@ function App() {
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
         <Route path="terms-of-use" element={<TermsOfUse />} />
-        
+
+
+        {/* Explore */}
+
+        <Route path="service/education" element={<ExploreEducation />} />
+        <Route path="service/community-development" element={<Explorecommnitydevlopment />} />
+        <Route path="service/climate-action" element={<ExploreClimateChanges />} />
+        <Route path="service/sustainable-livelihoods" element={<ExploreSustanble />} />
+
+
         {/* 404 Route */}
         
         <Route path="*" element={<Placeholder title="404 - Page Not Found" />} />

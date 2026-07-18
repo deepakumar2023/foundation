@@ -6,25 +6,25 @@ const OtherCommitments = () => {
     {
       id: 1,
       title: "EDUCATION",
-      path: "/impact-themes/education",
+      path: "/service/education",
       image: "https://picsum.photos/400/400?random=10"
     },
     {
       id: 2,
       title: "COMMUNITY DEVELOPMENT",
-      path: "/impact-themes/community-development",
+      path: "/service/community-development",
       image: "https://picsum.photos/400/400?random=11"
     },
     {
       id: 3,
       title: "CLIMATE ACTION",
-      path: "/impact-themes/climate-action",
+      path: "/service/climate-action",
       image: "https://picsum.photos/400/400?random=12"
     },
     {
       id: 4,
       title: "SUSTAINABLE LIVELIHOODS",
-      path: "/impact-themes/sustainable-livelihoods",
+      path: "/service/sustainable-livelihoods",
       image: "https://picsum.photos/400/400?random=13"
     }
   ];

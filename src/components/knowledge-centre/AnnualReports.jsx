@@ -1,4 +1,5 @@
 import { FiChevronRight, FiChevronDown, FiArrowDown } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const reports = [
   { year: "2024-25", active: true },
@@ -12,6 +13,8 @@ const reports = [
 ];
 
 const AnnualReports = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen pt-[100px] md:pt-[120px] lg:pt-[140px] bg-[#f8f9fa]">
       {/* Hero / Breadcrumb Section */}
@@ -70,7 +73,10 @@ const AnnualReports = () => {
                 </p>
                 <h3 className="text-[28px] md:text-[32px] font-bold text-[#00204f]">{year}</h3>
               </div>
-              <button className="flex items-center gap-[12px] text-[#00204f] font-bold group mt-auto hover:opacity-80 transition-opacity">
+              <button 
+                onClick={() => navigate('/contact-us')}
+                className="flex items-center gap-[12px] text-[#00204f] font-bold group mt-auto hover:opacity-80 transition-opacity cursor-pointer"
+              >
                 <span
                   className={`w-[48px] h-[48px] rounded-full flex items-center justify-center transition-transform group-hover:scale-110 ${
                     active ? "bg-[#1a3668]" : "bg-[#00204f]"
