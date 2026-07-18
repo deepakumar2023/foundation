@@ -53,9 +53,9 @@ const Milestones = () => {
   };
 
   return (
-    <div className="w-full bg-white py-20 px-4 md:px-8 lg:px-16 border-b border-gray-200">
+    <div className="w-full bg-surface py-20 px-4 md:px-8 lg:px-16 border-b border-gray-200">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-light text-center text-gray-800 mb-16 tracking-wide">
+        <h2 className="text-3xl font-light text-center text-text-main mb-16 tracking-wide">
           Milestones Of Change
         </h2>
 
@@ -120,7 +120,7 @@ const Milestones = () => {
           <div className="w-full md:w-1/4 pt-4 md:pt-0">
             <ul className="space-y-6">
               {milestonesData[activeYear].bullets.map((bullet, idx) => (
-                <li key={idx} className="flex gap-3 text-sm text-gray-600 leading-relaxed">
+                <li key={idx} className="flex gap-3 text-sm text-text-muted leading-relaxed">
                   <span className="text-[#a51a70] mt-1 shrink-0">
                     <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle></svg>
                   </span>

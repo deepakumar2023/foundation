@@ -31,7 +31,7 @@ const ImpactStories = () => {
   return (
     <div className="w-full py-16 bg-[#fcf8fa] px-4 md:px-8 lg:px-16 relative">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-light text-center text-gray-800 mb-12">Impact Stories</h2>
+        <h2 className="text-3xl font-light text-center text-text-main mb-12">Impact Stories</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stories.map((story) => (
@@ -39,14 +39,14 @@ const ImpactStories = () => {
 
               <div className="mb-6">
                 <span className="text-xs text-[#a51a70] font-medium tracking-wider uppercase mb-3 inline-block">EDUCATION</span>
-                <h3 className="text-sm font-medium text-gray-800 leading-snug mb-3 line-clamp-3">
+                <h3 className="text-sm font-medium text-text-main leading-snug mb-3 line-clamp-3">
                   {story.title}
                 </h3>
                 <div className="flex items-center gap-2 mt-auto">
                   <div className="w-6 h-6 rounded-full bg-gray-300 overflow-hidden">
                     <img src={`https://ui-avatars.com/api/?name=${story.author}&background=random`} alt="Author" className="w-full h-full object-cover" />
                   </div>
-                  <span className="text-xs text-gray-500 font-medium">{story.author}</span>
+                  <span className="text-xs text-text-muted font-medium">{story.author}</span>
                 </div>
               </div>
 
@@ -60,7 +60,7 @@ const ImpactStories = () => {
 
         {/* Carousel controls (Visual representation based on design) */}
         <div className="flex justify-center items-center gap-4 mt-10">
-          <button className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-gray-500 hover:text-[#a51a70] hover:border-[#a51a70] transition-colors">
+          <button className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-text-muted hover:text-[#a51a70] hover:border-[#a51a70] transition-colors">
             &larr;
           </button>
           <div className="flex gap-2">
@@ -68,7 +68,7 @@ const ImpactStories = () => {
             <div className="w-2 h-2 rounded-full bg-gray-300"></div>
             <div className="w-2 h-2 rounded-full bg-gray-300"></div>
           </div>
-          <button className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-gray-500 hover:text-[#a51a70] hover:border-[#a51a70] transition-colors bg-[#a51a70] text-white">
+          <button className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-text-muted hover:text-[#a51a70] hover:border-[#a51a70] transition-colors bg-[#a51a70] text-white">
             &rarr;
           </button>
         </div>

@@ -23,6 +23,19 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'blue');
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const themes = [
+    { name: 'blue', color: 'bg-[#0080A8]' },
+    { name: 'orange', color: 'bg-[#E35205]' },
+    { name: 'green', color: 'bg-[#4B9B36]' },
+    { name: 'dark', color: 'bg-gray-800' }
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -88,7 +101,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white ${
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-surface ${
         isScrolled ? "shadow-md py-2" : "py-4 shadow-sm"
       }`}
     >
@@ -98,7 +111,7 @@ const Navbar = () => {
           <Link to="/" className="flex-shrink-0 z-50 relative">
             <h1 className="text-[22px] font-black tracking-tight leading-none">
               <span className="text-black uppercase">Deepak Gupta</span>
-              <span className="block text-[13px] font-semibold tracking-[0.25em] text-gray-500 uppercase mt-0.5">Foundation</span>
+              <span className="block text-[13px] font-semibold tracking-[0.25em] text-text-muted uppercase mt-0.5">Foundation</span>
             </h1>
           </Link>
 
@@ -115,8 +128,8 @@ const Navbar = () => {
                   to={link.path}
                   className={`flex items-center px-2 lg:px-3 py-2 text-[12px] lg:text-[14px] font-bold tracking-wide transition-colors rounded-md whitespace-nowrap ${
                     activeDropdown === index
-                      ? "bg-[#8a2176] text-white"
-                      : "text-gray-800 hover:text-[#8a2176]"
+                      ? "bg-primary text-white"
+                      : "text-text-main hover:text-primary"
                   }`}
                 >
                   {link.name}
@@ -126,7 +139,7 @@ const Navbar = () => {
                 {/* Dropdown Menu */}
                 {link.dropdown && (
                   <div
-                    className={`absolute top-full left-0 mt-2 w-72 bg-white rounded-lg shadow-xl py-4 transition-all duration-200 z-50 ${
+                    className={`absolute top-full left-0 mt-2 w-72 bg-surface rounded-lg shadow-xl py-4 transition-all duration-200 z-50 ${
                       activeDropdown === index
                         ? "opacity-100 visible translate-y-0"
                         : "opacity-0 invisible translate-y-2"
@@ -136,9 +149,9 @@ const Navbar = () => {
                       <Link
                         key={i}
                         to={`${link.path}/${item.label.toLowerCase().replace(/ /g, "-")}`}
-                        className="flex items-center px-6 py-3 text-[16px] text-gray-800 hover:bg-gray-50 transition-colors"
+                        className="flex items-center px-6 py-3 text-[16px] text-text-main hover:bg-gray-50 transition-colors"
                       >
-                        <span className="mr-4 text-[#8a2176] flex-shrink-0">{item.icon}</span>
+                        <span className="mr-4 text-primary flex-shrink-0">{item.icon}</span>
                         <span>{item.label}</span>
                       </Link>
                     ))}
@@ -148,9 +161,22 @@ const Navbar = () => {
             ))}
           </div>
 
+          {/* Theme Switcher */}
+          <div className="hidden xl:flex items-center space-x-2 ml-4">
+            {themes.map((t) => (
+              <button
+                key={t.name}
+                onClick={() => setTheme(t.name)}
+                className={`w-6 h-6 rounded-full cursor-pointer transition-transform ${t.color} ${theme === t.name ? 'scale-125 ring-2 ring-offset-2 ring-gray-400' : 'hover:scale-110'}`}
+                title={`Switch to ${t.name} theme`}
+                aria-label={`Switch to ${t.name} theme`}
+              />
+            ))}
+          </div>
+
           {/* Mobile Menu Toggle */}
           <button
-            className="xl:hidden z-50 relative p-2 rounded-md text-gray-800"
+            className="xl:hidden z-50 relative p-2 rounded-md text-text-main"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
@@ -164,7 +190,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation Menu */}
       <div
-        className={`fixed inset-0 bg-white z-40 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed inset-0 bg-surface z-40 transform transition-transform duration-300 ease-in-out ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } xl:hidden overflow-y-auto`}
       >
@@ -174,7 +200,7 @@ const Navbar = () => {
               <div className="flex justify-between items-center">
                 <Link
                   to={link.path}
-                  className="text-xl font-medium text-gray-800 uppercase"
+                  className="text-xl font-medium text-text-main uppercase"
                   onClick={() => !link.dropdown && setIsMobileMenuOpen(false)}
                 >
                   {link.name}
@@ -184,7 +210,7 @@ const Navbar = () => {
                     onClick={() =>
                       setActiveDropdown(activeDropdown === index ? null : index)
                     }
-                    className="p-2 text-gray-500"
+                    className="p-2 text-text-muted"
                   >
                     <FiChevronDown
                       className={`transform transition-transform ${
@@ -202,10 +228,10 @@ const Navbar = () => {
                       to={`${link.path}/${item.label
                         .toLowerCase()
                         .replace(/ /g, "-")}`}
-                      className="flex items-center text-gray-600 py-2"
+                      className="flex items-center text-text-muted py-2"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
-                      <span className="mr-3 text-[#8a2176]">{item.icon}</span>
+                      <span className="mr-3 text-primary">{item.icon}</span>
                       {item.label}
                     </Link>
                   ))}
@@ -213,6 +239,19 @@ const Navbar = () => {
               )}
             </div>
           ))}
+
+          {/* Mobile Theme Switcher */}
+          <div className="mt-6 flex items-center space-x-4 justify-center">
+            {themes.map((t) => (
+              <button
+                key={t.name}
+                onClick={() => setTheme(t.name)}
+                className={`w-8 h-8 rounded-full cursor-pointer transition-transform ${t.color} ${theme === t.name ? 'scale-125 ring-2 ring-offset-2 ring-gray-400' : 'hover:scale-110'}`}
+                title={`Switch to ${t.name} theme`}
+                aria-label={`Switch to ${t.name} theme`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </header>

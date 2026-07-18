@@ -86,9 +86,9 @@ const Awards = () => {
     selectedYear === "2023";
 
   return (
-    <main className="pt-10 bg-white min-h-screen">
+    <main className="pt-10 bg-surface min-h-screen">
       {/* ── Hero Section ── */}
-      <section className="relative py-16 md:py-24 overflow-hidden bg-white">
+      <section className="relative py-16 md:py-24 overflow-hidden bg-surface">
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 relative z-10">
           <div className="max-w-2xl">
             {/* Breadcrumb */}
@@ -103,7 +103,7 @@ const Awards = () => {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black mb-6 leading-tight">
               Awards &amp; Recognition
             </h1>
-            <p className="text-base md:text-lg text-gray-500 leading-relaxed">
+            <p className="text-base md:text-lg text-text-muted leading-relaxed">
               Our journey is marked by the lives we touch and the communities we
               transform. These accolades serve as a testament to our unwavering
               commitment to sustainable social impact and excellence in
@@ -130,7 +130,7 @@ const Awards = () => {
                 <select
                   value={selectedYear}
                   onChange={(e) => setSelectedYear(e.target.value)}
-                  className="w-full appearance-none bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 focus:ring-2 focus:ring-purple-600 focus:border-purple-600 transition-all cursor-pointer outline-none"
+                  className="w-full appearance-none bg-surface border border-gray-200 rounded-lg px-4 py-3 text-sm text-text-main focus:ring-2 focus:ring-purple-600 focus:border-purple-600 transition-all cursor-pointer outline-none"
                 >
                   {years.map((y) => (
                     <option key={y}>{y}</option>
@@ -152,7 +152,7 @@ const Awards = () => {
             {filteredAwards.map((award) => (
               <article
                 key={award.id}
-                className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col"
+                className="group bg-surface rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col"
               >
                 {/* Image */}
                 <div className="relative overflow-hidden aspect-[16/10]">
@@ -173,7 +173,7 @@ const Awards = () => {
                   <h3 className="text-lg md:text-xl font-bold text-black mb-3 leading-tight">
                     {award.title}
                   </h3>
-                  <p className="text-sm md:text-base text-gray-500 mb-6 leading-relaxed">
+                  <p className="text-sm md:text-base text-text-muted mb-6 leading-relaxed">
                     {award.description}
                   </p>
                   <div className="mt-auto flex items-center gap-1 text-black text-sm font-semibold group-hover:gap-2 transition-all">
@@ -186,7 +186,7 @@ const Awards = () => {
 
             {/* Featured Wide Card — Amazing Indians */}
             {showFeatured && (
-              <article className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 md:col-span-2 lg:col-span-2 flex flex-col">
+              <article className="group bg-surface rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 md:col-span-2 lg:col-span-2 flex flex-col">
                 <div className="grid md:grid-cols-2 h-full">
                   {/* Image side */}
                   <div className="relative overflow-hidden min-h-[240px] md:min-h-[300px]">
@@ -208,7 +208,7 @@ const Awards = () => {
                       <h3 className="text-lg md:text-xl font-bold text-black mb-3 leading-tight">
                         {featuredAward.title}
                       </h3>
-                      <p className="text-sm md:text-base text-gray-500 mb-6 leading-relaxed">
+                      <p className="text-sm md:text-base text-text-muted mb-6 leading-relaxed">
                         {featuredAward.description}
                       </p>
                     </div>
@@ -245,7 +245,7 @@ const Awards = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full bg-white border-none rounded-lg pl-10 pr-4 py-4 text-sm focus:ring-2 focus:ring-purple-600 outline-none"
+                className="w-full bg-surface border-none rounded-lg pl-10 pr-4 py-4 text-sm focus:ring-2 focus:ring-purple-600 outline-none"
               />
             </div>
             <button className="bg-purple-700 text-white px-6 md:px-8 py-4 rounded-lg text-sm font-bold hover:bg-purple-800 transition-all active:scale-95 whitespace-nowrap">

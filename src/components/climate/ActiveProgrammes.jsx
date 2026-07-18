@@ -27,9 +27,9 @@ const ActiveProgrammes = () => {
   ];
 
   return (
-    <div className="w-full py-16 bg-white px-4 md:px-8 lg:px-16">
+    <div className="w-full py-16 bg-surface px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-light text-center text-gray-800 mb-16">Active Programmes</h2>
+        <h2 className="text-3xl font-light text-center text-text-main mb-16">Active Programmes</h2>
 
         <div className="space-y-20">
           {programmes.map((prog, index) => (
@@ -45,7 +45,7 @@ const ActiveProgrammes = () => {
                 <h3 className="text-2xl font-light text-[#a51a70] mb-6 whitespace-pre-line leading-snug">
                   {prog.title}
                 </h3>
-                <div className="text-gray-600 text-sm leading-relaxed">
+                <div className="text-text-muted text-sm leading-relaxed">
                   {prog.description}
                 </div>
               </div>

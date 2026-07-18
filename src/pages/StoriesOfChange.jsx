@@ -61,10 +61,10 @@ const StoriesOfChange = () => {
 
       {/* Header */}
       <div className="w-full bg-[#f8f0f8] pt-20 pb-12 px-4 md:px-8 text-center border-b border-gray-200">
-        <div className="text-sm text-gray-500 mb-6">
+        <div className="text-sm text-text-muted mb-6">
           <span>Home</span> &gt; <span className="text-[#a51a70]">Stories Of Change</span>
         </div>
-        <h1 className="text-4xl md:text-5xl font-light text-gray-800 tracking-wide">
+        <h1 className="text-4xl md:text-5xl font-light text-text-main tracking-wide">
           Stories Of Change
         </h1>
       </div>
@@ -90,7 +90,7 @@ const StoriesOfChange = () => {
               />
             ))
           ) : (
-            <div className="col-span-full text-center py-20 text-gray-500">
+            <div className="col-span-full text-center py-20 text-text-muted">
               No stories found for this category.
             </div>
           )}

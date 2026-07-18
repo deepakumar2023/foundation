@@ -14,17 +14,17 @@ import GroupCompanies from '../components/home/GroupCompanies';
 const Home = () => {
   return (
     <div className="w-full overflow-hidden">
-      <Hero />
-      <ImpactAtGlance />
-      <Collage />
-      <BeliefSection />
-      <LeadershipMessages />
-      <CoreFocusAreas />
-      {/* <OurPresence /> */}
-      <Updates />
-      <SuccessStories />
-      <EventsGallery />
-      {/* <GroupCompanies /> */}
+      <div data-aos="fade-up" data-aos-duration="1200"><Hero /></div>
+      <div data-aos="fade-up"><ImpactAtGlance /></div>
+      <div data-aos="fade-up"><Collage /></div>
+      <div data-aos="fade-up"><BeliefSection /></div>
+      <div data-aos="fade-up"><LeadershipMessages /></div>
+      <div data-aos="fade-up"><CoreFocusAreas /></div>
+      {/* <div data-aos="fade-up"><OurPresence /></div> */}
+      <div data-aos="fade-up"><Updates /></div>
+      <div data-aos="fade-up"><SuccessStories /></div>
+      <div data-aos="fade-up"><EventsGallery /></div>
+      {/* <div data-aos="fade-up"><GroupCompanies /></div> */}
     </div>
   );
 };

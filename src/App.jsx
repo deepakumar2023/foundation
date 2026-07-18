@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Layout from "./components/Layout";
@@ -28,13 +31,21 @@ import Publications from "./components/knowledge-centre/Publications";
 const Placeholder = ({ title }) => (
   <div className="flex items-center justify-center min-h-[60vh] bg-gray-50 pt-20">
     <div className="text-center">
-      <h1 className="text-4xl font-bold text-gray-800 mb-4">{title}</h1>
-      <p className="text-gray-500">This page is under construction.</p>
+      <h1 className="text-4xl font-bold text-text-main mb-4">{title}</h1>
+      <p className="text-text-muted">This page is under construction.</p>
     </div>
   </div>
 );
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+    });
+  }, []);
+
   return (
     <>
       <ScrollToTop />

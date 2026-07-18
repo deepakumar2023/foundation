@@ -11,9 +11,9 @@ const companies = [
 
 const GroupCompanies = () => {
   return (
-    <section className="py-12 bg-white border-t border-gray-100">
+    <section className="py-12 bg-surface border-t border-gray-100">
       <div className="container mx-auto px-4 xl:px-8 max-w-7xl">
-        <h3 className="text-center text-lg font-medium text-gray-500 mb-8 uppercase tracking-widest">Our Group Companies</h3>
+        <h3 className="text-center text-lg font-medium text-text-muted mb-8 uppercase tracking-widest">Our Group Companies</h3>
 
         {/* Simple scrolling/wrapping container for logos */}
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70 hover:opacity-100 transition-opacity">

@@ -7,9 +7,9 @@ const Leadership = () => {
   return (
     <main className="pt-10">
       {/* Hero / Header Section */}
-      <section className="bg-white py-12">
+      <section className="bg-surface py-12">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12">
-          <nav className="mb-8 flex flex-wrap items-center gap-2 text-gray-600 font-medium text-sm md:text-base">
+          <nav className="mb-8 flex flex-wrap items-center gap-2 text-text-muted font-medium text-sm md:text-base">
             <a className="hover:text-purple-700 transition-colors" href="#">Home</a>
             <span className="opacity-50">•</span>
             <a className="hover:text-purple-700 transition-colors" href="#">About Us</a>
@@ -22,7 +22,7 @@ const Leadership = () => {
               <h1 className="text-3xl md:text-4xl lg:text-[42px] font-bold text-purple-800 mb-6 leading-tight">
                 Deepak Gupta Foundation Board Of Trustees
               </h1>
-              <p className="text-base md:text-[17px] text-gray-700 leading-relaxed">
+              <p className="text-base md:text-[17px] text-text-main leading-relaxed">
                 Deepak Gupta Foundation works across communities in India, partnering closely with locals to drive long-term improvements. Guided by a shared vision and inspired by the Trustees' personal commitment to 'Seva' and public good, the Foundation's teams work collaboratively to translate resources into measurable, on-ground impact that supports inclusive nation building.
               </p>
             </div>
@@ -41,7 +41,7 @@ const Leadership = () => {
                     <h4 className="text-white font-bold text-xl md:text-2xl">Deepak Gupta</h4>
                     <p className="text-white/80 text-sm md:text-base">Founder &amp; Chairperson</p>
                   </div>
-                  <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-white/40">
+                  <div className="w-10 h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40">
                     <FiChevronRight className="text-[20px]" />
                   </div>
                 </div>
@@ -60,7 +60,7 @@ const Leadership = () => {
                     <h4 className="text-white font-bold text-xl md:text-2xl">Anand gupta</h4>
                     <p className="text-white/80 text-sm md:text-base">Director</p>
                   </div>
-                  <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-white/40">
+                  <div className="w-10 h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40">
                     <FiChevronRight className="text-[20px]" />
                   </div>
                 </div>
@@ -71,7 +71,7 @@ const Leadership = () => {
       </section>
 
       {/* Board of Trustees 3x2 Grid Section */}
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-surface">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Trustee 3 */}
@@ -87,7 +87,7 @@ const Leadership = () => {
                   <h4 className="text-white font-bold text-lg md:text-xl">Rajesh Khanna</h4>
                   <p className="text-white/80 text-xs md:text-sm">Executive Trustee</p>
                 </div>
-                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-white/40">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40">
                   <FiChevronRight className="text-[18px] md:text-[20px]" />
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Leadership = () => {
                   <h4 className="text-white font-bold text-lg md:text-xl">Sunita Verma</h4>
                   <p className="text-white/80 text-xs md:text-sm">Trustee, Operations</p>
                 </div>
-                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-white/40">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40">
                   <FiChevronRight className="text-[18px] md:text-[20px]" />
                 </div>
               </div>
@@ -123,7 +123,7 @@ const Leadership = () => {
                   <h4 className="text-white font-bold text-lg md:text-xl">Vikram Sahay</h4>
                   <p className="text-white/80 text-xs md:text-sm">Trustee</p>
                 </div>
-                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-white/40">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40">
                   <FiChevronRight className="text-[18px] md:text-[20px]" />
                 </div>
               </div>
@@ -140,7 +140,7 @@ const Leadership = () => {
                   <h4 className="text-white font-bold text-lg md:text-xl">Meera Joshi</h4>
                   <p className="text-white/80 text-xs md:text-sm">Trustee</p>
                 </div>
-                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-white/40">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40">
                   <FiChevronRight className="text-[18px] md:text-[20px]" />
                 </div>
               </div>
@@ -150,13 +150,13 @@ const Leadership = () => {
       </section>
 
       {/* Advisory Council Section */}
-      <section className="py-12 md:py-16 bg-white">
+      <section className="py-12 md:py-16 bg-surface">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12">
           <div className="bg-[#f5f3ff] rounded-3xl p-6 md:p-12 shadow-sm border border-purple-100">
             <h3 className="text-2xl md:text-[28px] text-purple-700 mb-6 md:mb-8 font-bold leading-snug">
-              Members of the Advisory Council <span className="font-normal text-gray-600 block sm:inline sm:text-2xl mt-2 sm:mt-0">(Independent Members)</span>
+              Members of the Advisory Council <span className="font-normal text-text-muted block sm:inline sm:text-2xl mt-2 sm:mt-0">(Independent Members)</span>
             </h3>
-            <ul className="space-y-3 md:space-y-4 list-disc pl-5 text-gray-700 text-base md:text-[17px] leading-relaxed">
+            <ul className="space-y-3 md:space-y-4 list-disc pl-5 text-text-main text-base md:text-[17px] leading-relaxed">
               <li>O. P. Rawat, Chairman, Development Support Centre</li>
               <li>Surinder Kumar Tuteja, IAS (Retd.)</li>
               <li>Kartikeya Sarabhai, Founder &amp; Director - Centre for Environment Education</li>
@@ -179,7 +179,7 @@ const Leadership = () => {
               View Impact Reports
               <FiDownload />
             </Link>
-            <Link to="/contact-us" className="w-full sm:w-auto border-2 border-purple-700 text-purple-700 bg-white px-8 py-4 rounded-xl font-semibold hover:bg-purple-50 transition-all shadow-sm hover:shadow-md">
+            <Link to="/contact-us" className="w-full sm:w-auto border-2 border-purple-700 text-purple-700 bg-surface px-8 py-4 rounded-xl font-semibold hover:bg-purple-50 transition-all shadow-sm hover:shadow-md">
               Annual Transparency
             </Link>
           </div>

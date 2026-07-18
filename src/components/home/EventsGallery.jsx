@@ -45,17 +45,17 @@ const EventsGallery = () => {
       <div className="container mx-auto px-4 xl:px-8 max-w-7xl">
         <div className="flex justify-between items-end mb-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Events & Gallery</h2>
-            <p className="text-gray-600">Glimpses of our ongoing initiatives and recent events.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-text-main mb-2">Events & Gallery</h2>
+            <p className="text-text-muted">Glimpses of our ongoing initiatives and recent events.</p>
           </div>
-          <a href="#" className="hidden md:inline-block text-[#8a2176] font-medium hover:underline">
+          <a href="#" className="hidden md:inline-block text-primary font-medium hover:underline">
             View All Events
           </a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((event) => (
-            <div key={event.id} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+            <div key={event.id} className="bg-surface rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
               <div className="h-48 overflow-hidden relative">
                 <img 
                   src={event.image} 
@@ -67,7 +67,7 @@ const EventsGallery = () => {
                 </div>
               </div>
               <div className="p-4 border-t border-gray-100">
-                <h4 className="font-medium text-gray-900 group-hover:text-[#8a2176] transition-colors line-clamp-2">
+                <h4 className="font-medium text-text-main group-hover:text-primary transition-colors line-clamp-2">
                   {event.title}
                 </h4>
               </div>
@@ -76,7 +76,7 @@ const EventsGallery = () => {
         </div>
         
         <div className="mt-8 text-center md:hidden">
-           <a href="#" className="inline-flex items-center justify-center px-6 py-3 border border-[#8a2176] text-[#8a2176] font-medium rounded-full hover:bg-pink-50 transition-colors">
+           <a href="#" className="inline-flex items-center justify-center px-6 py-3 border border-primary text-primary font-medium rounded-full hover:bg-pink-50 transition-colors">
             View All Events
           </a>
         </div>

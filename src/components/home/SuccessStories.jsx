@@ -33,13 +33,13 @@ const SuccessStories = () => {
   };
 
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-24 bg-surface relative overflow-hidden">
       {/* Decorative background circle */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-pink-50/50 rounded-full -z-10 blur-3xl"></div>
       
       <div className="container mx-auto px-4 xl:px-8 max-w-7xl text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Stories of Transformation</h2>
-        <p className="text-gray-600 mb-16 max-w-2xl mx-auto">Witness the real impact of our initiatives through the voices of those whose lives have been transformed.</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-text-main mb-4">Stories of Transformation</h2>
+        <p className="text-text-muted mb-16 max-w-2xl mx-auto">Witness the real impact of our initiatives through the voices of those whose lives have been transformed.</p>
 
         <div className="flex justify-center items-center gap-6 relative">
           
@@ -80,7 +80,7 @@ const SuccessStories = () => {
         </div>
         
         <div className="mt-12">
-           <button className="inline-flex items-center px-8 py-3 border-2 border-[#8a2176] text-[#8a2176] hover:bg-[#8a2176] hover:text-white font-medium rounded-full transition-colors">
+           <button className="inline-flex items-center px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium rounded-full transition-colors">
             View All Stories
           </button>
         </div>

@@ -88,7 +88,7 @@ const Newsroom = () => {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#00204f] mb-5 leading-tight">
               Newsroom
             </h1>
-            <p className="text-base md:text-lg text-gray-500 max-w-xl leading-relaxed">
+            <p className="text-base md:text-lg text-text-muted max-w-xl leading-relaxed">
               Stay updated with the Deepak Gupta Foundation's latest initiatives,
               milestones, and ground-breaking impact stories from across the
               communities we serve.
@@ -144,7 +144,7 @@ const Newsroom = () => {
           {newsCards.map((card) => (
             <article
               key={card.id}
-              className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:-translate-y-1 transition-transform duration-300 group flex flex-col"
+              className="bg-surface rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:-translate-y-1 transition-transform duration-300 group flex flex-col"
             >
               {/* Image */}
               <div className="h-56 sm:h-64 relative overflow-hidden flex-shrink-0">
@@ -168,7 +168,7 @@ const Newsroom = () => {
                 <h3 className="text-lg md:text-xl font-semibold text-[#00204f] mb-4 leading-snug">
                   {card.title}
                 </h3>
-                <p className="text-sm md:text-base text-gray-500 mb-6 line-clamp-3 leading-relaxed flex-grow">
+                <p className="text-sm md:text-base text-text-muted mb-6 line-clamp-3 leading-relaxed flex-grow">
                   {card.desc}
                 </p>
                 <a
@@ -198,7 +198,7 @@ const Newsroom = () => {
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#00204f] mb-5 leading-tight">
                   Bridging the Gap: The 2024 Community Training Initiative
                 </h2>
-                <p className="text-base md:text-lg text-gray-500 mb-7 leading-relaxed">
+                <p className="text-base md:text-lg text-text-muted mb-7 leading-relaxed">
                   A comprehensive look into how we've trained over 1,200
                   individuals this year in high-demand vocational skills, directly
                   impacting household incomes across three districts.
@@ -242,7 +242,7 @@ const Newsroom = () => {
               {quickReads.map((item) => (
                 <div
                   key={item.id}
-                  className="p-5 md:p-6 bg-white rounded-2xl border border-gray-100 hover:border-[#006d3d] transition-all cursor-pointer group"
+                  className="p-5 md:p-6 bg-surface rounded-2xl border border-gray-100 hover:border-[#006d3d] transition-all cursor-pointer group"
                 >
                   <div className="flex justify-between items-start mb-2">
                     <span className="text-xs font-semibold tracking-wide text-[#006d3d]">
@@ -271,7 +271,7 @@ const Newsroom = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Email Address"
-                  className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm placeholder:text-white/40 focus:ring-2 focus:ring-[#006d3d] focus:outline-none transition-all"
+                  className="bg-surface/10 border border-white/20 rounded-xl px-4 py-3 text-sm placeholder:text-white/40 focus:ring-2 focus:ring-[#006d3d] focus:outline-none transition-all"
                 />
                 <button className="bg-[#006d3d] text-white w-full py-3 rounded-xl text-sm font-bold hover:brightness-110 transition-all">
                   SUBSCRIBE

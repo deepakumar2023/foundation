@@ -4,8 +4,8 @@ const PressReleases = () => {
   return (
     <div className="pt-[100px] md:pt-[120px] lg:pt-[140px] bg-[#f8f9fa] min-h-screen">
       {/* Breadcrumbs Section */}
-      <div className="bg-white py-4 border-b border-gray-200">
-        <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12 flex items-center gap-2 text-sm font-medium text-gray-500">
+      <div className="bg-surface py-4 border-b border-gray-200">
+        <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12 flex items-center gap-2 text-sm font-medium text-text-muted">
           <a href="/" className="hover:text-[#00204f] transition-colors">Home</a>
           <FiChevronRight className="text-sm" />
           <span className="text-[#00204f] font-bold">Press Releases</span>
@@ -21,24 +21,24 @@ const PressReleases = () => {
           </h1>
           <div className="flex flex-col md:flex-row gap-4 border-b border-gray-200 pb-8">
             <div className="relative w-full md:w-64">
-              <select className="w-full appearance-none bg-white border border-gray-300 rounded-md px-4 py-3 text-sm font-medium text-gray-700 cursor-pointer focus:outline-none focus:border-[#00204f] focus:ring-1 focus:ring-[#00204f] transition-colors">
+              <select className="w-full appearance-none bg-surface border border-gray-300 rounded-md px-4 py-3 text-sm font-medium text-text-main cursor-pointer focus:outline-none focus:border-[#00204f] focus:ring-1 focus:ring-[#00204f] transition-colors">
                 <option>Select Category</option>
                 <option>Education</option>
                 <option>Environment</option>
                 <option>Healthcare</option>
                 <option>Sustainability</option>
               </select>
-              <FiChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500 text-lg" />
+              <FiChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-text-muted text-lg" />
             </div>
             <div className="relative w-full md:w-64">
-              <select className="w-full appearance-none bg-white border border-gray-300 rounded-md px-4 py-3 text-sm font-medium text-gray-700 cursor-pointer focus:outline-none focus:border-[#00204f] focus:ring-1 focus:ring-[#00204f] transition-colors">
+              <select className="w-full appearance-none bg-surface border border-gray-300 rounded-md px-4 py-3 text-sm font-medium text-text-main cursor-pointer focus:outline-none focus:border-[#00204f] focus:ring-1 focus:ring-[#00204f] transition-colors">
                 <option>Select Year</option>
                 <option>2026</option>
                 <option>2025</option>
                 <option>2024</option>
                 <option>2023</option>
               </select>
-              <FiChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500 text-lg" />
+              <FiChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-text-muted text-lg" />
             </div>
           </div>
         </header>
@@ -57,7 +57,7 @@ const PressReleases = () => {
               </div>
               <div className="w-full lg:w-1/2 flex flex-col justify-between py-1">
                 <div>
-                  <p className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-widest">
+                  <p className="text-xs font-semibold text-text-muted mb-2 uppercase tracking-widest">
                     Foundation News
                   </p>
                   <h3 className="text-lg lg:text-xl font-bold text-[#00204f] leading-snug group-hover:text-[#1a3668] transition-colors line-clamp-4 mb-4">
@@ -71,7 +71,7 @@ const PressReleases = () => {
                     </div>
                     <span className="text-sm">Read</span>
                   </div>
-                  <span className="text-xs font-medium text-gray-500">
+                  <span className="text-xs font-medium text-text-muted">
                     Jun 26, 2026
                   </span>
                 </div>
@@ -91,7 +91,7 @@ const PressReleases = () => {
               </div>
               <div className="w-full lg:w-1/2 flex flex-col justify-between py-1">
                 <div>
-                  <p className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-widest">
+                  <p className="text-xs font-semibold text-text-muted mb-2 uppercase tracking-widest">
                     Partnerships
                   </p>
                   <h3 className="text-lg lg:text-xl font-bold text-[#00204f] leading-snug group-hover:text-[#1a3668] transition-colors line-clamp-4 mb-4">
@@ -105,7 +105,7 @@ const PressReleases = () => {
                     </div>
                     <span className="text-sm">Read</span>
                   </div>
-                  <span className="text-xs font-medium text-gray-500">
+                  <span className="text-xs font-medium text-text-muted">
                     Jun 03, 2026
                   </span>
                 </div>
@@ -125,7 +125,7 @@ const PressReleases = () => {
               </div>
               <div className="w-full lg:w-1/2 flex flex-col justify-between py-1">
                 <div>
-                  <p className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-widest">
+                  <p className="text-xs font-semibold text-text-muted mb-2 uppercase tracking-widest">
                     Education
                   </p>
                   <h3 className="text-lg lg:text-xl font-bold text-[#00204f] leading-snug group-hover:text-[#1a3668] transition-colors line-clamp-4 mb-4">
@@ -139,7 +139,7 @@ const PressReleases = () => {
                     </div>
                     <span className="text-sm">Read</span>
                   </div>
-                  <span className="text-xs font-medium text-gray-500">
+                  <span className="text-xs font-medium text-text-muted">
                     Apr 26, 2026
                   </span>
                 </div>
@@ -159,7 +159,7 @@ const PressReleases = () => {
               </div>
               <div className="w-full lg:w-1/2 flex flex-col justify-between py-1">
                 <div>
-                  <p className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-widest">
+                  <p className="text-xs font-semibold text-text-muted mb-2 uppercase tracking-widest">
                     Environment
                   </p>
                   <h3 className="text-lg lg:text-xl font-bold text-[#00204f] leading-snug group-hover:text-[#1a3668] transition-colors line-clamp-4 mb-4">
@@ -173,7 +173,7 @@ const PressReleases = () => {
                     </div>
                     <span className="text-sm">Read</span>
                   </div>
-                  <span className="text-xs font-medium text-gray-500">
+                  <span className="text-xs font-medium text-text-muted">
                     Mar 24, 2026
                   </span>
                 </div>

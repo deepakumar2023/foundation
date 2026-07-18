@@ -32,7 +32,7 @@ const MomentsOfChange = () => {
   return (
     <div className="w-full py-16 bg-[#f8f0f8] px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-light text-center text-gray-800 mb-12">Moments Of Change</h2>
+        <h2 className="text-3xl font-light text-center text-text-main mb-12">Moments Of Change</h2>
 
         {/* Desktop View - Grid */}
         <div className="hidden md:grid md:grid-cols-3 gap-6 mb-10">
@@ -44,8 +44,8 @@ const MomentsOfChange = () => {
 
 
               </div>
-              <div className="p-4 bg-white">
-                <h3 className="text-sm font-medium text-gray-800 line-clamp-2">{video.title}</h3>
+              <div className="p-4 bg-surface">
+                <h3 className="text-sm font-medium text-text-main line-clamp-2">{video.title}</h3>
               </div>
             </div>
           ))}
@@ -62,8 +62,8 @@ const MomentsOfChange = () => {
                     <div className="absolute inset-0 bg-black/20"></div>
 
                   </div>
-                  <div className="p-4 bg-white">
-                    <h3 className="text-sm font-medium text-gray-800">{video.title}</h3>
+                  <div className="p-4 bg-surface">
+                    <h3 className="text-sm font-medium text-text-main">{video.title}</h3>
                   </div>
                 </div>
               ))}
@@ -71,10 +71,10 @@ const MomentsOfChange = () => {
           </div>
 
           {/* Controls */}
-          <button onClick={prevSlide} className="absolute top-1/2 -left-4 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg text-gray-600 hover:text-[#a51a70] z-10">
+          <button onClick={prevSlide} className="absolute top-1/2 -left-4 -translate-y-1/2 w-10 h-10 bg-surface rounded-full flex items-center justify-center shadow-lg text-text-muted hover:text-[#a51a70] z-10">
             &larr;
           </button>
-          <button onClick={nextSlide} className="absolute top-1/2 -right-4 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg text-gray-600 hover:text-[#a51a70] z-10">
+          <button onClick={nextSlide} className="absolute top-1/2 -right-4 -translate-y-1/2 w-10 h-10 bg-surface rounded-full flex items-center justify-center shadow-lg text-text-muted hover:text-[#a51a70] z-10">
             &rarr;
           </button>
         </div>

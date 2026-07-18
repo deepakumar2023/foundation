@@ -81,12 +81,12 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm mb-4 md:mb-0">
+          <p className="text-text-muted text-sm mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} Deepak Gupta Foundation. All Rights Reserved.
           </p>
           <div className="flex space-x-6">
-            <Link to="/privacy-policy" className="text-gray-500 hover:text-white text-sm transition-colors">Privacy Policy</Link>
-            <Link to="/terms-of-use" className="text-gray-500 hover:text-white text-sm transition-colors">Terms of Use</Link>
+            <Link to="/privacy-policy" className="text-text-muted hover:text-white text-sm transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-use" className="text-text-muted hover:text-white text-sm transition-colors">Terms of Use</Link>
 
           </div>
         </div>

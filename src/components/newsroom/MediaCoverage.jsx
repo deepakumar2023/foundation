@@ -5,7 +5,7 @@ const MediaCoverage = () => {
     <div className="pt-[100px] md:pt-[120px] lg:pt-[140px] pb-[80px] md:pb-[120px] bg-[#f8f9fa] min-h-screen">
       <div className="max-w-[1440px] mx-auto px-[16px] md:px-[32px] lg:px-[48px]">
         {/* Breadcrumbs */}
-        <nav className="flex items-center gap-[8px] mb-[32px] font-bold text-[14px] text-gray-500">
+        <nav className="flex items-center gap-[8px] mb-[32px] font-bold text-[14px] text-text-muted">
           <a className="hover:text-[#00204f] transition-colors" href="/">Home</a>
           <FiChevronRight className="text-[14px]" />
           <span className="text-[#00204f]">Media Coverage</span>
@@ -15,24 +15,24 @@ const MediaCoverage = () => {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-[24px] mb-[48px]">
           <h1 className="text-[32px] md:text-[48px] font-bold text-[#00204f]">Media Coverage</h1>
           <div className="relative w-full md:w-[256px]">
-            <select className="w-full appearance-none bg-white border border-gray-300 rounded-[8px] px-[16px] py-[12px] text-[16px] font-medium text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#00204f]/20 focus:border-[#00204f] transition-all cursor-pointer">
+            <select className="w-full appearance-none bg-surface border border-gray-300 rounded-[8px] px-[16px] py-[12px] text-[16px] font-medium text-text-main focus:outline-none focus:ring-2 focus:ring-[#00204f]/20 focus:border-[#00204f] transition-all cursor-pointer">
               <option value="2025">Select Year: 2025</option>
               <option value="2024">Select Year: 2024</option>
               <option value="2023">Select Year: 2023</option>
               <option value="2022">Select Year: 2022</option>
             </select>
-            <FiChevronDown className="absolute right-[16px] top-1/2 -translate-y-1/2 pointer-events-none text-gray-500 text-[20px]" />
+            <FiChevronDown className="absolute right-[16px] top-1/2 -translate-y-1/2 pointer-events-none text-text-muted text-[20px]" />
           </div>
         </div>
 
         {/* Media Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px]">
           {/* Card 1 */}
-          <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
+          <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
             <div className="p-[32px] pb-[16px] flex flex-col flex-grow">
               <span className="font-bold text-[14px] text-[#f88034] mb-[12px] block">Jul 23, 2025</span>
               <h3 className="text-[24px] font-bold leading-tight text-[#00204f] mb-[24px] line-clamp-2">Deepak Gupta Foundation | Education Excellence Initiative</h3>
-              <a className="flex items-center gap-[12px] font-bold text-[14px] text-gray-500 hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
+              <a className="flex items-center gap-[12px] font-bold text-[14px] text-text-muted hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
                 <div className="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center transition-all group-hover/link:bg-[#00204f] group-hover/link:text-white">
                   <FiArrowRight className="text-[20px]" />
                 </div>
@@ -51,11 +51,11 @@ const MediaCoverage = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
+          <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
             <div className="p-[32px] pb-[16px] flex flex-col flex-grow">
               <span className="font-bold text-[14px] text-[#f88034] mb-[12px] block">Jun 01, 2025</span>
               <h3 className="text-[24px] font-bold leading-tight text-[#00204f] mb-[24px] line-clamp-2">Foundation and DMIHER Collaboration Announcement</h3>
-              <a className="flex items-center gap-[12px] font-bold text-[14px] text-gray-500 hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
+              <a className="flex items-center gap-[12px] font-bold text-[14px] text-text-muted hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
                 <div className="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center transition-all group-hover/link:bg-[#00204f] group-hover/link:text-white">
                   <FiArrowRight className="text-[20px]" />
                 </div>
@@ -74,11 +74,11 @@ const MediaCoverage = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
+          <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
             <div className="p-[32px] pb-[16px] flex flex-col flex-grow">
               <span className="font-bold text-[14px] text-[#f88034] mb-[12px] block">Apr 08, 2025</span>
               <h3 className="text-[24px] font-bold leading-tight text-[#00204f] mb-[24px] line-clamp-2">17,000+ Lives Impacted Through Vision Care</h3>
-              <a className="flex items-center gap-[12px] font-bold text-[14px] text-gray-500 hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
+              <a className="flex items-center gap-[12px] font-bold text-[14px] text-text-muted hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
                 <div className="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center transition-all group-hover/link:bg-[#00204f] group-hover/link:text-white">
                   <FiArrowRight className="text-[20px]" />
                 </div>
@@ -97,11 +97,11 @@ const MediaCoverage = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
+          <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
             <div className="p-[32px] pb-[16px] flex flex-col flex-grow">
               <span className="font-bold text-[14px] text-[#f88034] mb-[12px] block">Apr 01, 2025</span>
               <h3 className="text-[24px] font-bold leading-tight text-[#00204f] mb-[24px] line-clamp-2">Solar Initiative in Rural Communities: Lighting Futures</h3>
-              <a className="flex items-center gap-[12px] font-bold text-[14px] text-gray-500 hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
+              <a className="flex items-center gap-[12px] font-bold text-[14px] text-text-muted hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
                 <div className="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center transition-all group-hover/link:bg-[#00204f] group-hover/link:text-white">
                   <FiArrowRight className="text-[20px]" />
                 </div>
@@ -120,11 +120,11 @@ const MediaCoverage = () => {
           </div>
 
           {/* Card 5 */}
-          <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
+          <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
             <div className="p-[32px] pb-[16px] flex flex-col flex-grow">
               <span className="font-bold text-[14px] text-[#f88034] mb-[12px] block">Jan 01, 2025</span>
               <h3 className="text-[24px] font-bold leading-tight text-[#00204f] mb-[24px] line-clamp-2">Empowering Futures: 1,500+ Women Livelihoods</h3>
-              <a className="flex items-center gap-[12px] font-bold text-[14px] text-gray-500 hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
+              <a className="flex items-center gap-[12px] font-bold text-[14px] text-text-muted hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
                 <div className="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center transition-all group-hover/link:bg-[#00204f] group-hover/link:text-white">
                   <FiArrowRight className="text-[20px]" />
                 </div>
@@ -143,11 +143,11 @@ const MediaCoverage = () => {
           </div>
 
           {/* Card 6 */}
-          <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
+          <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
             <div className="p-[32px] pb-[16px] flex flex-col flex-grow">
               <span className="font-bold text-[14px] text-[#f88034] mb-[12px] block">Dec 29, 2024</span>
               <h3 className="text-[24px] font-bold leading-tight text-[#00204f] mb-[24px] line-clamp-2">Academic Excellence Programs Scale New Heights</h3>
-              <a className="flex items-center gap-[12px] font-bold text-[14px] text-gray-500 hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
+              <a className="flex items-center gap-[12px] font-bold text-[14px] text-text-muted hover:text-[#00204f] transition-colors group/link mt-auto" href="#">
                 <div className="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center transition-all group-hover/link:bg-[#00204f] group-hover/link:text-white">
                   <FiArrowRight className="text-[20px]" />
                 </div>

@@ -49,7 +49,7 @@ const collageImages = [
 
 const LifeAtDGF = () => {
   return (
-    <div className="bg-white min-h-screen pt-[80px] md:pt-[100px] lg:pt-[120px]">
+    <div className="bg-surface min-h-screen pt-[80px] md:pt-[100px] lg:pt-[120px]">
       {/* Breadcrumb */}
       <div className="bg-gray-50 py-[12px] border-b border-gray-100">
         <div className="max-w-[1440px] mx-auto px-[16px] md:px-[24px] lg:px-[48px]">
@@ -62,14 +62,14 @@ const LifeAtDGF = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="bg-white py-[48px] md:py-[64px]">
+      <section className="bg-surface py-[48px] md:py-[64px]">
         <div className="max-w-[1440px] mx-auto px-[16px] md:px-[24px] lg:px-[48px]">
           {/* Title */}
           <div className="mb-[48px] text-center max-w-3xl mx-auto">
             <h1 className="text-[36px] md:text-[48px] lg:text-[56px] font-bold text-[#00204f] mb-[24px] leading-tight">
               Our Vibrant Community
             </h1>
-            <p className="text-[16px] md:text-[18px] text-gray-600 leading-relaxed">
+            <p className="text-[16px] md:text-[18px] text-text-muted leading-relaxed">
               Experience the pulse of Deepak Gupta Foundation. A culture built on collaboration, celebration, and a shared passion for driving meaningful impact.
             </p>
           </div>
@@ -106,31 +106,31 @@ const LifeAtDGF = () => {
 
             {/* Year Select */}
             <div className="relative w-full md:w-[256px]">
-              <select className="w-full appearance-none border border-gray-300 bg-white rounded-[8px] py-[12px] px-[20px] focus:outline-none focus:ring-2 focus:ring-[#00204f]/20 focus:border-[#00204f] text-gray-700 font-medium text-[14px] cursor-pointer">
+              <select className="w-full appearance-none border border-gray-300 bg-surface rounded-[8px] py-[12px] px-[20px] focus:outline-none focus:ring-2 focus:ring-[#00204f]/20 focus:border-[#00204f] text-text-main font-medium text-[14px] cursor-pointer">
                 <option>Select Year</option>
                 <option>2026</option>
                 <option>2025</option>
                 <option>2024</option>
               </select>
-              <FiChevronDown className="absolute right-[16px] top-1/2 -translate-y-1/2 pointer-events-none text-gray-500 text-[18px]" />
+              <FiChevronDown className="absolute right-[16px] top-1/2 -translate-y-1/2 pointer-events-none text-text-muted text-[18px]" />
             </div>
 
             {/* Month Select */}
             <div className="relative w-full md:w-[256px]">
-              <select className="w-full appearance-none border border-gray-300 bg-white rounded-[8px] py-[12px] px-[20px] focus:outline-none focus:ring-2 focus:ring-[#00204f]/20 focus:border-[#00204f] text-gray-700 font-medium text-[14px] cursor-pointer">
+              <select className="w-full appearance-none border border-gray-300 bg-surface rounded-[8px] py-[12px] px-[20px] focus:outline-none focus:ring-2 focus:ring-[#00204f]/20 focus:border-[#00204f] text-text-main font-medium text-[14px] cursor-pointer">
                 <option>All Months</option>
                 {["January","February","March","April","May","June","July","August","September","October","November","December"].map(m => (
                   <option key={m}>{m}</option>
                 ))}
               </select>
-              <FiChevronDown className="absolute right-[16px] top-1/2 -translate-y-1/2 pointer-events-none text-gray-500 text-[18px]" />
+              <FiChevronDown className="absolute right-[16px] top-1/2 -translate-y-1/2 pointer-events-none text-text-muted text-[18px]" />
             </div>
           </div>
         </div>
       </section>
 
       {/* Content Grid */}
-      <main className="py-[64px] md:py-[96px] bg-white">
+      <main className="py-[64px] md:py-[96px] bg-surface">
         <div className="max-w-[1440px] mx-auto px-[16px] md:px-[24px] lg:px-[48px]">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[48px] gap-y-[64px]">
             {cards.map(({ img, tag, title, date }, i) => (
@@ -149,7 +149,7 @@ const LifeAtDGF = () => {
                   <h3 className="text-[22px] md:text-[24px] font-bold text-[#00204f] mb-[16px] leading-tight">
                     {title}
                   </h3>
-                  <p className="text-[14px] text-gray-500 mb-[32px] flex items-center gap-[8px]">
+                  <p className="text-[14px] text-text-muted mb-[32px] flex items-center gap-[8px]">
                     <FiCalendar className="text-[14px] flex-shrink-0" />
                     {date}
                   </p>

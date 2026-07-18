@@ -25,9 +25,9 @@ const OtherCommitments = () => {
   ];
 
   return (
-    <div className="w-full py-16 bg-white px-4 md:px-8 lg:px-16">
+    <div className="w-full py-16 bg-surface px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-light text-center text-gray-800 mb-16">Explore Other Commitments</h2>
+        <h2 className="text-3xl font-light text-center text-text-main mb-16">Explore Other Commitments</h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {commitments.map((commitment) => (
@@ -47,7 +47,7 @@ const OtherCommitments = () => {
                 </div>
               </div>
 
-              <div className="flex items-center gap-2 text-gray-600 group-hover:text-[#a51a70] transition-colors">
+              <div className="flex items-center gap-2 text-text-muted group-hover:text-[#a51a70] transition-colors">
                 <span className="text-sm font-medium">Explore</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />

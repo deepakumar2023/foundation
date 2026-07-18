@@ -32,12 +32,12 @@ const MomentsOfChange = () => {
   return (
     <div className="w-full py-16 bg-[#f2eff4] px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-light text-center text-gray-800 mb-12">Moments Of Change</h2>
+        <h2 className="text-3xl font-light text-center text-text-main mb-12">Moments Of Change</h2>
         
         {/* Desktop View - Grid */}
         <div className="hidden md:grid md:grid-cols-3 gap-6 mb-10">
           {videos.map((video) => (
-            <div key={video.id} className="relative group cursor-pointer rounded-xl overflow-hidden shadow-md bg-white">
+            <div key={video.id} className="relative group cursor-pointer rounded-xl overflow-hidden shadow-md bg-surface">
               <div className="aspect-[4/3] overflow-hidden">
                 <img src={video.image} alt={video.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
@@ -45,7 +45,7 @@ const MomentsOfChange = () => {
 
               </div>
               <div className="p-4 text-center">
-                <h3 className="text-sm font-medium text-gray-800 line-clamp-2">{video.title}</h3>
+                <h3 className="text-sm font-medium text-text-main line-clamp-2">{video.title}</h3>
               </div>
             </div>
           ))}
@@ -53,7 +53,7 @@ const MomentsOfChange = () => {
 
         {/* Mobile View - Carousel */}
         <div className="md:hidden relative w-full mb-10">
-          <div className="overflow-hidden rounded-xl shadow-md bg-white">
+          <div className="overflow-hidden rounded-xl shadow-md bg-surface">
             <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
               {videos.map((video) => (
                 <div key={video.id} className="w-full shrink-0">
@@ -63,7 +63,7 @@ const MomentsOfChange = () => {
 
                   </div>
                   <div className="p-4 text-center">
-                     <h3 className="text-sm font-medium text-gray-800">{video.title}</h3>
+                     <h3 className="text-sm font-medium text-text-main">{video.title}</h3>
                   </div>
                 </div>
               ))}
@@ -71,10 +71,10 @@ const MomentsOfChange = () => {
           </div>
           
           {/* Controls */}
-          <button onClick={prevSlide} className="absolute top-[40%] -left-4 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg text-gray-600 hover:text-[#a51a70] z-10">
+          <button onClick={prevSlide} className="absolute top-[40%] -left-4 -translate-y-1/2 w-10 h-10 bg-surface rounded-full flex items-center justify-center shadow-lg text-text-muted hover:text-[#a51a70] z-10">
             &larr;
           </button>
-          <button onClick={nextSlide} className="absolute top-[40%] -right-4 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg text-gray-600 hover:text-[#a51a70] z-10">
+          <button onClick={nextSlide} className="absolute top-[40%] -right-4 -translate-y-1/2 w-10 h-10 bg-surface rounded-full flex items-center justify-center shadow-lg text-text-muted hover:text-[#a51a70] z-10">
             &rarr;
           </button>
         </div>

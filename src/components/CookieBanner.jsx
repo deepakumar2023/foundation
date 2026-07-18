@@ -25,27 +25,27 @@ const CookieBanner = () => {
 
   return (
     <div 
-      className={`fixed bottom-0 left-0 right-0 z-[100] bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.1)] p-[24px] transition-transform duration-500 ease-in-out ${
+      className={`fixed bottom-0 left-0 right-0 z-[100] bg-surface shadow-[0_-4px_20px_rgba(0,0,0,0.1)] p-[24px] transition-transform duration-500 ease-in-out ${
         isVisible ? "translate-y-0" : "translate-y-full"
       }`}
     >
       <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center justify-between gap-[24px]">
         <div className="flex-1">
-          <h3 className="text-[20px] font-bold text-gray-900 mb-[8px]">We Care About Your Privacy</h3>
-          <p className="text-[14px] text-gray-600 leading-relaxed">
+          <h3 className="text-[20px] font-bold text-text-main mb-[8px]">We Care About Your Privacy</h3>
+          <p className="text-[14px] text-text-muted leading-relaxed">
             We use cookies to give you the best experience on our website. By continuing, you're agreeing to our use of cookies. Read our <Link to="/privacy-policy" className="underline hover:text-[#00204f]">Privacy Policy</Link>.
           </p>
         </div>
         <div className="flex flex-wrap gap-[16px] justify-start md:justify-end">
           <button 
             onClick={handleConsent}
-            className="px-[24px] py-[8px] border border-gray-300 rounded-[8px] text-[14px] font-bold text-gray-700 hover:bg-gray-50 transition-colors"
+            className="px-[24px] py-[8px] border border-gray-300 rounded-[8px] text-[14px] font-bold text-text-main hover:bg-gray-50 transition-colors"
           >
             Edit Preferences
           </button>
           <button 
             onClick={handleConsent}
-            className="px-[24px] py-[8px] border border-gray-300 rounded-[8px] text-[14px] font-bold text-gray-700 hover:bg-gray-50 transition-colors"
+            className="px-[24px] py-[8px] border border-gray-300 rounded-[8px] text-[14px] font-bold text-text-main hover:bg-gray-50 transition-colors"
           >
             Accept Necessary
           </button>

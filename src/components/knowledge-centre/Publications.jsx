@@ -61,12 +61,12 @@ const DocIcon = () => (
 
 const Publications = () => {
   return (
-    <main className="pt-10 bg-white min-h-screen">
+    <main className="pt-10 bg-surface min-h-screen">
       {/* ── Breadcrumb ── */}
       <section className="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
         <nav
           aria-label="Breadcrumb"
-          className="flex text-xs font-semibold text-gray-500 uppercase tracking-widest"
+          className="flex text-xs font-semibold text-text-muted uppercase tracking-widest"
         >
           <ol className="inline-flex items-center space-x-1 md:space-x-2">
             <li className="inline-flex items-center">
@@ -76,7 +76,7 @@ const Publications = () => {
             </li>
             <li className="flex items-center">
               <span className="mx-2 text-gray-300">-</span>
-              <span className="text-gray-800">Publications</span>
+              <span className="text-text-main">Publications</span>
             </li>
           </ol>
         </nav>
@@ -101,7 +101,7 @@ const Publications = () => {
 
               {/* Text block */}
               <div className="flex flex-col space-y-3 sm:space-y-4">
-                <h2 className="text-xl sm:text-2xl font-bold text-gray-800 leading-tight">
+                <h2 className="text-xl sm:text-2xl font-bold text-text-main leading-tight">
                   {pub.title.split(":").map((part, i) =>
                     i === 0 ? (
                       <span key={i}>
@@ -117,7 +117,7 @@ const Publications = () => {
 
                 <div className="flex flex-col space-y-6 sm:space-y-8">
                   {/* Description — hidden on mobile */}
-                  <p className="text-sm md:text-base text-gray-600 max-w-lg hidden md:block leading-relaxed">
+                  <p className="text-sm md:text-base text-text-muted max-w-lg hidden md:block leading-relaxed">
                     {pub.description}
                   </p>
 
@@ -130,7 +130,7 @@ const Publications = () => {
                     <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex items-center justify-center text-white mr-3 group-hover:bg-black transition-colors flex-shrink-0">
                       <FiDownload className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2.5} />
                     </div>
-                    <span className="text-xs sm:text-sm font-bold text-gray-700 uppercase tracking-widest group-hover:text-black transition-colors">
+                    <span className="text-xs sm:text-sm font-bold text-text-main uppercase tracking-widest group-hover:text-black transition-colors">
                       Download
                     </span>
                   </a>

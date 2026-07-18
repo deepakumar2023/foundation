@@ -30,11 +30,11 @@ const InteractNewsletter = () => {
               <h2 className="text-[32px] md:text-[48px] font-bold text-[#00204f]">Featured Stories</h2>
               <span className="bg-[#ffdbca] text-[#331200] text-[10px] font-bold px-[8px] py-[2px] rounded-sm tracking-widest uppercase">NEW</span>
             </div>
-            <p className="text-[16px] text-gray-600">The latest narratives of change from the foundation.</p>
+            <p className="text-[16px] text-text-muted">The latest narratives of change from the foundation.</p>
           </div>
           <div className="flex items-center gap-[8px]">
-            <span className="text-[14px] font-bold text-gray-500">Sort by:</span>
-            <select className="border border-gray-300 bg-white rounded-[8px] text-[14px] font-bold px-[16px] py-[8px] focus:outline-none focus:ring-1 focus:ring-[#00204f] focus:border-[#00204f] cursor-pointer">
+            <span className="text-[14px] font-bold text-text-muted">Sort by:</span>
+            <select className="border border-gray-300 bg-surface rounded-[8px] text-[14px] font-bold px-[16px] py-[8px] focus:outline-none focus:ring-1 focus:ring-[#00204f] focus:border-[#00204f] cursor-pointer">
               <option>Q1, 2026-27</option>
               <option>Q4, 2025-26</option>
             </select>
@@ -43,13 +43,13 @@ const InteractNewsletter = () => {
         <div className="space-y-[64px] max-w-4xl">
           {/* Story 1 */}
           <article className="group">
-            <h3 className="text-[24px] md:text-[32px] font-bold text-gray-900 mb-[12px] group-hover:text-[#00204f] transition-colors cursor-pointer leading-tight">
+            <h3 className="text-[24px] md:text-[32px] font-bold text-text-main mb-[12px] group-hover:text-[#00204f] transition-colors cursor-pointer leading-tight">
               25 Years of Deepak Gupta Foundation: A Walk Back to Where It All Began
             </h3>
-            <p className="text-[16px] text-gray-600 mb-[16px] leading-relaxed">
+            <p className="text-[16px] text-text-muted mb-[16px] leading-relaxed">
               For each one of us, our journey with the foundation spans nearly 25 years. Looking back at the first brick laid and the first child enrolled, the transformation of these communities represents our core commitment to long-term impact and sustainable development.
             </p>
-            <div className="flex items-center gap-[16px] text-[14px] font-bold text-gray-500 mb-[16px]">
+            <div className="flex items-center gap-[16px] text-[14px] font-bold text-text-muted mb-[16px]">
               <span className="flex items-center gap-[4px]"><FiClock className="text-[14px]" /> 1 min read</span>
               <span>•</span>
               <span>Q1, 2026-27</span>
@@ -62,13 +62,13 @@ const InteractNewsletter = () => {
 
           {/* Story 2 */}
           <article className="group">
-            <h3 className="text-[24px] md:text-[32px] font-bold text-gray-900 mb-[12px] group-hover:text-[#00204f] transition-colors cursor-pointer leading-tight">
+            <h3 className="text-[24px] md:text-[32px] font-bold text-text-main mb-[12px] group-hover:text-[#00204f] transition-colors cursor-pointer leading-tight">
               Mothers' Meet: An Initiative that Puts Mothers at the Centre of Children's Education
             </h3>
-            <p className="text-[16px] text-gray-600 mb-[16px] leading-relaxed">
+            <p className="text-[16px] text-text-muted mb-[16px] leading-relaxed">
               There is no shelter like a mother, no guidance like hers. There is no protector greater than her, and no one dearer. Our initiative focuses on empowering women as the primary catalysts for educational excellence in rural districts.
             </p>
-            <div className="flex items-center gap-[16px] text-[14px] font-bold text-gray-500 mb-[16px]">
+            <div className="flex items-center gap-[16px] text-[14px] font-bold text-text-muted mb-[16px]">
               <span className="flex items-center gap-[4px]"><FiClock className="text-[14px]" /> 1 min read</span>
               <span>•</span>
               <span>Q1, 2026-27</span>
@@ -81,13 +81,13 @@ const InteractNewsletter = () => {
 
           {/* Story 3 */}
           <article className="group">
-            <h3 className="text-[24px] md:text-[32px] font-bold text-gray-900 mb-[12px] group-hover:text-[#00204f] transition-colors cursor-pointer leading-tight">
+            <h3 className="text-[24px] md:text-[32px] font-bold text-text-main mb-[12px] group-hover:text-[#00204f] transition-colors cursor-pointer leading-tight">
               Listening, Learning, and Growing: A Month-long Internship Experience
             </h3>
-            <p className="text-[16px] text-gray-600 mb-[16px] leading-relaxed">
+            <p className="text-[16px] text-text-muted mb-[16px] leading-relaxed">
               For each one of us, our first experiences are always special – first day at college, first job, first paycheck etc. For me, as a student of Mass Communication, my first internship at the Deepak Gupta Foundation was a journey of profound discovery.
             </p>
-            <div className="flex items-center gap-[16px] text-[14px] font-bold text-gray-500 mb-[16px]">
+            <div className="flex items-center gap-[16px] text-[14px] font-bold text-text-muted mb-[16px]">
               <span className="flex items-center gap-[4px]"><FiClock className="text-[14px]" /> 1 min read</span>
               <span>•</span>
               <span>Q1, 2026-27</span>
@@ -105,7 +105,7 @@ const InteractNewsletter = () => {
           <h2 className="text-[32px] md:text-[48px] font-bold text-[#00204f] mb-[48px]">Latest Updates</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]">
             {/* Update Card 1 */}
-            <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
+            <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
               <div className="h-[224px] overflow-hidden">
                 <img 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
@@ -114,13 +114,13 @@ const InteractNewsletter = () => {
                 />
               </div>
               <div className="p-[24px] flex flex-col flex-grow">
-                <h4 className="text-[20px] font-bold leading-tight mb-[12px] text-gray-900 group-hover:text-[#00204f] transition-colors">
+                <h4 className="text-[20px] font-bold leading-tight mb-[12px] text-text-main group-hover:text-[#00204f] transition-colors">
                   Celebrating 25 Years of Deepak Gupta Excellence
                 </h4>
-                <p className="text-[16px] text-gray-600 mb-[24px] line-clamp-2">
+                <p className="text-[16px] text-text-muted mb-[24px] line-clamp-2">
                   The foundation marks a quarter-century of sustainable growth and community empowerment initiatives.
                 </p>
-                <div className="flex items-center justify-between text-gray-500 font-bold text-[14px] mt-auto">
+                <div className="flex items-center justify-between text-text-muted font-bold text-[14px] mt-auto">
                   <span>1 min read</span>
                   <span>Q1, 2026-27</span>
                 </div>
@@ -128,7 +128,7 @@ const InteractNewsletter = () => {
             </div>
 
             {/* Update Card 2 */}
-            <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
+            <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
               <div className="h-[224px] overflow-hidden">
                 <img 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
@@ -137,13 +137,13 @@ const InteractNewsletter = () => {
                 />
               </div>
               <div className="p-[24px] flex flex-col flex-grow">
-                <h4 className="text-[20px] font-bold leading-tight mb-[12px] text-gray-900 group-hover:text-[#00204f] transition-colors">
+                <h4 className="text-[20px] font-bold leading-tight mb-[12px] text-text-main group-hover:text-[#00204f] transition-colors">
                   Mr. Deepak Gupta Launches Rural Vision Project
                 </h4>
-                <p className="text-[16px] text-gray-600 mb-[24px] line-clamp-2">
+                <p className="text-[16px] text-text-muted mb-[24px] line-clamp-2">
                   Inspired by the philosophy of selfless service, a new initiative aims to reach 1 million rural citizens.
                 </p>
-                <div className="flex items-center justify-between text-gray-500 font-bold text-[14px] mt-auto">
+                <div className="flex items-center justify-between text-text-muted font-bold text-[14px] mt-auto">
                   <span>1 min read</span>
                   <span>Q1, 2026-27</span>
                 </div>
@@ -151,7 +151,7 @@ const InteractNewsletter = () => {
             </div>
 
             {/* Update Card 3 */}
-            <div className="bg-white rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
+            <div className="bg-surface rounded-[12px] overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full">
               <div className="h-[224px] overflow-hidden">
                 <img 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
@@ -160,13 +160,13 @@ const InteractNewsletter = () => {
                 />
               </div>
               <div className="p-[24px] flex flex-col flex-grow">
-                <h4 className="text-[20px] font-bold leading-tight mb-[12px] text-gray-900 group-hover:text-[#00204f] transition-colors">
+                <h4 className="text-[20px] font-bold leading-tight mb-[12px] text-text-main group-hover:text-[#00204f] transition-colors">
                   Vision Care Initiatives Expand To Remote Districts
                 </h4>
-                <p className="text-[16px] text-gray-600 mb-[24px] line-clamp-2">
+                <p className="text-[16px] text-text-muted mb-[24px] line-clamp-2">
                   Bringing state-of-the-art diagnostic equipment to the most underserved communities in Madhya Pradesh.
                 </p>
-                <div className="flex items-center justify-between text-gray-500 font-bold text-[14px] mt-auto">
+                <div className="flex items-center justify-between text-text-muted font-bold text-[14px] mt-auto">
                   <span>1 min read</span>
                   <span>Q1, 2026-27</span>
                 </div>
@@ -177,19 +177,19 @@ const InteractNewsletter = () => {
       </section>
 
       {/* Photo Gallery Section */}
-      <section className="py-[0px] md:py-[10px] bg-white">
+      <section className="py-[0px] md:py-[10px] bg-surface">
         <div className="px-[24px] max-w-[1440px] mx-auto">
           <div className="flex justify-between items-center mb-[48px]">
             <div>
               <h2 className="text-[32px] md:text-[48px] font-bold text-[#00204f] mb-[8px]">Photo Gallery</h2>
-              <p className="text-[16px] text-gray-600">Highlights of Q1, 2026-27</p>
+              <p className="text-[16px] text-text-muted">Highlights of Q1, 2026-27</p>
             </div>
             <div className="flex gap-[8px]">
               <button className="w-[48px] h-[48px] rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors">
-                <FiChevronLeft className="text-[24px] text-gray-600" />
+                <FiChevronLeft className="text-[24px] text-text-muted" />
               </button>
               <button className="w-[48px] h-[48px] rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition-colors">
-                <FiChevronRight className="text-[24px] text-gray-600" />
+                <FiChevronRight className="text-[24px] text-text-muted" />
               </button>
             </div>
           </div>
@@ -203,7 +203,7 @@ const InteractNewsletter = () => {
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0ktS2ERrBXiul_x75XYwHGoHrPH7oz6L8TH6uf5Kin-j6LhFV61pQsbtWxflUG76nIndyyEkbnx_QDMrWy5lVua-Mty9sIkuPkuInd4yF2JJbg2oVQuGkgoTO4XPP2qGU_J6DwRfYAo8OtkVMtGV0FoxBB0gU6QHk1pqgU_8VZu0n83V5JTFe11ICYZXWzZRwh1kFLL4Y3cmCaM-rIYkvs3z0hqBtVvyMjCwmkHCltgci9sj1pEZPVWCDZSaT1DCzdvXA6f0hPe7p"
                 />
               </div>
-              <h5 className="text-[18px] font-bold text-gray-900">Annual Blood Donation Drive 2026</h5>
+              <h5 className="text-[18px] font-bold text-text-main">Annual Blood Donation Drive 2026</h5>
             </div>
             
             <div className="space-y-[16px]">
@@ -214,7 +214,7 @@ const InteractNewsletter = () => {
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4yKDlV332Yoza3EbnkOTjPg2AHO0e_x9ORbu7gnoWywXijp9qBRy0TyJSaDFJu2A7Hq_ptVz13ihocH3OBMtmFEcT8R1eTRPyciKPkm3DPVM3tuk5hbEvixBIfsIREaFHaFXO5KtjRn2bkk-2suSeKYrcFeQ89v8cobfv7TCD_scDqfrJlYNteC4FNDfAZXKnuoWgIUJkuNXcPhkagNLCZlzG2xrorJ67yXDjpSLLhQFYhdKmIZhqBsemm2gLuh9NWN0jPdvX-MLs"
                 />
               </div>
-              <h5 className="text-[18px] font-bold text-gray-900">Expanding Clubfoot Care for Children</h5>
+              <h5 className="text-[18px] font-bold text-text-main">Expanding Clubfoot Care for Children</h5>
             </div>
             
             <div className="space-y-[16px]">
@@ -225,7 +225,7 @@ const InteractNewsletter = () => {
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2fGXlgbo14ER0cuYFRLUnCjuP3eQOIXqQ4E1XCg3TYbmmQEFneWaAkhEHqr8KeyGGa3P6STLWZiE6W2NcvHbPl_Cffk6nctA6cur6F4UoBk1f8pHuFSrsI37LlNL4cIIsTKfbQNpljNgWZC6U5YdG8iLyCuraPUfKxc5vd39sVSOyYURAHc8fS7aVv-4o8WCeRBLIE1RoxA6lnNVgNKtfQMUOIRt_lxanfgMp5W-45GIUE7s2GhZAsv-0OwLziny1ogdqeIfEs_vm"
                 />
               </div>
-              <h5 className="text-[18px] font-bold text-gray-900">Skilling India's Youth through SAKSHAM</h5>
+              <h5 className="text-[18px] font-bold text-text-main">Skilling India's Youth through SAKSHAM</h5>
             </div>
           </div>
         </div>
