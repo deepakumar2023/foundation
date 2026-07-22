@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import FilterBar from '../components/stories/FilterBar';
 import StoryCard from '../components/stories/StoryCard';
+import { Link } from 'react-router-dom';
 
 // Comprehensive mock dataset
 const allStories = [
@@ -81,6 +82,8 @@ const StoriesOfChange = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {filteredStories.length > 0 ? (
             filteredStories.map(story => (
+
+               <Link key={story.id} to="/contact-us">
               <StoryCard
                 key={story.id}
                 tag={story.tag}
@@ -88,6 +91,7 @@ const StoriesOfChange = () => {
                 author={story.author}
                 image={story.image}
               />
+              </Link>
             ))
           ) : (
             <div className="col-span-full text-center py-20 text-text-muted">
