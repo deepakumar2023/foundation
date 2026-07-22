@@ -23,20 +23,6 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'blue');
-
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-  }, [theme]);
-
-  const themes = [
-    { name: 'blue', color: 'bg-[#0080A8]' },
-    { name: 'orange', color: 'bg-[#E35205]' },
-    { name: 'green', color: 'bg-[#4B9B36]' },
-    { name: 'dark', color: 'bg-gray-800' }
-  ];
-
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -158,19 +144,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Theme Switcher */}
-          {/* <div className="hidden xl:flex items-center space-x-2 ml-4">
-            {themes.map((t) => (
-              <button
-                key={t.name}
-                onClick={() => setTheme(t.name)}
-                className={`w-6 h-6 rounded-full cursor-pointer transition-transform ${t.color} ${theme === t.name ? 'scale-125 ring-2 ring-offset-2 ring-gray-400' : 'hover:scale-110'}`}
-                title={`Switch to ${t.name} theme`}
-                aria-label={`Switch to ${t.name} theme`}
-              />
-            ))}
-          </div> */}
-
           {/* Mobile Menu Toggle */}
           <button
             className="xl:hidden z-50 relative p-2 rounded-md text-text-main"
@@ -237,18 +210,7 @@ const Navbar = () => {
             </div>
           ))}
 
-          {/* Mobile Theme Switcher */}
-          {/* <div className="mt-6 flex items-center space-x-4 justify-center">
-            {themes.map((t) => (
-              <button
-                key={t.name}
-                onClick={() => setTheme(t.name)}
-                className={`w-8 h-8 rounded-full cursor-pointer transition-transform ${t.color} ${theme === t.name ? 'scale-125 ring-2 ring-offset-2 ring-gray-400' : 'hover:scale-110'}`}
-                title={`Switch to ${t.name} theme`}
-                aria-label={`Switch to ${t.name} theme`}
-              />
-            ))}
-          </div> */}
+
         </div>
       </div>
     </header>

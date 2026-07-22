@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FiFacebook, FiTwitter, FiLinkedin, FiInstagram, FiYoutube } from "react-icons/fi";
+// import { FiFacebook, FiTwitter, FiLinkedin, FiInstagram, FiYoutube } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
               Tughlakbad Extension,<br />
               South Delhi, Delhi - 110019, India.
             </p>
-            <div className="flex space-x-4 mt-6">
+            {/* <div className="flex space-x-4 mt-6">
               <a href="#" className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[var(--color-primary)] hover:opacity-80 transition-opacity">
                 <FiFacebook size={16} />
               </a>
@@ -32,7 +32,9 @@ const Footer = () => {
               <a href="#" className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[var(--color-primary)] hover:opacity-80 transition-opacity">
                 <FiYoutube size={16} />
               </a>
-            </div>
+            </div> */}
+
+            
           </div>
 
           {/* Column 2: Quick Links */}

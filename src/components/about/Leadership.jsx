@@ -10,16 +10,16 @@ const Leadership = () => {
       <section className="bg-surface py-12">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12">
           <nav className="mb-8 flex flex-wrap items-center gap-2 text-text-muted font-medium text-sm md:text-base">
-            <a className="hover:text-purple-700 transition-colors" href="#">Home</a>
+            <a className="hover:text-[#0080A8] transition-colors" href="#">Home</a>
             <span className="opacity-50">•</span>
-            <a className="hover:text-purple-700 transition-colors" href="#">About Us</a>
+            <a className="hover:text-[#0080A8] transition-colors" href="#">About Us</a>
             <span className="opacity-50">•</span>
-            <span className="text-purple-700 font-semibold">Leadership</span>
+            <span className="text-[#0080A8] font-semibold">Leadership</span>
           </nav>
 
           <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-start">
             <div className="w-full md:w-5/12">
-              <h1 className="text-3xl md:text-4xl lg:text-[42px] font-bold text-purple-800 mb-6 leading-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-[42px] font-bold text-[#0080A8] mb-6 leading-tight">
                 Deepak Gupta Foundation Board Of Trustees
               </h1>
               <p className="text-base md:text-[17px] text-text-main leading-relaxed">
@@ -71,10 +71,10 @@ const Leadership = () => {
       </section>
 
       {/* Board of Trustees 3x2 Grid Section */}
-      <section className="py-12 bg-surface">
+      {/* <section className="py-12 bg-surface">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Trustee 3 */}
+         
             <div className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-md">
               <img
                 alt="Rajesh Khanna"
@@ -93,7 +93,7 @@ const Leadership = () => {
               </div>
             </div>
 
-            {/* Trustee 4 */}
+       
             <div className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-md">
               <img
                 alt="Sunita Verma"
@@ -112,7 +112,6 @@ const Leadership = () => {
               </div>
             </div>
 
-            {/* Trustee 5 */}
             <div className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-md bg-gray-100">
               <div className="w-full h-full bg-slate-200 flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
                 <FiUser className="text-6xl text-slate-400" />
@@ -129,7 +128,7 @@ const Leadership = () => {
               </div>
             </div>
 
-            {/* Trustee 6 */}
+         
             <div className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-md bg-gray-100">
               <div className="w-full h-full bg-slate-300 flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
                 <FiUser className="text-6xl text-slate-400" />
@@ -147,22 +146,20 @@ const Leadership = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Advisory Council Section */}
       <section className="py-12 md:py-16 bg-surface">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12">
           <div className="bg-[#f5f3ff] rounded-3xl p-6 md:p-12 shadow-sm border border-purple-100">
-            <h3 className="text-2xl md:text-[28px] text-purple-700 mb-6 md:mb-8 font-bold leading-snug">
+            <h3 className="text-2xl md:text-[28px] text-[#0080A8] mb-6 md:mb-8 font-bold leading-snug">
               Members of the Advisory Council <span className="font-normal text-text-muted block sm:inline sm:text-2xl mt-2 sm:mt-0">(Independent Members)</span>
             </h3>
             <ul className="space-y-3 md:space-y-4 list-disc pl-5 text-text-main text-base md:text-[17px] leading-relaxed">
-              <li>O. P. Rawat, Chairman, Development Support Centre</li>
-              <li>Surinder Kumar Tuteja, IAS (Retd.)</li>
-              <li>Kartikeya Sarabhai, Founder &amp; Director - Centre for Environment Education</li>
-              <li>Maheswar Sahu, IAS (Retd.)</li>
-              <li>Ashok Joshi, IAS (Retd.), Chairman, Srinivasan Services Trust</li>
-              <li>P. N. Roy Chowdhury, IAS (Retd.)</li>
+              <li>Deepak Gupta, Founder & Chairperson</li>
+              <li>Anand Gupta, Director</li>
+
+
             </ul>
           </div>
         </div>
@@ -171,7 +168,7 @@ const Leadership = () => {
       {/* Call to Action */}
       <section className="py-16 md:py-24 bg-gray-50 border-t border-gray-100">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-12 text-center">
-          <h4 className="text-2xl md:text-[32px] text-purple-800 font-bold mb-8 md:mb-10">
+          <h4 className="text-2xl md:text-[32px] text-[#0080A8] font-bold mb-8 md:mb-10">
             Want to learn more about our work?
           </h4>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-6">
@@ -179,7 +176,7 @@ const Leadership = () => {
               View Impact Reports
               <FiDownload />
             </Link>
-            <Link to="/contact-us" className="w-full sm:w-auto border-2 border-purple-700 text-purple-700 bg-surface px-8 py-4 rounded-xl font-semibold hover:bg-purple-50 transition-all shadow-sm hover:shadow-md">
+            <Link to="/contact-us" className="w-full sm:w-auto border-2 border-purple-700 text-[#0080A8] bg-surface px-8 py-4 rounded-xl font-semibold hover:bg-purple-50 transition-all shadow-sm hover:shadow-md">
               Annual Transparency
             </Link>
           </div>
