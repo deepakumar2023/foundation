@@ -12,7 +12,7 @@ const heroSlides = [
   {
     title: "Nearly 30 Years of Enabling Change, Enriching Lives",
     desc: "",
-    btnText: "Watch Video",
+    // btnText: "Watch Video",
     btnLink: "#",
     img: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=2070&auto=format&fit=crop"
   },
@@ -73,13 +73,13 @@ const Hero = () => {
                         {slide.desc}
                       </p>
                     )}
-                    <Link 
+                    {/* <Link 
                       to={slide.btnLink}
                       className="inline-flex items-center px-8 py-4 bg-[var(--color-primary)] hover:bg-[#006b8c] text-white font-medium rounded transition-colors animate-[fadeInUp_1s_ease-out_0.4s_both]"
                     >
                       {slide.btnText}
                       <FiArrowRight className="ml-2" />
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

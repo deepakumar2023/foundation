@@ -68,17 +68,17 @@ const Navbar = () => {
       dropdown: [
         { label: "Our Story", icon: <HiOutlineBookOpen className="text-2xl" /> },
         { label: "Leadership", icon: <HiOutlineUser className="text-2xl" /> },
-        { label: "Awards", icon: <HiOutlineTrophy className="text-2xl" /> },
+        // { label: "Awards", icon: <HiOutlineTrophy className="text-2xl" /> },
       ],
     },
-    {
-      name: "NEWSROOM",
-      path: "/newsroom",
-      dropdown: [
-        { label: "Press Releases", icon: <HiOutlineDocumentText className="text-2xl" /> },
-        { label: "Media Coverage", icon: <HiOutlineSpeakerWave className="text-2xl" /> },
-      ],
-    },
+    // {
+    //   name: "NEWSROOM",
+    //   path: "/newsroom",
+    //   dropdown: [
+    //     { label: "Press Releases", icon: <HiOutlineDocumentText className="text-2xl" /> },
+    //     { label: "Media Coverage", icon: <HiOutlineSpeakerWave className="text-2xl" /> },
+    //   ],
+    // },
     {
       name: "KNOWLEDGE CENTRE",
       path: "/knowledge-centre",
@@ -88,14 +88,14 @@ const Navbar = () => {
         { label: "Interact Newsletter", icon: <HiOutlineNewspaper className="text-2xl" /> },
       ],
     },
-    {
-      name: "CAREERS",
-      path: "/careers",
-      dropdown: [
-        { label: "Our Culture", icon: <HiOutlineBriefcase className="text-2xl" /> },
-        { label: "Life at DGF", icon: <HiOutlineFaceSmile className="text-2xl" /> },
-      ],
-    },
+    // {
+    //   name: "CAREERS",
+    //   path: "/careers",
+    //   dropdown: [
+    //     { label: "Our Culture", icon: <HiOutlineBriefcase className="text-2xl" /> },
+    //     { label: "Life at DGF", icon: <HiOutlineFaceSmile className="text-2xl" /> },
+    //   ],
+    // },
     { name: "CONTACT US", path: "/contact-us" },
   ];
 
@@ -109,10 +109,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 z-50 relative">
-            <h1 className="text-[22px] font-black tracking-tight leading-none">
-              <span className="text-black uppercase">Deepak Gupta</span>
-              <span className="block text-[13px] font-semibold tracking-[0.25em] text-text-muted uppercase mt-0.5">Foundation</span>
-            </h1>
+            <img src="/logo.jpeg" alt="Deepak Gupta Foundation Logo" className="h-[64px] md:h-[80px] w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -162,7 +159,7 @@ const Navbar = () => {
           </div>
 
           {/* Theme Switcher */}
-          <div className="hidden xl:flex items-center space-x-2 ml-4">
+          {/* <div className="hidden xl:flex items-center space-x-2 ml-4">
             {themes.map((t) => (
               <button
                 key={t.name}
@@ -172,7 +169,7 @@ const Navbar = () => {
                 aria-label={`Switch to ${t.name} theme`}
               />
             ))}
-          </div>
+          </div> */}
 
           {/* Mobile Menu Toggle */}
           <button
@@ -241,7 +238,7 @@ const Navbar = () => {
           ))}
 
           {/* Mobile Theme Switcher */}
-          <div className="mt-6 flex items-center space-x-4 justify-center">
+          {/* <div className="mt-6 flex items-center space-x-4 justify-center">
             {themes.map((t) => (
               <button
                 key={t.name}
@@ -251,7 +248,7 @@ const Navbar = () => {
                 aria-label={`Switch to ${t.name} theme`}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <footer className="bg-[var(--color-primary)] text-white pt-16 pb-8 transition-colors duration-300">
       <div className="container mx-auto px-4 xl:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Column 1: Logo & Address */}
           <div>
-            <h2 className="text-2xl font-bold mb-6">
-              Deepak Gupta <span className="font-light">Foundation</span>
-            </h2>
+            <Link to="/" className="inline-block mb-6">
+              <img src="/logo.jpeg" alt="Deepak Gupta Foundation Logo" className="h-[80px] md:h-[100px] w-auto object-contain bg-white rounded-md p-1" />
+            </Link>
             <p className="text-white/80 text-sm mb-4">
               RZ-2084, G/F, R/S Gali No. 26,<br />
               Tughlakbad Extension,<br />
@@ -53,30 +53,13 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><Link to="/about-us/our-story" className="text-white/80 hover:text-white transition-colors text-sm">Our Story</Link></li>
               <li><Link to="/about-us/leadership" className="text-white/80 hover:text-white transition-colors text-sm">Leadership</Link></li>
-              <li><Link to="/about-us/awards" className="text-white/80 hover:text-white transition-colors text-sm">Awards</Link></li>
+              {/* <li><Link to="/about-us/awards" className="text-white/80 hover:text-white transition-colors text-sm">Awards</Link></li> */}
               <li><Link to="/stories-of-change" className="text-white/80 hover:text-white transition-colors text-sm">Stories of Change</Link></li>
-              <li><Link to="/careers" className="text-white/80 hover:text-white transition-colors text-sm">Careers</Link></li>
+              {/* <li><Link to="/careers" className="text-white/80 hover:text-white transition-colors text-sm">Careers</Link></li> */}
             </ul>
           </div>
 
-          {/* Column 4: Newsletter */}
-          <div>
-            <h3 className="text-lg font-medium mb-6 border-b border-white/20 pb-2 inline-block">Newsletter</h3>
-            <p className="text-white/80 text-sm mb-4">Stay updated with our latest news and initiatives.</p>
-            <form className="flex flex-col space-y-3">
-              <input 
-                type="email" 
-                placeholder="Enter your email address" 
-                className="bg-white/10 border border-white/20 text-white placeholder-white/50 px-4 py-2 rounded focus:outline-none focus:border-white transition-colors text-sm"
-              />
-              <button 
-                type="button" 
-                className="bg-white text-[var(--color-primary)] hover:opacity-90 px-4 py-2 rounded font-bold transition-opacity text-sm"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
+
         </div>
 
         {/* Bottom Bar */}

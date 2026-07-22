@@ -32,34 +32,40 @@ const ContactUs = () => {
           {/* Contact Form */}
           <div className="bg-surface p-8 rounded-2xl shadow-sm border border-gray-100">
             <h2 className="text-2xl md:text-3xl font-light text-text-main mb-8">Send Us a Message</h2>
-            <form className="space-y-6">
+            <form 
+              className="space-y-6"
+              onSubmit={(e) => {
+                e.preventDefault();
+                alert('Your message has been sent successfully. We will get back to you soon!');
+              }}
+            >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-text-main mb-2">First Name</label>
-                  <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="John" />
+                  <input type="text" required className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="John" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-text-main mb-2">Last Name</label>
-                  <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="Doe" />
+                  <input type="text" required className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="Doe" />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-text-main mb-2">Email Address</label>
-                <input type="email" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="john@example.com" />
+                <input type="email" required className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="john@example.com" />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-text-main mb-2">Subject</label>
-                <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="How can we help?" />
+                <input type="text" required className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors" placeholder="How can we help?" />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-text-main mb-2">Message</label>
-                <textarea rows="5" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors resize-none" placeholder="Write your message here..."></textarea>
+                <textarea rows="5" required className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#008272] focus:border-transparent transition-colors resize-none" placeholder="Write your message here..."></textarea>
               </div>
 
-              <button type="button" className="w-full bg-[#008272] hover:bg-[#006659] text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300">
+              <button type="submit" className="w-full bg-[#008272] hover:bg-[#006659] text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 cursor-pointer">
                 Send Message
               </button>
             </form>

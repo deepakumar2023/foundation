@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const KnowledgeCentre = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     // Simple reveal on scroll
     const revealElements = document.querySelectorAll('.animate-on-scroll');
@@ -126,7 +128,10 @@ const KnowledgeCentre = () => {
                   <span className="text-[14px] leading-[20px] tracking-[0.05em] font-semibold">124 Pages PDF</span>
                 </div>
               </div>
-              <button className="bg-white text-primary px-8 py-4 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold flex items-center gap-2 hover:bg-[#d8e2ff] transition-all">
+              <button 
+                onClick={() => navigate('/contact-us')}
+                className="bg-white text-primary px-8 py-4 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold flex items-center gap-2 hover:bg-[#d8e2ff] transition-all cursor-pointer"
+              >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
                 Download Full Report (12.4 MB)
               </button>
