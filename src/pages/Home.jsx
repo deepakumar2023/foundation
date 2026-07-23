@@ -16,7 +16,7 @@ const Home = () => {
     <div className="w-full overflow-hidden">
       <div data-aos="fade-up" data-aos-duration="1200"><Hero /></div>
       <div data-aos="fade-up"><ImpactAtGlance /></div>
-      <div data-aos="fade-up"><Collage /></div>
+      <Collage />
       <div data-aos="fade-up"><BeliefSection /></div>
       <div data-aos="fade-up"><LeadershipMessages /></div>
       <div data-aos="fade-up"><CoreFocusAreas /></div>

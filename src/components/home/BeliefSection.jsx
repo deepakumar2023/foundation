@@ -2,7 +2,7 @@ import React from 'react';
 
 const BeliefSection = () => {
   return (
-    <section className="py-24 bg-surface relative">
+    <section className="py-4 bg-surface relative">
       {/* Decorative text watermark */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full text-center overflow-hidden opacity-5 pointer-events-none select-none -z-10">
         <h1 className="text-[150px] font-bold whitespace-nowrap text-[var(--color-primary)]">Empowering India</h1>
