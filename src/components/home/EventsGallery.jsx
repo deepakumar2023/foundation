@@ -4,37 +4,37 @@ const events = [
   {
     id: 1,
     title: 'Health Camp organized in Mundra',
-    date: '15 Oct 2023',
+    date: '15 Oct 2026',
     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 2,
     title: 'Inauguration of new school building',
-    date: '10 Oct 2023',
+    date: '10 Oct 2026',
     image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 3,
     title: 'Women entrepreneurship training',
-    date: '05 Oct 2023',
+    date: '05 Oct 2026',
     image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 4,
     title: 'Tree plantation drive across 5 states',
-    date: '02 Oct 2023',
+    date: '02 Oct 2026',
     image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 5,
     title: 'Skill development workshop completion',
-    date: '28 Sep 2023',
+    date: '28 Sep 2026',
     image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 6,
     title: 'Distribution of educational kits',
-    date: '25 Sep 2023',
+    date: '25 Sep 2026',
     image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=400'
   }
 ];

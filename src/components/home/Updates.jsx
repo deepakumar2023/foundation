@@ -6,8 +6,8 @@ const updates = [
   {
     id: 1,
     platform: 'twitter',
-    author: '  Foundation',
-    handle: '@ Foundation',
+    author: 'Deepak Gupta foundation',
+    handle: '@ Deepak Gupta foundation',
     date: 'Oct 12',
     content: 'We are thrilled to announce our new initiative in skill development, aiming to empower 10,000 youth this year. #EmpoweringIndia #SkillIndia',
     image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=600',
@@ -16,8 +16,8 @@ const updates = [
   {
     id: 2,
     platform: 'linkedin',
-    author: '  Foundation',
-    handle: ' -foundation',
+    author: 'Deepak Gupta foundation',
+    handle: 'Deepak Gupta foundation',
     date: 'Oct 10',
     content: 'Our Swachhagraha project continues to make waves in promoting cleanliness and sanitation across rural schools. See the impact.',
     image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=600',
@@ -26,8 +26,8 @@ const updates = [
   {
     id: 3,
     platform: 'twitter',
-    author: '  Foundation',
-    handle: '@ Foundation',
+    author: 'Deepak Gupta foundation',
+    handle: '@ Deepak Gupta foundation',
     date: 'Oct 08',
     content: 'Celebrating the success of our SuPoshan Sanginis who are working tirelessly to eradicate malnutrition. #HealthForAll',
     image: 'https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&q=80&w=600',
@@ -57,7 +57,7 @@ const Updates = () => {
                 <div className="flex justify-between items-start mb-4">
                   <div className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden mr-3">
-                      <img src="https://ui-avatars.com/api/?name=Deepak+Gupta&background=008272&color=fff" alt="Logo" className="w-full h-full object-cover p-1 bg-surface" />
+                      <img src="/favicon.png" alt="Logo" className="w-full h-full object-cover p-1 bg-surface" />
                     </div>
                     <div>
                       <h4 className="font-bold text-text-main text-sm">{update.author}</h4>

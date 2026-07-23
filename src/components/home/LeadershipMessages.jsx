@@ -35,7 +35,7 @@ const LeadershipMessages = () => {
                 "We are continuously striving to make our communities better and more self-reliant. Our goal is to empower people so they can create a better future for themselves."
               </p>
             </div>
-            <Link to="/contact-us" className="mt-8 text-[var(--color-primary)] hover:text-[#006b8c] font-medium inline-flex items-center group">
+            <Link to="/founder-profile" className="mt-8 text-[var(--color-primary)] hover:text-[#006b8c] font-medium inline-flex items-center group">
               Read Message <FiArrowRight className="ml-2 transform group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

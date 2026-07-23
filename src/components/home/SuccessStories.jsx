@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const stories = [
   {
     id: 1,
@@ -19,7 +18,20 @@ const stories = [
     title: 'Sustainable Farming Practices',
     image: 'https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80&w=400',
     featured: false
-  }
+  },
+  {
+    id: 4,
+    title: 'Healthcare Clinics in Remote Villages',
+    image: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800',
+    featured: false
+  },
+  {
+    id: 5,
+    title: 'Skill Development for Youth',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=400',
+    featured: false
+  },
+  
 ];
 
 const SuccessStories = () => {
@@ -30,6 +42,11 @@ const SuccessStories = () => {
 
   const handleStoryClick = (index) => {
     setActiveIndex(index);
+  };
+
+  const handleChangeStories = () => {
+    // Shifts the active index by 3 to show completely new images
+    setActiveIndex((prev) => (prev + 3) % stories.length);
   };
 
   return (
@@ -80,8 +97,11 @@ const SuccessStories = () => {
         </div>
         
         <div className="mt-12">
-           <button className="inline-flex items-center px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium rounded-full transition-colors">
-            View All Stories
+           <button 
+             onClick={handleChangeStories}
+             className="inline-flex items-center px-8 py-3 border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium rounded-full transition-colors"
+           >
+            View More Stories
           </button>
         </div>
       </div>

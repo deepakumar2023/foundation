@@ -216,9 +216,9 @@ const ImpactThemes = () => {
             <h2 className="text-[32px] md:text-[48px] leading-[40px] md:leading-[56px] tracking-[-0.01em] font-semibold mb-2">See Dreams In Action</h2>
             <p className="text-[16px] leading-[26px] text-text-muted">Real stories from the communities we serve.</p>
           </div>
-          <button className="hidden md:flex border-2 border-[#747780] px-8 py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-[#e1e3e4] transition-all">
+          <Link to="/stories-of-change" className="hidden md:flex border-2 border-[#747780] px-8 py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-[#e1e3e4] transition-all">
             Read More Stories
-          </button>
+          </Link>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[24px]">
@@ -284,9 +284,9 @@ const ImpactThemes = () => {
         </div>
         
         <div className="mt-12 flex justify-center md:hidden">
-          <button className="border-2 border-[#747780] px-8 py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-[#e1e3e4] transition-all">
+          <Link to="/stories-of-change" className="border-2 border-[#747780] px-8 py-3 rounded-lg text-[14px] leading-[20px] tracking-[0.05em] font-semibold uppercase hover:bg-[#e1e3e4] transition-all">
             Read More Stories
-          </button>
+          </Link>
         </div>
       </section>
     </div>

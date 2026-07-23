@@ -107,7 +107,7 @@ function ExploreEducation () {
                 We don't just provide infrastructure; we invest in teacher training and localized content that resonates with the heritage of the communities we serve. This holistic approach ensures that every student who walks through our doors is prepared for the global economy while remaining rooted in their local values.
               </p>
             </div>
-            <button onClick={() => navigate('/contact-us')} className="flex items-center gap-2 text-primary font-bold group hover:gap-3 transition-all">
+            <button onClick={() => navigate('/knowledge-centre')} className="flex items-center gap-2 text-primary font-bold group hover:gap-3 transition-all cursor-pointer">
               Explore our pedagogy 
               <MdOutlineArrowForward />
             </button>

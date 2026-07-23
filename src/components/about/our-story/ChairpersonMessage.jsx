@@ -27,16 +27,16 @@ const ChairpersonMessage = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
-              <div className="w-24 h-24 rounded-full overflow-hidden mb-6 bg-gray-200">
-                <img src="/deepakgupta.jpeg" alt="Deepak Gupta" className="w-full h-full object-cover" />
+              <div className="w-40 h-40 rounded-full overflow-hidden mb-6 bg-gray-200 shadow-inner">
+                <img src="/deepakgupta.jpeg" alt="Deepak Gupta" className="w-full h-full object-cover object-top" />
               </div>
               <h3 className="text-xl font-bold text-text-main mb-1">Deepak Gupta</h3>
               <p className="text-[#a51a70] font-medium mb-4">Founder</p>
               <p className="text-sm text-text-muted">Sets the strategic direction and founding vision of the Foundation</p>
             </div>
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
-              <div className="w-24 h-24 rounded-full overflow-hidden mb-6 bg-gray-200">
-                <img src="/anandgupta.jpeg" alt="Anand Gupta" className="w-full h-full object-cover" />
+              <div className="w-40 h-40 rounded-full overflow-hidden mb-6 bg-gray-200 shadow-inner">
+                <img src="/anandgupta.jpeg" alt="Anand Gupta" className="w-full h-full object-cover object-top" />
               </div>
               <h3 className="text-xl font-bold text-text-main mb-1">Anand Gupta</h3>
               <p className="text-[#a51a70] font-medium mb-4">Treasurer</p>

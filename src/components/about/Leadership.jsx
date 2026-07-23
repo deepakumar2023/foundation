@@ -29,7 +29,7 @@ const Leadership = () => {
 
             <div className="w-full md:w-7/12 grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Featured Trustee 1 */}
-              <div className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
+              <Link to="/founder-profile" className="block relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
                 <img
                   alt="Deepak Gupta"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -45,7 +45,7 @@ const Leadership = () => {
                     <FiChevronRight className="text-[20px]" />
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Featured Trustee 2 */}
               <div className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
