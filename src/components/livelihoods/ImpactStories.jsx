@@ -11,25 +11,25 @@ const ImpactStories = () => {
     {
       id: 1,
       title: "From Training to Self-Reliance: A Weaver's Success Story",
-      author: "By  Deepak  gupta Foundation",
+      author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=70"
     },
     {
       id: 2,
       title: "ASDC Trainees Finding Rewarding Careers In Logistics",
-      author: "By Skills Team",
+     author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=71"
     },
     {
       id: 3,
       title: "Empowering Farmers Through Modern Irrigation Techniques",
-      author: "By Agriculture Coordinator",
+      author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=72"
     },
     {
       id: 4,
       title: "Women's SHGs Leading the Way in Rural Entrepreneurship",
-      author: "By Community Media",
+      author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=73"
     }
   ];
@@ -70,7 +70,7 @@ const ImpactStories = () => {
                 </h3>
                 <div className="flex items-center gap-2 mt-auto">
                   <div className="w-6 h-6 rounded-full bg-gray-300 overflow-hidden">
-                    <img src={`https://ui-avatars.com/api/?name=${story.author.replace('By ', '')}&background=random`} alt="Author" className="w-full h-full object-cover" />
+                   <img src={`/favicon.png`} alt="Author" className="w-full h-full object-cover" />
                   </div>
                   <span className="text-xs text-text-muted font-medium">{story.author}</span>
                 </div>

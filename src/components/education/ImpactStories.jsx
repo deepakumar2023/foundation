@@ -11,25 +11,25 @@ const ImpactStories = () => {
     {
       id: 1,
       title: " Deepak gupta Vidya Mandir, A Model Institution For Quality...",
-      author: "By Deepak gupta  Foundation",
+      author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=30"
     },
     {
       id: 2,
       title: "Uddaan Project Provides Flight To Dreams Of Children In...",
-      author: "By Deepak gupta  Foundation",
+      author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=31"
     },
     {
       id: 3,
       title: "An Educational Initiative That Provides Free Holistic...",
-      author: "By Deepak gupta  Foundation",
+      author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=32"
     },
     {
       id: 4,
       title: "Project Utthan Sets An Example For Uplifting Quality Of...",
-      author: "By Deepak gupta  Foundation",
+      author: "BY DEEPAK GUPTA FOUNDATION ",
       image: "https://picsum.photos/400/300?random=33"
     }
   ];
@@ -61,26 +61,26 @@ const ImpactStories = () => {
         >
           {stories.map((story) => (
             <SwiperSlide key={story.id}>
-            <div className="bg-[#faebf6] rounded-2xl p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-[#faebf6] rounded-2xl p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
 
-              <div className="mb-6">
-                <span className="text-xs text-[#a51a70] font-medium tracking-wider uppercase mb-3 inline-block">EDUCATION</span>
-                <h3 className="text-sm font-medium text-text-main leading-snug mb-3 line-clamp-3">
-                  {story.title}
-                </h3>
-                <div className="flex items-center gap-2 mt-auto">
-                  <div className="w-6 h-6 rounded-full bg-gray-300 overflow-hidden">
-                    <img src={`/logo.jpeg`} alt="Author" className="w-full h-full object-cover" />
+                <div className="mb-6">
+                  <span className="text-xs text-[#a51a70] font-medium tracking-wider uppercase mb-3 inline-block">EDUCATION</span>
+                  <h3 className="text-sm font-medium text-text-main leading-snug mb-3 line-clamp-3">
+                    {story.title}
+                  </h3>
+                  <div className="flex items-center gap-2 mt-auto">
+                    <div className="w-6 h-6 rounded-full bg-gray-300 overflow-hidden">
+                      <img src={`/favicon.png`} alt="Author" className="w-full h-full object-cover" />
+                    </div>
+                    <span className="text-xs text-text-muted font-medium">{story.author}</span>
                   </div>
-                  <span className="text-xs text-text-muted font-medium">{story.author}</span>
                 </div>
-              </div>
 
-              <div className="rounded-xl overflow-hidden aspect-[4/3]">
-                <img src={story.image} alt="Impact" className="w-full h-full object-cover" />
-              </div>
+                <div className="rounded-xl overflow-hidden aspect-[4/3]">
+                  <img src={story.image} alt="Impact" className="w-full h-full object-cover" />
+                </div>
 
-            </div>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

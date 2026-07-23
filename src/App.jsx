@@ -20,6 +20,7 @@ import KnowledgeCentre from "./pages/KnowledgeCentre";
 import StoriesOfChange from "./pages/StoriesOfChange";
 import OurStory from "./pages/OurStory";
 import AboutUs from "./pages/AboutUs";
+import FounderProfile from "./pages/FounderProfile";
 import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
@@ -77,6 +78,7 @@ function App() {
         {/* Careers Routes */}
         <Route path="careers" element={<Careers />} />
         <Route path="stories-of-change" element={<StoriesOfChange />} />
+        <Route path="founder-profile" element={<FounderProfile />} />
         <Route path="about-us" element={<AboutUs />} />
         <Route path="about-us/our-story" element={<OurStory />} />
         <Route path="about-us/leadership" element={<Leadership />} />
