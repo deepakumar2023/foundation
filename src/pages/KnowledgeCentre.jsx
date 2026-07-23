@@ -30,7 +30,7 @@ const KnowledgeCentre = () => {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center" 
           title="A grand, high-ceilinged modern institutional library..."
-          style={{backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuAaskb01HtTOrszt1C0n9IIsGV1eUXL7Ajp87pgTzYMIFV0sl7NAqboAGDwjgRD9BIApzhaLKMIQAKT5pctFbVDdUTfrVPxul_xn1HjPiXh8ptfYOp5GxOjwwhlr4Gmdk56Z-x7-TeMOI7AYuK0C0BrpkYLO2oy6EXmi-hAwb6_4KThWBs0ZMd2YD1atCk9qZC9BelllMxnEsYYU2E7UnJs4tBvjwTVljSIJbm3ouqHXkB6Mfv0Zn2pG0oBcxAAXH2Y4ZHD2jcDsjBY')`}}
+          style={{backgroundImage: `url('/knowledge.jpeg')`}}
         ></div>
         <div className="absolute inset-0 bg-primary/40 z-10"></div>
         <div className="relative z-20 px-[20px] md:px-[64px] max-w-[1280px] mx-auto w-full text-white">

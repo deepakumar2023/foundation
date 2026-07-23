@@ -19,11 +19,11 @@ const HeroSection = () => {
         {/* Testimonial 1 (Left) */}
         <div className="flex flex-col md:flex-row items-center md:items-start max-w-md md:self-start md:ml-[5%]">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=50" alt="Farmer" className="w-full h-full object-cover" />
+            <img src="/1.jpeg" alt="Farmer" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Ramesh Bhai</span> - "With the new SRI technique taught by the Foundation, my paddy yield has doubled this year. They provided seeds, training, and continuous support. Now, my family doesn't have to worry about the next meal..."
+              "With the new SRI technique taught by the Foundation, my paddy yield has doubled this year. They provided seeds, training, and continuous support. Now, my family doesn't have to worry about the next meal..."
             </p>
           </div>
         </div>
@@ -31,11 +31,11 @@ const HeroSection = () => {
         {/* Testimonial 2 (Right) */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start max-w-md md:self-end md:mr-[5%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-8 md:ml-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=51" alt="Artisan" className="w-full h-full object-cover" />
+            <img src="/2.jpeg" alt="Artisan" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-mr-12 pt-12 md:pt-6 md:pr-16 text-right">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Lakshmi Devi</span> - "Joining the self-help group changed my life. I learned stitching and now run my own tailoring shop. The financial independence has given me a voice in my household."
+              "Joining the self-help group changed my life. I learned stitching and now run my own tailoring shop. The financial independence has given me a voice in my household."
             </p>
           </div>
         </div>
@@ -43,11 +43,11 @@ const HeroSection = () => {
         {/* Testimonial 3 (Left) */}
         <div className="flex flex-col md:flex-row items-center md:items-start max-w-md md:self-start md:ml-[10%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=52" alt="Trainee" className="w-full h-full object-cover" />
+            <img src="/3.jpeg" alt="Trainee" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Kishan Kumar</span> - "After completing my electrician course at   deepak   gupta  Skill Development Centre, I immediately got a job in a nearby factory. I can finally support my parents and send my sister to school."
+               "After completing my electrician course at   deepak   gupta  Skill Development Centre, I immediately got a job in a nearby factory. I can finally support my parents and send my sister to school."
             </p>
           </div>
         </div>
@@ -55,11 +55,11 @@ const HeroSection = () => {
         {/* Testimonial 4 (Right) */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start max-w-md md:self-end md:mr-[10%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-8 md:ml-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=53" alt="Fisherman" className="w-full h-full object-cover" />
+            <img src="/4.jpeg" alt="Fisherman" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-mr-12 pt-12 md:pt-6 md:pr-16 text-right">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Abdul</span> - "The modern fishing nets and insulated ice boxes provided by the foundation have increased our daily catch and reduced spoilage. Our income is steady, and life at the coast is much better."
+              "The modern fishing nets and insulated ice boxes provided by the foundation have increased our daily catch and reduced spoilage. Our income is steady, and life at the coast is much better."
             </p>
           </div>
         </div>

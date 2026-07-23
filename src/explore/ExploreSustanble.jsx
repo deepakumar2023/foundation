@@ -31,7 +31,7 @@ function ExploreSustanble() {
             <div 
               className="w-full h-full bg-cover bg-center" 
               alt="Sustainable Livelihoods Hero" 
-              style={{backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCta04VUwSE8zaPLVK6bf2Dwo1RF9ADu48KZlj8JB2kBDwPyjXrkZB67-aJJp1VgxURYWS74Cm4ehBN1yJnJuIyFVYYTlt3jl83d9RVJu359ntDYmmGJeKKo8sN4XkvWV73n0wZFQ3EYDBwIOK6fBmeNX3-eKmJDR3BGJsvzmPEoX8VmmTAmKbIza1uizQELH0oTySCO-KF8E2Hc5TOjL1OWndmFhzDzgtH6cIsaPLSN2khMPZfXXRgiUh7dvZAhyYTvlrBVqJugGXw')"}}
+              style={{backgroundImage: "url('/service/sustance.jpeg')"}}
             ></div>
             <div className="absolute inset-0" style={{background: 'linear-gradient(0deg, rgba(0,32,79,0.8) 0%, rgba(0,32,79,0.4) 50%, rgba(0,32,79,0.1) 100%)'}}></div>
           </div>

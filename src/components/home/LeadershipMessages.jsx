@@ -35,7 +35,7 @@ const LeadershipMessages = () => {
                 "We are continuously striving to make our communities better and more self-reliant. Our goal is to empower people so they can create a better future for themselves."
               </p>
             </div>
-            <Link to="#" className="mt-8 text-[var(--color-primary)] hover:text-[#006b8c] font-medium inline-flex items-center group">
+            <Link to="/contact-us" className="mt-8 text-[var(--color-primary)] hover:text-[#006b8c] font-medium inline-flex items-center group">
               Read Message <FiArrowRight className="ml-2 transform group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
@@ -63,7 +63,7 @@ const LeadershipMessages = () => {
                 "It is our privilege to work at the grassroots and witness the resilience of people. When given the right opportunities, their potential to transform their lives is immense."
               </p>
             </div>
-            <Link to="#" className="mt-8 text-primary hover:text-text-primary font-medium inline-flex items-center group">
+            <Link to="/contact-us" className="mt-8 text-primary hover:text-text-primary font-medium inline-flex items-center group">
               Read Message <FiArrowRight className="ml-2 transform group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

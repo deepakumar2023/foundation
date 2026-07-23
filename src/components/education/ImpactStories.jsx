@@ -17,19 +17,19 @@ const ImpactStories = () => {
     {
       id: 2,
       title: "Uddaan Project Provides Flight To Dreams Of Children In...",
-      author: "By Team Media",
+      author: "By Deepak gupta  Foundation",
       image: "https://picsum.photos/400/300?random=31"
     },
     {
       id: 3,
       title: "An Educational Initiative That Provides Free Holistic...",
-      author: "By Editorial Team",
+      author: "By Deepak gupta  Foundation",
       image: "https://picsum.photos/400/300?random=32"
     },
     {
       id: 4,
       title: "Project Utthan Sets An Example For Uplifting Quality Of...",
-      author: "By Team Communications",
+      author: "By Deepak gupta  Foundation",
       image: "https://picsum.photos/400/300?random=33"
     }
   ];
@@ -70,7 +70,7 @@ const ImpactStories = () => {
                 </h3>
                 <div className="flex items-center gap-2 mt-auto">
                   <div className="w-6 h-6 rounded-full bg-gray-300 overflow-hidden">
-                    <img src={`https://ui-avatars.com/api/?name=${story.author}&background=random`} alt="Author" className="w-full h-full object-cover" />
+                    <img src={`/logo.jpeg`} alt="Author" className="w-full h-full object-cover" />
                   </div>
                   <span className="text-xs text-text-muted font-medium">{story.author}</span>
                 </div>

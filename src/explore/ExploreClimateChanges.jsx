@@ -32,7 +32,7 @@ function ExploreClimateChanges() {
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-1000 hover:scale-105" 
               alt="A panoramic photograph of a lush green forest canopy at dawn" 
-              style={{backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCRCXLfvZp4TdUQvrb238FbX0PH2NvuCee5t_-xJYoMD0Z87FNL4Z5zeRmc4c5zzXWPEDDacMVodN0El2rj8X9brIml9ldT1Cp-v94fBBdtZzVgJRiUKU87mAgHdpq-612UCeSHkkZnBMd06Zn1PEWBJV0zHrtQfLfGqwghS6tHONykOEZWgvFLB8yzzRnQC4PGjWcPDMGOcGSUGeIySViy9d-FlIWj1UwrZovK7bOqCdqK48Dx2RpLFNTb6Eehafx83BdLiJhYsfaL')"}}
+              style={{backgroundImage: "url('/service/climateaction.jpeg')"}}
             ></div>
             <div className="absolute inset-0" style={{background: 'linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%)'}}></div>
           </div>

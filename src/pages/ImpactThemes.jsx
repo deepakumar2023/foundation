@@ -223,8 +223,8 @@ const ImpactThemes = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[24px]">
           {/* Story Card 1 */}
-          <div className="bg-[#f3f4f5] rounded-2xl overflow-hidden group cursor-pointer">
-            <div className="relative h-64 overflow-hidden">
+          <div className="bg-[#f3f4f5] rounded-2xl overflow-hidden group cursor-pointer flex flex-col h-full">
+            <div className="relative h-64 overflow-hidden shrink-0">
               <img 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                 alt="Story" 
@@ -232,19 +232,19 @@ const ImpactThemes = () => {
               />
               <div className="absolute top-4 left-4 bg-primary text-[#ffffff] px-3 py-1 rounded-full text-xs font-semibold tracking-wider">EDUCATION</div>
             </div>
-            <div className="p-8">
-              <div className="text-[14px] font-semibold text-text-muted mb-2">June 30, 2024</div>
+            <div className="p-8 flex flex-col flex-grow">
+              <div className="text-[14px] font-semibold text-text-muted mb-2">JJune 30, 2026</div>
               <h4 className="text-[24px] font-semibold mb-4 leading-tight group-hover:text-primary transition-colors">Listening, Learning, and Growing: A Lifelong Journey</h4>
               <p className="text-[16px] text-text-muted mb-6 line-clamp-3">Explore how a single month-long internship turned into a lifelong commitment to social change for Dravya Jain.</p>
-              <div className="flex items-center gap-2 text-[14px] uppercase text-primary font-bold">
-                <svg className="w-6 h-6 bg-primary text-[#ffffff] rounded-full p-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg> READ
-              </div>
+              <Link to="/contact-us" className="flex items-center gap-2 text-[14px] uppercase text-primary font-bold mt-auto hover:opacity-80 transition-opacity">
+                <svg className="w-6 h-6 bg-primary text-[#ffffff] rounded-full p-1 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>  request access 
+              </Link>
             </div>
           </div>
           
           {/* Story Card 2 */}
-          <div className="bg-[#f3f4f5] rounded-2xl overflow-hidden group cursor-pointer">
-            <div className="relative h-64 overflow-hidden">
+          <div className="bg-[#f3f4f5] rounded-2xl overflow-hidden group cursor-pointer flex flex-col h-full">
+            <div className="relative h-64 overflow-hidden shrink-0">
               <img 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                 alt="Story" 
@@ -252,19 +252,19 @@ const ImpactThemes = () => {
               />
               <div className="absolute top-4 left-4 bg-secondary text-[#ffffff] px-3 py-1 rounded-full text-xs font-semibold tracking-wider">CLIMATE ACTION</div>
             </div>
-            <div className="p-8">
-              <div className="text-[14px] font-semibold text-text-muted mb-2">March 26, 2024</div>
+            <div className="p-8 flex flex-col flex-grow">
+              <div className="text-[14px] font-semibold text-text-muted mb-2"> March 26, 2026</div>
               <h4 className="text-[24px] font-semibold mb-4 leading-tight group-hover:text-secondary transition-colors">Fostering Resilience through Pond Restoration</h4>
               <p className="text-[16px] text-text-muted mb-6 line-clamp-3">The restoration of local water bodies is reviving ecosystems and securing futures for marginalized farming communities.</p>
-              <div className="flex items-center gap-2 text-[14px] uppercase text-secondary font-bold">
-                <svg className="w-6 h-6 bg-secondary text-[#ffffff] rounded-full p-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg> READ
-              </div>
+              <Link to="/contact-us" className="flex items-center gap-2 text-[14px] uppercase text-secondary font-bold mt-auto hover:opacity-80 transition-opacity">
+                <svg className="w-6 h-6 bg-secondary text-[#ffffff] rounded-full p-1 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>  request access 
+              </Link>
             </div>
           </div>
           
           {/* Story Card 3 */}
-          <div className="bg-[#f3f4f5] rounded-2xl overflow-hidden group cursor-pointer">
-            <div className="relative h-64 overflow-hidden">
+          <div className="bg-[#f3f4f5] rounded-2xl overflow-hidden group cursor-pointer flex flex-col h-full">
+            <div className="relative h-64 overflow-hidden shrink-0">
               <img 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                 alt="Story" 
@@ -272,13 +272,13 @@ const ImpactThemes = () => {
               />
               <div className="absolute top-4 left-4 bg-tertiary text-[#ffffff] px-3 py-1 rounded-full text-xs font-semibold tracking-wider">LIVELIHOODS</div>
             </div>
-            <div className="p-8">
-              <div className="text-[14px] font-semibold text-text-muted mb-2">Dec 24, 2023</div>
+            <div className="p-8 flex flex-col flex-grow">
+              <div className="text-[14px] font-semibold text-text-muted mb-2">January 20, 2026</div>
               <h4 className="text-[24px] font-semibold mb-4 leading-tight group-hover:text-tertiary transition-colors">Harvesting Hope: Empowering Farmers for Progress</h4>
               <p className="text-[16px] text-text-muted mb-6 line-clamp-3">How new agricultural techniques and tool support have doubled the annual income for families in Gujarat.</p>
-              <div className="flex items-center gap-2 text-[14px] uppercase text-tertiary font-bold">
-                <svg className="w-6 h-6 bg-tertiary text-[#ffffff] rounded-full p-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg> READ
-              </div>
+              <Link to="/contact-us" className="flex items-center gap-2 text-[14px] uppercase text-tertiary font-bold mt-auto hover:opacity-80 transition-opacity">
+                <svg className="w-6 h-6 bg-tertiary text-[#ffffff] rounded-full p-1 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>  request access 
+              </Link>
             </div>
           </div>
         </div>

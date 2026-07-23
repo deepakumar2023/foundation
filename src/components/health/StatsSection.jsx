@@ -11,7 +11,7 @@ const StatsSection = () => {
         <h2 className="text-3xl font-light text-text-main mb-10">Annual Numbers That Tell A Real Story</h2>
 
         {/* Tabs */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        {/* <div className="flex flex-wrap justify-center gap-4 mb-12">
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -24,7 +24,7 @@ const StatsSection = () => {
               {tab}
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Stats Grid */}
         <div className="flex flex-wrap justify-center gap-6">

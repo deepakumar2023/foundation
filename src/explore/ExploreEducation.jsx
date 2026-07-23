@@ -32,7 +32,7 @@ function ExploreEducation () {
           <img 
             alt="Students in library" 
             className="w-full h-full object-cover" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuARvgv-4ZcRjRsDRjIN5JFjY9TCpQceEBRrH2AJ7G0An6OKA4opedWcHMRwQgkx5AUIQg38q98WYJiY1t3aVMhMij5U7W5dSFdINJdva8n6Ni-Fq3MAyNb1mGUrGcDSUuujHQQ587l6aqRps13VFUpj74l1pG_kwg8TPl79yUvOgjayp67bg_K5m809ydk5c6NlWbC1wM1AADI5a3kmw2ErHtafB_5XQIUI3gJYduB5LPHt1xGQDe2lqm19NSQI96hu1yZhmG4VZ6cB"
+            src="/service/education.jpeg"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
         </div>

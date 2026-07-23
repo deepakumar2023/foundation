@@ -19,11 +19,11 @@ const HeroSection = () => {
         {/* Single Testimonial (Center) */}
         <div className="flex flex-col md:flex-row items-center max-w-2xl">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=90" alt="Farmer" className="w-full h-full object-cover" />
+            <img src="/1.jpeg" alt="Farmer" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 md:pl-16 rounded-2xl shadow-sm text-sm relative z-0">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Ishwari Patel</span> - "I have farmed this land my whole life. Water has always been a constant struggle. By augmenting the water bodies, my income is 40% higher than last year. This land is finally capable of..."
+             "I have farmed this land my whole life. Water has always been a constant struggle. By augmenting the water bodies, my income is 40% higher than last year. This land is finally capable of..."
             </p>
           </div>
         </div>

@@ -36,7 +36,7 @@ const MomentsOfChange = () => {
 
         {/* Desktop View - Grid */}
         <div className="hidden md:grid md:grid-cols-3 gap-6 mb-10">
-          {videos.map((video) => (
+          {[...videos.slice(currentIndex), ...videos.slice(0, currentIndex)].map((video) => (
             <div key={video.id} className="relative group cursor-pointer rounded-xl overflow-hidden shadow-md">
               <div className="aspect-[4/3] overflow-hidden">
                 <img src={video.image} alt={video.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -81,10 +81,10 @@ const MomentsOfChange = () => {
 
         {/* Dots Navigation */}
         <div className="flex justify-center items-center gap-4">
-          <button className="w-10 h-10 rounded-full border-2 border-[#a51a70] flex items-center justify-center text-[#a51a70] hover:bg-[#a51a70] hover:text-white transition-colors">
+          <button onClick={prevSlide} className="w-10 h-10 rounded-full border-2 border-[#a51a70] flex items-center justify-center text-[#a51a70] hover:bg-[#a51a70] hover:text-white transition-colors">
             &larr;
           </button>
-          <button className="w-10 h-10 rounded-full border-2 border-[#a51a70] flex items-center justify-center text-[#a51a70] hover:bg-[#a51a70] hover:text-white transition-colors">
+          <button onClick={nextSlide} className="w-10 h-10 rounded-full border-2 border-[#a51a70] flex items-center justify-center text-[#a51a70] hover:bg-[#a51a70] hover:text-white transition-colors">
             &rarr;
           </button>
         </div>

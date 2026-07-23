@@ -19,11 +19,11 @@ const HeroSection = () => {
         {/* Testimonial 1 (Left) */}
         <div className="flex flex-col md:flex-row items-center md:items-start max-w-md md:self-start md:ml-[5%]">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=120" alt="Community Member" className="w-full h-full object-cover" />
+            <img src="/1.jpeg" alt="Community Member" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Leelaben Parmar</span> - "Before the new road, getting our produce to the market during monsoons was impossible. Half our vegetables would rot. Now, the market is just 20 minutes away, all year round..."
+              "Before the new road, getting our produce to the market during monsoons was impossible. Half our vegetables would rot. Now, the market is just 20 minutes away, all year round..."
             </p>
           </div>
         </div>
@@ -31,11 +31,11 @@ const HeroSection = () => {
         {/* Testimonial 2 (Right) */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start max-w-md md:self-end md:mr-[5%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-8 md:ml-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=121" alt="Student" className="w-full h-full object-cover" />
+            <img src="/2.jpeg" alt="Student" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-mr-12 pt-12 md:pt-6 md:pr-16 text-right">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Raju Bhai</span> - "Our village finally has a community hall. Weddings, panchayat meetings, festivals... everything happens here now. It has truly brought us all together under one roof."
+             "Our village finally has a community hall. Weddings, panchayat meetings, festivals... everything happens here now. It has truly brought us all together under one roof."
             </p>
           </div>
         </div>
@@ -43,11 +43,11 @@ const HeroSection = () => {
         {/* Testimonial 3 (Left) */}
         <div className="flex flex-col md:flex-row items-center md:items-start max-w-md md:self-start md:ml-[15%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=122" alt="Trainee" className="w-full h-full object-cover" />
+            <img src="/3.jpeg" alt="Trainee" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Sunita Patel</span> - "The RO plant installed in our village means my kids don't fall sick as often. Clean drinking water was a luxury, now it is our right. We are very thankful for this facility."
+           "The RO plant installed in our village means my kids don't fall sick as often. Clean drinking water was a luxury, now it is our right. We are very thankful for this facility."
             </p>
           </div>
         </div>

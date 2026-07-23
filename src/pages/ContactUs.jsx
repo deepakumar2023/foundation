@@ -7,7 +7,7 @@ const ContactUs = () => {
       {/* Banner Section */}
       <div 
         className="w-full pt-24 pb-28 px-4 md:px-8 lg:px-16 relative bg-cover bg-center"
-        style={{ backgroundImage: "url('https://picsum.photos/1920/600?random=150')" }}
+        style={{ backgroundImage: "url('/contact.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
         

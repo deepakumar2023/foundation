@@ -19,11 +19,11 @@ const HeroSection = () => {
         {/* Testimonial 1 (Left) */}
         <div className="flex flex-col md:flex-row items-center md:items-start max-w-md md:self-start md:ml-[5%]">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=10" alt="Patient" className="w-full h-full object-cover" />
+            <img src="/1.jpeg" alt="Patient" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Mayur Bhati</span> - "An early diagnosis on complete blood count saved my life. I was feeling sluggish and suddenly very weak. A health camp by  Deepak  gupta Foundation team brought me the diagnosis in timely, before things turned unmanageable...
+            "An early diagnosis on complete blood count saved my life. I was feeling sluggish and suddenly very weak. A health camp by  Deepak  gupta Foundation team brought me the diagnosis in timely, before things turned unmanageable...
               <a href="#" className="text-[#a51a70] italic"> 5 more words</a>"
             </p>
           </div>
@@ -32,11 +32,11 @@ const HeroSection = () => {
         {/* Testimonial 2 (Right) */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start max-w-md md:self-end md:mr-[5%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-8 md:ml-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=11" alt="Patient" className="w-full h-full object-cover" />
+            <img src="/2.jpeg" alt="Patient" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-mr-12 pt-12 md:pt-6 md:pr-16 text-right">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Pariti Ben</span> - "I am a mother of 2 kids. My TV status and BMI indicated mild forms of weight loss and weakness... Then Sangini volunteers counseled me and brought in proper guidance along with medicines... Now I am fully healthy."
+             "I am a mother of 2 kids. My TV status and BMI indicated mild forms of weight loss and weakness... Then Sangini volunteers counseled me and brought in proper guidance along with medicines... Now I am fully healthy."
             </p>
           </div>
         </div>
@@ -44,11 +44,11 @@ const HeroSection = () => {
         {/* Testimonial 3 (Left) */}
         <div className="flex flex-col md:flex-row items-center md:items-start max-w-md md:self-start md:ml-[10%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=12" alt="Patient" className="w-full h-full object-cover" />
+            <img src="/3.jpeg" alt="Patient" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Sonalika Sahani</span> - "At 60, my vision completely faded. I had given up on it. But   deepak   gupta  helped. The Mobile clinic found the cataract... The surgical day is here. I will finally see the world."
+   "At 60, my vision completely faded. I had given up on it. But   deepak   gupta  helped. The Mobile clinic found the cataract... The surgical day is here. I will finally see the world."
             </p>
           </div>
         </div>
@@ -56,11 +56,11 @@ const HeroSection = () => {
         {/* Testimonial 4 (Right) */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start max-w-md md:self-end md:mr-[10%] md:-mt-12">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-8 md:ml-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=13" alt="Patient" className="w-full h-full object-cover" />
+            <img src="/4.jpeg" alt="Patient" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-mr-12 pt-12 md:pt-6 md:pr-16 text-right">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Priya Khemka</span> - "My boy Ram was deeply anemic. The doctors at the   deepak   gupta  hospital cared for him. 15 days of admission, complete checkup and free meds. He is recovering and plays cheerfully today."
+              "My boy Ram was deeply anemic. The doctors at the   deepak   gupta  hospital cared for him. 15 days of admission, complete checkup and free meds. He is recovering and plays cheerfully today."
             </p>
           </div>
         </div>

@@ -19,11 +19,11 @@ const HeroSection = () => {
         {/* Testimonial 1 */}
         <div className="md:absolute md:top-0 md:left-[10%] flex flex-col md:flex-row items-center md:items-start max-w-sm">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=1" alt="Student" className="w-full h-full object-cover" />
+            <img src="/1.jpeg" alt="Student" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Joy Kosambo</span> - "My teacher was a magic helper, making the hard math as be easily. I knew the right guidance. I thought she were some kind of a...
+              "My teacher was a magic helper, making the hard math as be easily. I knew the right guidance. I thought she were some kind of a...
               <a href="#" className="text-[#a51a70] italic"> 7 more words</a>"
             </p>
           </div>
@@ -32,11 +32,11 @@ const HeroSection = () => {
         {/* Testimonial 2 */}
         <div className="md:absolute md:top-[120px] md:right-[5%] flex flex-col md:flex-row-reverse items-center md:items-start max-w-sm">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-mr-8 md:ml-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=2" alt="Student" className="w-full h-full object-cover" />
+            <img src="/2.jpeg" alt="Student" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-mr-12 pt-12 md:pt-6 md:pr-16 text-right">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">Raju Murgaiya</span> - "My father, a fisherman, wants me to become a forest ranger. It has remained a dream because. Walking three kilometers from where...
+               "My father, a fisherman, wants me to become a forest ranger. It has remained a dream because. Walking three kilometers from where...
               <a href="#" className="text-[#a51a70] italic"> 32 more words</a>"
             </p>
           </div>
@@ -45,11 +45,11 @@ const HeroSection = () => {
         {/* Testimonial 3 */}
         <div className="md:absolute md:bottom-[50px] md:left-[15%] flex flex-col md:flex-row items-center md:items-start max-w-sm">
           <div className="w-48 h-48 rounded-full overflow-hidden shrink-0 shadow-lg mb-4 md:mb-0 md:-ml-8 md:mr-6 z-10 border-4 border-white">
-            <img src="https://picsum.photos/400/400?random=3" alt="Student" className="w-full h-full object-cover" />
+            <img src="/3.jpeg" alt="Student" className="w-full h-full object-cover" />
           </div>
           <div className="bg-surface/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm text-sm relative z-0 md:-ml-12 pt-12 md:pt-6 md:pl-16">
             <p className="text-text-main leading-relaxed">
-              <span className="font-bold text-text-main">R. Anusha</span> - "My father insisted on sending my grand and three sisters to the small classroom every morning. He wanted that I wouldn't have the same struggles of being illiterate. Now I'm in grade 1.
+              "My father insisted on sending my grand and three sisters to the small classroom every morning. He wanted that I wouldn't have the same struggles of being illiterate. Now I'm in grade 1.
               <a href="#" className="text-[#a51a70] italic"> 7 more words</a>"
             </p>
           </div>

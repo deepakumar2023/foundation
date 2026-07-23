@@ -68,11 +68,11 @@ const Navbar = () => {
     {
       name: "KNOWLEDGE CENTRE",
       path: "/knowledge-centre",
-      dropdown: [
-        { label: "Annual Reports", icon: <HiOutlineChartBar className="text-2xl" /> },
-        { label: "Publications", icon: <HiOutlineDocumentDuplicate className="text-2xl" /> },
-        { label: "Interact Newsletter", icon: <HiOutlineNewspaper className="text-2xl" /> },
-      ],
+      // dropdown: [
+      //   { label: "Annual Reports", icon: <HiOutlineChartBar className="text-2xl" /> },
+      //   { label: "Publications", icon: <HiOutlineDocumentDuplicate className="text-2xl" /> },
+      //   { label: "Interact Newsletter", icon: <HiOutlineNewspaper className="text-2xl" /> },
+      // ],
     },
     // {
     //   name: "CAREERS",
