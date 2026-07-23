@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Foundercard from '../../Foundercard';
 
 const ChairpersonMessage = () => {
   return (
@@ -44,6 +46,13 @@ const ChairpersonMessage = () => {
             </div>
           </div>
         </div>
+
+        {/* Extra Leadership Profile */}
+        <Foundercard/>
+
+
+
+
 
         {/* Awards & Recognition */}
         <div className="pt-8 border-t border-[#f0eaef]">

@@ -2,6 +2,7 @@
 
 import { FiChevronRight, FiDownload, FiUser } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import Foundercard from "../Foundercard";
 
 const Leadership = () => {
   return (
@@ -69,6 +70,9 @@ const Leadership = () => {
           </div>
         </div>
       </section>
+
+
+      <Foundercard/>
 
       {/* Board of Trustees 3x2 Grid Section */}
       {/* <section className="py-12 bg-surface">
