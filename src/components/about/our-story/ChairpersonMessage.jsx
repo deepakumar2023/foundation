@@ -43,7 +43,7 @@ const ChairpersonMessage = () => {
               {/* Image */}
               <div className="shrink-0">
                 <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#b68d40] p-1 shadow-sm">
-                  <img src="/anandgupta.jpeg" alt="Anand Gupta" className="w-full h-full rounded-full object-fill" />
+                  <img src="/anandgupta1.jpeg" alt="Anand Gupta" className="w-full h-full rounded-full object-cover" />
                 </div>
               </div>
 
