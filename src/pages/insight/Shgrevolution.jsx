@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import ArticleSidebar from '../../components/insights/ArticleSidebar';
 import AuthorBlock from '../../components/insights/AuthorBlock';
 
 const Shgrevolution = () => {
     const navigate = useNavigate();
-  
 
     useEffect(() => {
         // Reveal on scroll animation
@@ -26,12 +25,6 @@ const Shgrevolution = () => {
 
         return () => revealObserver.disconnect();
     }, []);
-
-    const handleCopyLink = () => {
-        navigator.clipboard.writeText(window.location.href);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
-    };
 
     return (
         <div className=" min-h-screen">
