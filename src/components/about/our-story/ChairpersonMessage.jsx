@@ -27,28 +27,31 @@ const ChairpersonMessage = () => {
           <h2 className="text-3xl font-light text-center text-text-main mb-12 tracking-wide">
             Leadership
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
-              <div className="w-40 h-40 rounded-full overflow-hidden mb-6 bg-gray-200 shadow-inner">
-                <img src="/deepakgupta.jpeg" alt="Deepak Gupta" className="w-full h-full object-cover object-top" />
+          <div className="pt-1">
+            <div className="max-w-4xl mx-auto bg-white rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 p-8 md:p-12 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-10">
+
+              {/* Image */}
+              <div className="shrink-0">
+                <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#b68d40] p-1 shadow-sm">
+                  <img src="/anandgupta.jpeg" alt="Anand Gupta" className="w-full h-full rounded-full object-inherit" />
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-text-main mb-1">Deepak Gupta</h3>
-              <p className="text-[#a51a70] font-medium mb-4">Founder</p>
-              <p className="text-sm text-text-muted">Sets the strategic direction and founding vision of the Foundation</p>
-            </div>
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
-              <div className="w-40 h-40 rounded-full overflow-hidden mb-6 bg-gray-200 shadow-inner">
-                <img src="/anandgupta.jpeg" alt="Anand Gupta" className="w-full h-full object-cover object-top" />
+
+              {/* Content */}
+              <div className="flex-grow text-center md:text-left flex flex-col justify-center h-full pt-2 md:pt-4">
+                <h3 className="text-[32px] font-semibold text-black mb-3">Anand Gupta</h3>
+                <p className="text-[#0080A8] font-medium text-[17px] mb-4">Treasurer</p>
+                <p className="text-[#6b7280] text-[15px] leading-[1.8]">
+                  Oversees financial governance, fund utilisation, and audit compliance.
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-text-main mb-1">Anand Gupta</h3>
-              <p className="text-[#a51a70] font-medium mb-4">Treasurer</p>
-              <p className="text-sm text-text-muted">Oversees financial governance, fund utilisation, and audit compliance</p>
+
             </div>
           </div>
         </div>
 
-        {/* Extra Leadership Profile */}
-        <Foundercard/>
+
+        <Foundercard />
 
 
 

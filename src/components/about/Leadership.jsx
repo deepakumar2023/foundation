@@ -2,7 +2,7 @@
 
 import { FiChevronRight, FiDownload, FiUser } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import Foundercard from "../Foundercard";
+
 
 const Leadership = () => {
   return (
@@ -61,9 +61,9 @@ const Leadership = () => {
                     <h4 className="text-white font-bold text-xl md:text-2xl">Anand gupta</h4>
                     <p className="text-white/80 text-sm md:text-base">Director</p>
                   </div>
-                  <div className="w-10 h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40">
+                  <Link to="/contact-us" className="w-10 h-10 rounded-full bg-surface/20 backdrop-blur-md flex items-center justify-center text-white transition-colors group-hover:bg-surface/40 cursor-pointer z-10 relative">
                     <FiChevronRight className="text-[20px]" />
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -72,7 +72,6 @@ const Leadership = () => {
       </section>
 
 
-      <Foundercard/>
 
       {/* Board of Trustees 3x2 Grid Section */}
       {/* <section className="py-12 bg-surface">
