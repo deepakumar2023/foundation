@@ -8,7 +8,7 @@ const AuthorBlock = () => {
       
       <div className="relative z-10 flex flex-col md:flex-row gap-8 items-center md:items-start">
         <div className="w-24 h-24 bg-gradient-to-br from-[#001F3F] to-[#1A2B45] rounded-full flex-shrink-0 flex items-center justify-center text-white font-serif text-[28px] font-bold shadow-md">
-          AC
+          DG
         </div>
         <div>
           <h4 className="text-[12px] font-bold tracking-[0.1em] uppercase text-[#C5963A] mb-2">About the Author</h4>
