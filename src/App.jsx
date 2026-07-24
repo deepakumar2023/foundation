@@ -38,6 +38,16 @@ import ExploreEducation from "./explore/ExploreEducation";
 import Explorecommnitydevlopment from "./explore/Explorecommnitydevlopment";
 import ExploreClimateChanges from "./explore/ExploreClimateChanges";
 import ExploreSustanble from "./explore/ExploreSustanble";
+import Shgrevolution from "./pages/insight/Shgrevolution";
+import Chw from "./pages/insight/Chw";
+import Lastmiledeleviery from "./pages/insight/Lastmiledeleviery";
+import Urbonslumdevlopment from "./pages/insight/Urbonslumdevlopment";
+import TechnologyGrassroots from "./pages/insight/TechnologyGrassroots";
+import MeasuringCommunityDevelopment from "./pages/insight/MeasuringCommunityDevelopment";
+import Vli from "./pages/insight/Vli";
+import Pra from "./pages/insight/Pra";
+import Sewamodel from "./pages/insight/Sewamodel";
+import CollectiveActioncommiunity from "./pages/insight/CollectiveActioncommiunity";
 
 // Placeholder component for empty routes
 const Placeholder = ({ title }) => (
@@ -106,6 +116,22 @@ function App() {
         <Route path="service/community-development" element={<Explorecommnitydevlopment />} />
         <Route path="service/climate-action" element={<ExploreClimateChanges />} />
         <Route path="service/sustainable-livelihoods" element={<ExploreSustanble />} />
+
+
+
+        {/* Insight page  */}
+       
+        <Route path="insight/shgrevolution" element={<Shgrevolution />} />
+        <Route path="insight/chw" element={<Chw />} />
+        <Route path="insight/lastmiledeleviery" element={<Lastmiledeleviery />} />
+        <Route path="insight/urban" element={<Urbonslumdevlopment />} />
+        <Route path="insight/technology" element={<TechnologyGrassroots />} />
+        <Route path="insight/community" element={<CollectiveActioncommiunity/>} />
+        <Route path="insight/vli" element={<Vli />} />
+        <Route path="insight/pra" element={<Pra />} />
+        <Route path="insight/sewa" element={<Sewamodel />} />
+        <Route path="insight/measuring" element={<MeasuringCommunityDevelopment />} />
+       
 
 
         {/* 404 Route */}

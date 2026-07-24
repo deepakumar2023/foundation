@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import HomeInsightsV3 from '../components/HomeInsightsV3';
 
 const KnowledgeCentre = () => {
   const navigate = useNavigate();
@@ -48,6 +49,12 @@ const KnowledgeCentre = () => {
           </div>
         </div>
       </section>
+
+
+      <div>
+
+        <HomeInsightsV3/>
+      </div>
 
       {/* Resource Categories */}
       <section className="py-[60px] md:py-[120px] px-[20px] md:px-[64px] max-w-[1280px] mx-auto animate-on-scroll">
