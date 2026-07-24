@@ -4,22 +4,22 @@ import { Link } from 'react-router-dom';
 const ArticleSidebar = () => {
   const suggestedArticles = [
     {
-      title: "India's Next Capital Cycle: Emerging Structural Shifts",
-      category: "Market Deep-Dive",
+      title: "Last-Mile Delivery Failures: Why Government Schemes Don't Reach Beneficiaries",
+      category: "Governance",
       tagClass: "bg-[#001F3F] text-white",
       link: "/insight/lastmiledeleviery",
-      readTime: "18 min"
+      readTime: "5 min"
     },
     {
-      title: "ESG AS ALPHA: The Decoupling of ESG Sentiment",
-      category: "Due Diligence",
+      title: "Participatory Rural Appraisal: Communities Designing Solutions",
+      category: "Methodology",
       tagClass: "bg-blue-50 text-blue-600",
       link: "/insight/pra",
       readTime: "5 min"
     },
     {
-      title: "BRSR Core Assurance Is Now Mandatory",
-      category: "Reporting",
+      title: "Measuring Community Development: Beyond Headcounts to Social Change",
+      category: "Impact Measurement",
       tagClass: "bg-teal-50 text-teal-600",
       link: "/insight/measuring",
       readTime: "5 min"
