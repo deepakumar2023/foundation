@@ -14,28 +14,28 @@ const heroSlides = [
     desc: "",
     // btnText: "Watch Video",
     btnLink: "#",
-    img: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=2070&auto=format&fit=crop"
+    img: "/banner.avif"
   },
   {
     title: "Enabling better lives for all through inclusive, long-term community resilience",
     desc: "",
     btnText: "Know More",
     btnLink: "/about-us",
-    img: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop"
+    img: "/banner1.avif"
   },
   {
     title: "Aspirations rise here, and with them India rises too",
     desc: "Expanding access to education where opportunity is limited.",
     btnText: "See The Impact",
     btnLink: "/impact-themes/education",
-    img: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop"
+    img: "/banner2.avif"
   },
   {
     title: "Well-being For Every Home",
     desc: "Ensuring healthy lives spanning families and communities.",
     btnText: "See The Impact",
     btnLink: "/impact-themes/health",
-    img: "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=2070&auto=format&fit=crop"
+    img: "/banner3.avif"
   }
 ];
 

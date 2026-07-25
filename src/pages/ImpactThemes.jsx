@@ -40,7 +40,7 @@ const ImpactThemes = () => {
             <img 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
               alt="in a classroom" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYBBhYkM_qHUqDnauEV815Vdj3AuZaeSHaxdleJD2g1BkRFWv4NaSQgVq3pONN-mJTAmfdmHwuxFTIfAGcfu1GjbL1220CLKDg1iTrg1nMFUeHpWoYJxMQSr6d1b1-R7dQpd_p-RHal-IAiRjdKkjzNYU135o2yv3Y91eV2YM4VHeKHaBmHOHX7upKTAt0-rZjspX9MLVrCMLZEoJu1FLVtU8Lx69wR7s_BIg6sY7ipTGaMtOZAd9KoeQpHflpHNXbn95cssfJ_4yQ"
+              src="/impacttheme/classroom.jpg"
             />
             <div className="absolute top-4 left-4 backdrop-blur-md bg-white/80 px-4 py-1 rounded-full text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary">
               in a classroom
@@ -50,7 +50,7 @@ const ImpactThemes = () => {
             <img 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
               alt="in a home" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw7Exg27ju1FWGuMGV9NvUSQq5mYVgC_PWUuhA7Ct_brgwldnXYJA60XENCHJkf1JPO2UkWI7ZoLptC4nC6SlNkRqFOmfYqmUU5XbRiSdLe8L9t2fB7ianuY-YLuGoyi8bNHFfLKoycpblkB-C3fR7TSOMFO6nQysSX8I5jbI8sxbZlpUnzMQFLOsny73SRQZng_NtLDCGivGkdVFDxaNmYAMbuiuNU7N1Qkw-KAgJRtuLsc82H34752nGzM_ftJ_b2hsKK0DvmTTd"
+              src="/impacttheme/inhome.jpg"
             />
             <div className="absolute top-4 left-4 backdrop-blur-md bg-white/80 px-4 py-1 rounded-full text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary">
               in a home
@@ -60,7 +60,7 @@ const ImpactThemes = () => {
             <img 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
               alt="in a field" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqwjnXdjg1gE8cOVru2EFp9IQfnUuNs_nK6bNOFDVZ7odfvnTNsxKoYBQMxodniuQkbRKlQDD2fuBWYZrM5nrSgvdNZCvMxqyYhb_sIMURbkAtwLHSIvekluQjWYeEpEpxk_9yyr0azKw9dZpN_bzI44VlyHFCyfqbpljQSf1SYnJP0JXaKvxpkjWypEblc2b3MoIcFKOzWLC_X8LRmJuKRUfxDeM30NkbtEF7_QnHyEMH4ScNDywF41LKsK1UI3S687BuQBuY99oW"
+              src="/impacttheme/field.jpg"
             />
             <div className="absolute top-4 left-4 backdrop-blur-md bg-white/80 px-4 py-1 rounded-full text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary">
               in a field
@@ -70,7 +70,7 @@ const ImpactThemes = () => {
             <img 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
               alt="in a village" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuATJaTNpiAmFa16DCGwjVI8QAARJwkd-MCboshtsiBPVqlXxmAErKckpgC_ZR32ndekVrUUJNF37Hp551XBzGOXavcU9uujzS5pjwGqnvdjf5gC7Ivr7jJkfJRA7GfigGHCs3Mum0jM8Dc9AkIGkz3tUpQd6nldevwsfmVZTmrta-ieD0kc6Nzx_HeiSTB7lTiDvqCCdeWtanIcY8vwRwq5PsKpqQihvk8m62pRdA7HCSt0YUyzElW97uCeuTwScKxQ6vQDXLWCxEBu"
+              src="/impacttheme/village.jpg"
             />
             <div className="absolute top-4 left-4 backdrop-blur-md bg-white/80 px-4 py-1 rounded-full text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary">
               in a village
@@ -80,7 +80,7 @@ const ImpactThemes = () => {
             <img 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
               alt="that hopes for more" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWhex8KEUreOQEuF5yklX2OlYZXIlbHj-ujWXC_3Azg_WDsZUqW3C_cvPSDiDO_PZcpBjQrlc-9DKWIuekbxnVuZY8A5wsn6smUaMdXNBdoZKdbAU3xpQjrOW4_ko_NMBs76mcs47stTYvwINnksaOjJ6CRcN_TipfHCYUDVk4DnfZvbD8kRX-XLVmmSb11-BPzuCUHee1BK9ejCoxJC2iIdELZyVNIoitzObPz21RG2rEuZQV44_BZzJVdiMp2xgQTX4kD9UqGlPB"
+              src="/impacttheme/hopes.jpg"
             />
             <div className="absolute top-4 left-4 backdrop-blur-md bg-white/80 px-4 py-1 rounded-full text-[14px] leading-[20px] tracking-[0.05em] font-semibold text-primary">
               that hopes for more
@@ -103,7 +103,7 @@ const ImpactThemes = () => {
               <img 
                 className="w-full h-full object-cover" 
                 alt="Education" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVA8fS1QZv0LR9yWU_h9rmw79vhPv-MUAdoAX8OHSkJU3WZ0jeEuMRs_cGBx-S8QNYhoiZ8f6V-D40nMEG_9zg3aXKc-ihLQFM9J1dUJdgsHpYkNghWk0Tu_AqefucHDyVEeRma3wZ8iDmGE17vA9ve8Leigd4M8rTElsJT3DEEdUQEZLe9TKpUm3UimJmFdJDubNoj8z4Qay1OQqAbDKJsylJaLcZ_b2oEy_MUhnH9BzOVxP2AUKpjAbPe21vwuKeNwswB-BN3P2J"
+                src="/impacttheme/education.jpg"
               />
             </div>
             <div className="absolute md:-right-8 top-3/4 md:top-1/2 left-4 md:left-auto -translate-y-1/2 backdrop-blur-md bg-white/90 p-6 md:p-8 rounded-2xl shadow-xl max-w-[280px] md:max-w-xs z-10">
@@ -141,7 +141,7 @@ const ImpactThemes = () => {
               <img 
                 className="w-full h-full object-cover" 
                 alt="Health" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1wSPwUM6udJRkEUVncj7v15bb_VZRKutJzNuz_VsUHT1mdb8KZA_k_Jn7--1QryGtrafd0WbnlbvJMiPuiXl-W4jMCZf6yCcEvplCtRLvcp5XbE3NEHgJ404q9lFRHOQhkSPt-w-Qp9jTkvhbDqF7cj1nK4JjtGBSlez04zNWYa7OCczIVo9cE-GyB_w8IeLSBYGQFL6JVY_rxsHB8U33RWol-RFmcSVO3o_9xM9mWdqJK8_6a4nCszPQ3jp1lGdFM-OevzDDnWq6"
+                src="/impacttheme/health.jpg"
               />
             </div>
             <div className="absolute md:-left-8 top-3/4 md:top-1/2 right-4 md:right-auto -translate-y-1/2 backdrop-blur-md bg-white/90 p-6 md:p-8 rounded-2xl shadow-xl max-w-[280px] md:max-w-xs z-10">
@@ -157,7 +157,7 @@ const ImpactThemes = () => {
               <img 
                 className="w-full h-full object-cover" 
                 alt="Livelihoods" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbHj-GTdBRWtOgNvcNB0j63cVqjeoD4HcbC5VDWLDIP6ZxBSkwp3vjwiHVcFxMF3MgMc0opl5qenYFKiIe73jbUpQ0BI7kySQIn0bX4RYMKduHv81Gn-WRk1qOz2jDK073GMbp0bJYgXJh-xhJhlEDy8ccXE1rMKp-bfU_-ko5cV-xJtrLR7yLnPEkSG31Z24fKWIjuK4pgFNQGqsd5NyuHXxgukW_N8HuFrDy6hn8dNTAQyP9v2WIbnAfbHQINQBtJV7FvpINvNNa"
+                src="/impacttheme/livehood.jpg"
               />
             </div>
             <div className="absolute md:-right-8 top-3/4 md:top-1/2 left-4 md:left-auto -translate-y-1/2 backdrop-blur-md bg-white/90 p-6 md:p-8 rounded-2xl shadow-xl max-w-[280px] md:max-w-xs z-10">
@@ -228,7 +228,7 @@ const ImpactThemes = () => {
               <img 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                 alt="Story" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcA8Yz_XZZXR4uuT4yoED0B5vSS43M4g_qj-P7fGkj8ZD5UNXDQujV27JXtWmI4z2kXtKntgEVKtXYwT_DAo8pWE_MV5l5kErNSw_dAcK7zpZy834u8_y5isnQy-rQrAJVVaZvVb2m3SoFFBsW2JzzgmLsTFT9DJwBIa_bAZ4IqSJC8wDRoJh_9hdRRP80-gMOvX7InuUuxhVTCmz-SoubOfDLlVYO8FkVHPzKoZgeSM-NBtGUqIRdPIDtZsar8jWdPw02YyEZ1lve"
+                src="/impacttheme/story.jpg"
               />
               <div className="absolute top-4 left-4 bg-primary text-[#ffffff] px-3 py-1 rounded-full text-xs font-semibold tracking-wider">EDUCATION</div>
             </div>
@@ -248,7 +248,7 @@ const ImpactThemes = () => {
               <img 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                 alt="Story" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA-FUi3OS4i10s8ONCzp0Un3a3sxbht98fWyfrwbTAIpGyjMl4oaCUp1sGLRn6TRJmbxCTLM5mySq87yBFNsmxaa5pQCjjma7shsWgOk8yp9rRqUThUvCkXSThQGGo_ovMEG8pSSBE8HU87JwfgzBCn2Q_phkgOHoonOnr0ZLcNEMN129qv0qr5Kz6SA6hgbx35YC2_0dOOnVGKsxgolmMEvB6SRLxhgP1kxd6bVs-wFPRkK6xq-BwBdxZCY64h0NgDE0lxwW4nZ5m"
+                src="/impacttheme/story1.jpg"
               />
               <div className="absolute top-4 left-4 bg-secondary text-[#ffffff] px-3 py-1 rounded-full text-xs font-semibold tracking-wider">CLIMATE ACTION</div>
             </div>
@@ -268,7 +268,7 @@ const ImpactThemes = () => {
               <img 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                 alt="Story" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuASZPb4aLw_lcm0316J6mcZx87RTu_swaQ4WDyr1y2yRwv8USSAmqhEc9qc2iAhnPa-pH2VMp3UmfHxTi54bUvkONlGamkt3e_c-2vrywiNhARzvQcv8gYBYevy1MY8hOHmJ02a_OMsbRloU2BnMYt98b3bxHIQXjldY09AIaL34Nimg_Ri4yID0qJ5u-y-aYgdY1D-_KR0RMoma70oJt0zud5tLLWFJVaSh7OhRvRLhn8ktT4Q04AZypPUjkGjaW_s-BsA7OPHK-v-"
+                src="/impacttheme/story2.jpg"
               />
               <div className="absolute top-4 left-4 bg-tertiary text-[#ffffff] px-3 py-1 rounded-full text-xs font-semibold tracking-wider">LIVELIHOODS</div>
             </div>

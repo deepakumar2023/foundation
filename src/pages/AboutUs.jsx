@@ -60,7 +60,7 @@ const AboutUs = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link to="/about-us/our-story" className="group block relative overflow-hidden rounded-2xl aspect-[16/9]">
-              <img src="https://picsum.photos/800/450?random=1" alt="Our Story" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/about/about.jpg" alt="Our Story" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8">
                 <h3 className="text-3xl font-light text-white mb-2">Our Story</h3>
                 <p className="text-gray-200 font-light text-sm mb-4">Discover our journey of creating sustainable change.</p>
@@ -72,7 +72,7 @@ const AboutUs = () => {
             </Link>
 
             <div className="group block relative overflow-hidden rounded-2xl aspect-[16/9] cursor-pointer">
-              <img src="https://picsum.photos/800/450?random=2" alt="Leadership" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/about/about1.jpg" alt="Leadership" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-8">
                 <h3 className="text-3xl font-light text-white mb-2">Our Leadership</h3>
                 <p className="text-gray-200 font-light text-sm mb-4">Meet the visionaries guiding our initiatives.</p>

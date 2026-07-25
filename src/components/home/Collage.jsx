@@ -88,7 +88,7 @@ const Collage = () => {
           {/* Image 1: Girls (Initially Top Left) */}
           <div className="img-1 absolute shadow-lg rounded-3xl overflow-hidden border-4 border-white">
             <img
-              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=600"
+              src="/studend.avif"
               alt="Students"
               className="w-full h-full object-cover"
               style={{ minHeight: "320px" }}
@@ -98,7 +98,7 @@ const Collage = () => {
           {/* Image 2: Farmer (Initially Center) */}
           <div className="img-2 absolute shadow-2xl rounded-[100px] rounded-b-3xl overflow-hidden border-4 border-white">
             <img
-              src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80&w=800"
+              src="/farmer.avif"
               alt="Farmer"
               className="w-full h-full object-cover"
               style={{ minHeight: "450px" }}
@@ -108,7 +108,7 @@ const Collage = () => {
           {/* Image 3: Women (Initially Bottom Right) */}
           <div className="img-3 absolute shadow-lg rounded-3xl overflow-hidden border-4 border-white">
             <img
-              src="https://images.unsplash.com/photo-1589187775328-882e91b3db4f?auto=format&fit=crop&q=80&w=600"
+              src="/women.avif"
               alt="Women Entrepreneurs"
               className="w-full h-full object-cover"
               style={{ minHeight: "300px" }}

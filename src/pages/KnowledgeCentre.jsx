@@ -44,8 +44,6 @@ const KnowledgeCentre = () => {
           </div>
         </div>
       </section>
-
-
       <div>
 
         <HomeInsightsV3/>
