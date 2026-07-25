@@ -57,7 +57,7 @@ const KnowledgeCentre = () => {
       </div>
 
       {/* Newsletter CTA Section */}
-      <section className="mb-[10px] md:mb-[20px] px-[20px] md:px-[64px] max-w-[1280px] mx-auto animate-on-scroll">
+      {/* <section className="mb-[10px] md:mb-[20px] px-[20px] md:px-[64px] max-w-[1280px] mx-auto animate-on-scroll">
         <div className="bg-[#e1e3e4] rounded-3xl p-12 md:p-20 relative overflow-hidden">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -79,7 +79,7 @@ const KnowledgeCentre = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

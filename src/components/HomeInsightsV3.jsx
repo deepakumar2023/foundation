@@ -199,7 +199,7 @@ const HomeInsightsV3 = ({ limit }) => {
   return (
     <section className="py-10 bg-white" id="insights">
       <div className="max-w-[1440px] mx-auto px-6 md:px-10">
-        <div className="mb-16 flex flex-col md:flex-row justify-between items-end gap-10 sr">
+        {/* <div className="mb-16 flex flex-col md:flex-row justify-between items-end gap-10 sr">
           <div className="max-w-[640px]">
             <div className="flex items-center gap-3 mb-5">
 
@@ -216,7 +216,7 @@ const HomeInsightsV3 = ({ limit }) => {
             All Insights
             <svg viewBox="0 0 16 16" fill="none" className="w-4 h-4"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
           </Link>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {
