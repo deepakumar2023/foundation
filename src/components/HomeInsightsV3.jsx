@@ -198,8 +198,6 @@ const HomeInsightsV3 = ({ limit }) => {
 
   return (
     <section className="py-10 bg-white" id="insights">
-     
-
       <div className="max-w-[1440px] mx-auto px-6 md:px-10">
         <div className="mb-16 flex flex-col md:flex-row justify-between items-end gap-10 sr">
           <div className="max-w-[640px]">

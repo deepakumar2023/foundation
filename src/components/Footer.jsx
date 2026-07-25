@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Column 1: Logo & Address */}
           <div>
             <Link to="/" className="inline-block mb-6">
-              <img src="/logo.jpeg" alt="Deepak Gupta Foundation Logo" className="h-[80px] md:h-[100px] w-auto object-contain bg-white rounded-md p-1" />
+              <img src="/logo1.png" alt="Deepak Gupta Foundation Logo" className="h-[80px] md:h-[100px] w-auto object-contain rounded-md p-1" />
             </Link>
             <p className="text-white/80 text-sm mb-4">
               RZ-2084, G/F, R/S Gali No. 26,<br />

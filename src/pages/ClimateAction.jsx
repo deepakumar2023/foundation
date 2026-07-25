@@ -9,8 +9,8 @@ import OtherCommitments from '../components/OtherCommitments';
 
 const ClimateAction = () => {
   return (
-    <div className="w-full overflow-hidden font-sans">
-      <HeroSection />
+    <div className="w-full overflow-hidden font-sans mt-20">
+      {/* <HeroSection /> */}
       <StatsSection />
       <ActiveProgrammes />
       <MomentsOfChange />

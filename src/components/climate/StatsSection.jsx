@@ -1,31 +1,13 @@
-import React, { useState } from 'react';
+
 
 const StatsSection = () => {
-  const [activeTab, setActiveTab] = useState('Water Resource Augmentation');
 
-  const tabs = ['Water Resource Augmentation', 'Clean Energy & Environment'];
 
   return (
     <div className="w-full py-16 bg-surface px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-light text-text-main mb-10">Annual Numbers That Tell A Real Story</h2>
-        
-        {/* Tabs */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {tabs.map((tab) => (
-            <button
-              key={tab}
-              onClick={() => setActiveTab(tab)}
-              className={`px-6 py-2 rounded-md text-sm font-medium transition-colors ${
-                activeTab === tab 
-                  ? 'bg-[#a51a70] text-white' 
-                  : 'bg-surface border border-gray-200 text-text-main hover:bg-gray-50'
-              }`}
-            >
-              {tab}
-            </button>
-          ))}
-        </div>
+ 
 
         {/* Stats Grid */}
         <div className="flex flex-wrap justify-center gap-6">

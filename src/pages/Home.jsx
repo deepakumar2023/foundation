@@ -19,11 +19,11 @@ const Home = () => {
       <Collage />
       <div data-aos="fade-up"><BeliefSection /></div>
       <div data-aos="fade-up"><LeadershipMessages /></div>
-      <div data-aos="fade-up"><CoreFocusAreas /></div>
+      {/* <div data-aos="fade-up"><CoreFocusAreas /></div> */}
       {/* <div data-aos="fade-up"><OurPresence /></div> */}
-      <div data-aos="fade-up"><Updates /></div>
-      <div data-aos="fade-up"><SuccessStories /></div>
-      <div data-aos="fade-up"><EventsGallery /></div>
+      {/* <div data-aos="fade-up"><Updates /></div> */}
+      {/* <div data-aos="fade-up"><SuccessStories /></div> */}
+      {/* <div data-aos="fade-up"><EventsGallery /></div> */}
       {/* <div data-aos="fade-up"><GroupCompanies /></div> */}
     </div>
   );

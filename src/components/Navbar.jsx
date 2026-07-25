@@ -95,7 +95,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 z-50 relative">
-            <img src="/logo.jpeg" alt="Deepak Gupta Foundation Logo" className="h-[64px] md:h-[80px] w-auto object-contain" />
+            <img src="/logo1.png" alt="Deepak Gupta Foundation Logo" className="h-[64px] md:h-[80px] w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}

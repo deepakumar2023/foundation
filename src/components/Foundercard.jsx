@@ -17,9 +17,9 @@ function Foundercard() {
             {/* Content */}
             <div className="flex-grow text-center md:text-left">
               <h3 className="text-[32px] font-semibold text-black mb-3">Deepak Gupta</h3>
-              <p className="text-[#0080A8] font-medium text-[17px] mb-5">Founder & Managing Director, M DAS Group of Industries</p>
+              <p className="text-[#0080A8] font-medium text-[17px] mb-5">Founder & Managing Director, DEEPAK GUPTA FOUNDATION</p>
               <p className="text-[#6b7280] text-[15px] leading-[1.8] mb-8">
-                Deepak Gupta is the Founder and Director of M DAS Group of Industries, a mission-driven conglomerate built around manufacturing, healthcare equity, and industrial-scale solutions. He is regularly counted among the visionary leaders in India's emerging industrial landscape.
+                Deepak Gupta is the Founder and Director of Deepak Gupta Foundation, a mission-driven conglomerate built around manufacturing, healthcare equity, and industrial-scale solutions. He is regularly counted among the visionary leaders in India's emerging industrial landscape.
               </p>
               <Link to="/founder-profile" className="inline-flex items-center gap-2 text-[#0080A8] font-bold text-[13px] tracking-[0.15em] uppercase hover:text-[#0080A8] transition-colors">
                 READ FULL PROFILE <FiArrowRight className="text-lg" />
